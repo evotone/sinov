@@ -25,6 +25,6 @@ You want [stats-plots.html](stats-plots.html). You can download it and view it i
 |`slot-format.py`|Python helper script that takes the IPA from the `*.txt` files and produces comma-delimited (`ons,med,nuc,cod,ton`) output|
 |`stats-plots.Rmd`|R Markdown file to generate tables and heatmaps|
 |`stats-plots.html`|Sortable tables and heatmaps|
-|`syllable-shape-counts.csv`|Output of `print-syallble-shape-counts.py`|
-|`unique-sino-vietnamese-syllables.txt`|Just the unique Vietnamese syllables from the above (1940 lines)|
+|`syllable-shape-counts.csv`|Output of `print-syllable-shape-counts.py`|
+|`unique-sino-vietnamese-syllables.txt`|Just the unique Vietnamese syllables from `sino-vietnamese-readings.csv`(1940 lines)|
 
