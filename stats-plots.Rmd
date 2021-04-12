@@ -1,0 +1,479 @@
+
+---
+title: "Exploring statistical regularities in the Vietnamese syllable canon"
+author: "James Kirby"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+```{r setup, warning=FALSE, message=FALSE, echo=FALSE}
+knitr::opts_chunk$set(layout="l-screen-inset")
+library(tidyverse)
+library(DT)
+library(knitr)
+library(heatmaply)
+library(plotly)
+library(viridis)
+
+theme_set(theme_minimal())
+
+###
+## load and prepare data
+###
+setwd('/Users/jkirby/Projects/vietnam/sinov/')
+
+syl = read.csv('syllable-shape-counts.csv', 
+               header=FALSE) %>% 
+  rename(lex = V1, shape = V2, n = V3)
+
+sv <- read_csv('sino-vietnamese-syllables.csv', 
+               col_names = FALSE) %>% 
+  rename(ons = X1, med = X2, nuc = X3, cod = X4, ton = X5) %>%
+  add_column(lex = "SV", .before = "ons")
+
+nsv <- read_csv('no-known-sv-syllables.csv', 
+               col_names = FALSE) %>% 
+  rename(ons = X1, med = X2, nuc = X3, cod = X4, ton = X5) %>%
+  add_column(lex = "NSV", .before = "ons")
+
+sl <- rbind(sv, nsv) %>% as_tibble() 
+sl$ton <- recode(sl$ton, 
+                 `1` = "ngang", 
+                 `2` = "huyền", 
+                 `3` = "hỏi", 
+                 `4` = "ngã", 
+                 `5` = "sắc", 
+                 `6` = "nặng")
+
+```
+
+# Unigrams
+
+- The columns **SV_ppb** and **NSV_ppb** are the list-specific frequencies of the unigrams (so the sum of each column should be 100).
+- For a given row, **SV_ratio** is **SV** / (**SV** + **NSV**).
+
+```{r, echo=FALSE}
+uni_prep <- function(df, pos) {
+  df %>% 
+    select(lex, {{pos}}) %>%
+    group_by(lex, {{pos}}) %>% add_tally() %>% ungroup() %>%
+    distinct %>%
+    group_by(lex) %>%
+    pivot_wider(names_from = lex, values_from = n) %>% 
+    mutate(SV_ppb = round(SV/sum(SV, na.rm = TRUE) * 100, 2)) %>%
+    mutate(NSV_ppb = round(NSV/sum(NSV, na.rm=TRUE) * 100, 2)) %>%
+    mutate(SV_ratio = round(SV/(SV + NSV) * 100, 2))
+}
+
+uni_ons <- uni_prep(sl, ons) %>% replace(is.na(.), 0) 
+uni_med <- uni_prep(sl, med) %>% mutate(med = replace_na(med, "None")) 
+uni_nuc <- uni_prep(sl, nuc) %>% replace(is.na(.), 0) 
+uni_cod <- uni_prep(sl, cod) %>% mutate(cod = replace_na(cod, "None"))
+uni_live <- sl %>% filter(!(cod %in% c('p', 't', 'k'))) %>% uni_prep(ton)
+uni_dead <- sl %>% filter(cod %in% c('p', 't', 'k')) %>% uni_prep(ton) 
+
+fmt_uni <- function(df, col) {
+  df %>% 
+    datatable(class = "compact stripe", 
+              rownames = FALSE, 
+              options = list(order = list(list({{col}}, 'desc')))
+    ) %>% 
+            formatStyle('SV', 
+            color = styleInterval(c(0), 
+                                  c('red', 'black'))) %>%
+            formatStyle('SV_ppb', 
+            color = styleInterval(c(0), 
+                                  c('red', 'black'))) %>%
+            formatStyle('SV_ratio', 
+            color = styleInterval(c(0), 
+                                  c('red', 'black')))
+}
+```
+
+## Onsets
+```{r, echo=FALSE}
+fmt_uni(uni_ons, 3)
+```
+
+## Medials
+```{r, echo=FALSE}
+fmt_uni(uni_med, 3)
+```
+
+## Nuclei
+```{r, echo=FALSE}
+fmt_uni(uni_nuc, 3)
+```
+
+## Codas
+```{r, echo=FALSE}
+fmt_uni(uni_cod, 3)
+```
+
+## Tones, live syllables
+```{r, echo=FALSE}
+fmt_uni(uni_live, 3)
+```
+
+## Tones, dead syllables
+```{r, echo=FALSE}
+fmt_uni(uni_dead, 3)
+```
+
+
+# Bigrams
+
+```{r biprep, echo = FALSE, messages = FALSE, warning = FALSE}
+
+nuc_levels <- c('a', 'aː', 'e', 'ə', 'əː', 'ɛ', 'ɨ', 'i', 'ɔ', 'o', 'u', 'iə', 'ɨə', 'uə')
+coda_levels <- c('', 'p', 't', 'k', 'm', 'n', 'ŋ', 'j', 'w')
+tone_levels <- c('ngang', 'huyền', 'hỏi', 'ngã', 'sắc', 'nặng')
+
+bi_prep <- function(df, pos1, pos2) {
+  df %>% 
+    select(lex, {{pos1}}, {{pos2}}) %>%
+    group_by(lex, {{pos1}}) %>% add_tally(name = "seg1n") %>% ungroup() %>%
+    group_by(lex, {{pos2}}) %>% add_tally(name = "seg2n") %>% ungroup() %>%
+    group_by(lex, {{pos1}}, {{pos2}}) %>% add_tally() %>% ungroup() %>%
+    distinct %>%
+    group_by(lex) %>%
+#    mutate(OE = signif(n/((seg1n*seg2n)/sum(n)),2),
+    mutate(PMI = signif(log(n/sum(n), 2) - log(seg1n/sum(n), 2) - log(seg2n/sum(n), 2),2)) %>%
+    select(-c(seg1n, seg2n)) %>%
+    pivot_wider(names_from = lex, values_from = c(n, PMI)) %>%
+    mutate(SV_ratio = round(n_SV/(n_SV + n_NSV) * 100, 2))    
+}
+
+on <- bi_prep(sl, ons, nuc)
+om <- bi_prep(sl, ons, med)
+oc <- bi_prep(sl, ons, cod)
+ot <- bi_prep(sl, ons, ton)
+nc <- bi_prep(sl, nuc, cod)
+ct <- bi_prep(sl, cod, ton)
+
+# example, retained for posterity
+#oc <- counts %>% 
+#      filter(pos1 == "ons" & pos2 == "cod") %>%  
+#      group_by(lex) %>%
+#      mutate(OE = signif(n/((seg1n*seg2n)/sum(n)),2)) %>%
+#      select(-c(pos1, pos2, seg1n, seg2n)) %>%
+#      pivot_wider(names_from = lex, values_from = c(n, OE)) %>%
+#      rename(onset = seg1) %>%
+#      rename(coda = seg2) %>%
+#      add_pcts2()
+```
+
+**Notes** 
+
+* All segments are treated as "positionally specific". That is, final `-k` and onset `k` are not the same `k` for purposes of determining unigram frequencies (and therefore pointwise mutual information). This is partly because what we are interested in is the *positional* stickiness, and partially because they are arguably different (phonetic) segments.
+* Hover over a cell in the heatmaps to see the exact count of bigrams for that cell. 
+* In the *heatmaps only*, bigrams with *n=1* are not shown.
+
+**Key to tables**
+
+* **n_SV** and **n_NSV** are the raw counts of this bigram pair in the relevant list
+* **PMI_SV** and **PMI_NSV** are the pointwise mutual information scores for the pair in the relevant list. PMI describes the increase or decrease in the cost of describing a segment in a particular environment (here, under a bigram model). Positive PMI for a sequence *AB* in list *L* means that when we observe segment *A*, we expect that segment *B* will follow, whereas negative PMI means that we are more surprised to see *B*, given that we've seen *A*. PMI is <span style="color:green;">green</span> when it exceeds 0.25 and <span style="color:red;">red</span> when it is less than -0.25. 
+* **SV_ratio** is **n_SV** / (**n_SV** + **n_NSV**).
+
+```{r fmtfunc, echo=FALSE}
+fmt_table <- function(df, col) {
+  df %>% 
+    datatable(class = "compact stripe", 
+              rownames = FALSE, 
+              options = list(order = list(list({{col}}, 'desc')))
+              ) %>% 
+   
+    formatStyle('n_SV', 
+                color = styleInterval(
+                  c(0), 
+                  c('red', 'black'))) %>%
+    formatStyle('SV_ratio', 
+                 color = styleInterval(
+                   c(0), 
+                   c('red', 'black'))) %>%
+    formatStyle('PMI_SV', 
+                color = styleInterval(
+                  c(-0.25, 0.25), 
+                  c('red', 'black', 'green'))) %>%
+    formatStyle('PMI_NSV', 
+                color = styleInterval(
+                  c(-0.25, 0.25), 
+                  c('red', 'black', 'green'))) 
+}
+```
+  
+## Onset-nucleus
+```{r, echo=FALSE}
+on %>% fmt_table(6) 
+```
+
+```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
+
+onsv <- on %>%
+          filter(n_SV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", n_SV, "\n")) %>%
+          ggplot(aes(x = ons, y = factor(nuc, levels = rev(nuc_levels)), fill = n_SV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "nucleus") +
+          ggtitle("Onset-nucleus co-occurrences, SV")
+ggplotly(onsv, tooltip = "text")
+
+onnv <- on %>%
+          filter(n_NSV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", n_NSV, "\n")) %>%
+          ggplot(aes(x = ons, y = factor(nuc, levels = rev(nuc_levels)), fill = n_NSV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "nucleus") +
+          ggtitle("Onset-nucleus co-occurrences, NSV")
+ggplotly(onnv, tooltip = "text")
+```
+
+## Onset-medial
+```{r, echo=FALSE}
+om %>% fmt_table(6)
+```
+
+## Onset-coda
+```{r, echo=FALSE}
+oc %>% fmt_table(6)
+```
+```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
+
+ocsv <- oc %>%
+          filter(n_SV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "coda: ", cod, "\n", "count: ", n_SV, "\n")) %>%
+          ggplot(aes(x = ons, y = factor(cod, level = rev(coda_levels)), fill = n_SV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "coda") +
+          ggtitle("Onset-coda co-occurrences, SV")
+ggplotly(ocsv, tooltip = "text")
+
+ocnv <- oc %>%
+          filter(n_NSV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "coda: ", cod, "\n", "count: ", n_NSV, "\n")) %>%
+          ggplot(aes(x = ons, y = factor(cod, level = rev(coda_levels)), fill = n_NSV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "coda") +
+          ggtitle("Onset-coda co-occurrences, NSV")
+ggplotly(ocnv, tooltip = "text")
+```
+
+## Onset-tone 
+```{r, echo=FALSE}
+ot %>% fmt_table(6)
+```
+```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
+
+otsv <- ot %>%
+          filter(n_SV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "tone: ", ton, "\n", "count: ", n_SV, "\n")) %>%
+          ggplot(aes(x = ons, y = factor(ton, level = rev(tone_levels)), fill = n_SV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "tone") +
+          ggtitle("Onset-tone co-occurrences, SV")
+ggplotly(otsv, tooltip = "text")
+
+otnv <- ot %>%
+          filter(n_NSV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "tone: ", ton, "\n", "count: ", n_NSV, "\n")) %>%
+          ggplot(aes(x = ons, y = factor(ton, level = rev(tone_levels)), fill = n_NSV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "tone") +
+          ggtitle("Onset-tone co-occurrences, NSV")
+ggplotly(otnv, tooltip = "text")
+```
+
+## Nucleus-coda
+```{r, echo=FALSE}
+nc %>% fmt_table(6)
+```
+
+```{r, echo=FALSE, out.width = "50%", fig.height = 3.5}
+
+ncsv <- nc %>%
+          filter(n_SV > 1) %>%
+          mutate(text = paste0("nucleus: ", nuc, "\n", "coda: ", cod, "\n", "count: ", n_SV, "\n")) %>%
+          ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = n_SV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "coda") +
+          ggtitle("Nucleus-coda co-occurrences, SV")
+ggplotly(ncsv, tooltip = "text")
+
+ncnv <- nc %>%
+          filter(n_NSV > 1) %>%
+          mutate(text = paste0("nucleus: ", nuc, "\n", "coda: ", cod, "\n", "count: ", n_NSV, "\n")) %>%
+          ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = n_NSV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(y = "coda") +
+          ggtitle("Nucleus-coda co-occurrences, NSV")
+ggplotly(ncnv, tooltip = "text")
+```
+
+## Coda-tone
+```{r, echo=FALSE}
+ct %>% fmt_table(6)
+```
+
+```{r, echo=FALSE, out.width = "50%", fig.height = 3.25, fig.show = "hold"}
+
+ctsv <- ct %>%
+          filter(n_SV > 1) %>%
+          mutate(text = paste0("coda: ", cod, "\n", "tone: ", ton, "\n", "count: ", n_SV, "\n")) %>%
+          ggplot(aes(x = factor(cod,
+                                level = coda_levels),
+                     y = factor(ton,
+                                level = rev(tone_levels)), fill = n_SV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(x = "coda", y = "tone") +
+          ggtitle("Coda-tone co-occurrences, SV")
+ggplotly(ctsv, tooltip = "text")
+
+ctnv <- ct %>%
+          filter(n_NSV > 1) %>%
+          mutate(text = paste0("coda: ", cod, "\n", "tone: ", ton, "\n", "count: ", n_NSV, "\n")) %>%
+          ggplot(aes(x = factor(cod,
+                                level = coda_levels),
+                     y = factor(ton,
+                                level = rev(tone_levels)), fill = n_NSV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(x = "coda", y = "tone") +
+          ggtitle("Coda-tone co-occurrences, NSV")
+ggplotly(ctnv, tooltip = "text")
+
+```
+
+# Trigrams
+
+```{r trigrams, echo = FALSE, messages = FALSE, warning = FALSE}
+
+tri_prep <- function(df, pos1, pos2, pos3) {
+  df %>% 
+    select(lex, {{pos1}}, {{pos2}}, {{pos3}}) %>%
+    group_by(lex, {{pos1}}) %>% add_tally(name = "seg1n") %>% ungroup() %>%
+    group_by(lex, {{pos2}}) %>% add_tally(name = "seg2n") %>% ungroup() %>%
+    group_by(lex, {{pos3}}) %>% add_tally(name = "seg3n") %>% ungroup() %>%
+    group_by(lex, {{pos1}}, {{pos2}}, {{pos3}}) %>% add_tally() %>% ungroup() %>% distinct %>%
+    group_by(lex) %>%
+    mutate(PMI = signif(log(n/sum(n), 2) - 
+                          log(seg1n/sum(n), 2) - 
+                          log(seg2n/sum(n), 2) - 
+                          log(seg3n/sum(n)),2)) %>%
+    select(-c(seg1n, seg2n, seg3n)) %>%
+    pivot_wider(names_from = lex, values_from = c(n, PMI)) %>%
+    mutate(SV_ratio = round(n_SV/(n_SV + n_NSV) * 100, 2))    
+}
+```
+
+## Onset, medial, nucleus
+```{r, echo = FALSE}
+tri_prep(sl, ons, med, nuc) %>% fmt_table(7)
+```
+
+## Onset, medial, coda
+```{r, echo = FALSE}
+tri_prep(sl, ons, med, cod) %>% fmt_table(7)
+```
+
+## Medial, nucleus, coda
+```{r, echo = FALSE}
+tri_prep(sl, med, nuc, cod) %>% fmt_table(7)
+```
+
+# Syllable structure
+
+## Possible and attested syllables
+
+- **possible** is the count of possible syllables of this **shape**. What counts as a "possible" syllable? Different ways to do it; here we assume:
+
+  - 24 "plain" onsets (including `ʔ` but excluding `w`; we distinguish orthographic *d gi* in addition to *s x*)
+  - 12 nuclei `[aː e əː ɛ i ɨ ɔ o u iə ɨə uə]` with unrestricted distribution following plain onsets
+  - 2 nuclei `[a ə]` that cannot occur in open syllables
+  - 17 "labializable" onsets `[ɗw tw tʰw sw zw lw rw cw ʂw ɲw ʈw kw xw ɣw ŋw hw w]` (we treat `w` here like a labialized `ʔw` for co-occurrence reasons) which may not be followed by `[ɨ ɔ o u ɨə uə]` (ostensibly the single exception is *quốc* but it is typically pronounced `[kwək]`)
+  - 3 nasal codas `[m n ŋ]` and 3 unreleased plosive codas `[p t k]`
+  - 2 semivowels `[w j]` with restricted distribution: `[j]` cannot follow `[i iə e ɛ]` and `[w]` cannot follow `[əː ɔ o u uə]`
+  - a "null" coda that can only occur with 12 of the 14 nuclei
+  - 6 tones that can occur with sonorant or null finals
+  - 2 tones that can occur with obstruent codas
+
+- **SV** and **NSV** are the counts of syllables of these shapes in the SV and NSV lists, respectively
+- **pct_SV_shape** and **pct_NSV_shape** are the percentages of the *possible* number of syllables *of this shape* that occur in the SV or NSV lists, respectively. 
+ **pct_poss_shape** is simply the sum of **pct_SV_shape** and **pct_SV_shape**.
+- **pct_poss_total** is the sum of the **SV** and **NSV** counts *for this shape*, divided by the total sum the the **possible** *column* (17,526).
+
+<!--
+- Note that the totals for **\_shape** columns are meaningless.
+-->
+
+```{r, echo=FALSE}
+
+syl %>%
+  pivot_wider(names_from = lex, values_from = n) %>%
+    mutate(pct_SV_shape = round(SV/possible * 100, 2)) %>%
+    mutate(pct_NSV_shape = round(NSV/possible * 100, 2)) %>%
+    mutate(pct_poss_shape = round((SV+NSV)/possible * 100, 2)) %>%
+    mutate(pct_poss_total = round((SV+NSV)/sum(possible) * 100, 2)) %>%
+#    bind_rows(summarise(.,
+#                      across(where(is.numeric), sum),
+#                      across(where(is.factor), ~"Total"))) %>%
+    datatable(class = "compact stripe",
+            caption = "Counts of possible and attested syllables",
+            options = list(pageLength = 25),
+                        rownames = FALSE) %>%
+    formatStyle('SV', 
+                color = styleInterval(c(0), 
+                                      c('red', 'black')))  %>%
+    formatStyle('pct_SV_shape', 
+                color = styleInterval(c(0), 
+                                      c('red', 'black'))) 
+
+```
+
+Takeaways: 
+
+- Out of about 17,500 possible syllables, roughly half are attested, and of that half, about 25% are SV
+- **"Possible" syllables are extremely unevenly distributed**. Out of all possible CV sequences (including tones), nearly all are attested, while only about *half* of all possible CVN sequences are. 
+- Only around **5%** of **attested** syllables have a Cw- onset, compared to **30%** of **possible** syllables (as calculated here). Thus, it may be more accurate to state that, generally speaking, Vietnamese makes use of almost the entirety of the space of possible CV syllables, but only about half the possible space of C(C)VC syllables.
+
+```{r, echo=FALSE, eval=FALSE}
+
+syl %>%
+  filter(shape %in% c('CV', 'CVN', 'CVT', 'CVj', 'CVw')) %>%
+  pivot_wider(names_from = lex, values_from = n) %>%
+    #mutate(pct_SV = round(SV/sum(SV) * 100, 2)) %>%
+    #mutate(pct_NSV = round(NSV/sum(NSV) * 100, 2)) %>%
+    mutate(pct_SV_poss = round(SV/possible * 100, 2)) %>%
+    mutate(pct_NSV_poss = round(NSV/possible * 100, 2)) %>%
+    mutate(pct_poss_shape = round((SV+NSV)/possible * 100, 2)) %>%
+    mutate(pct_poss_total = round((SV+NSV)/sum(possible) * 100, 2)) %>%
+#    bind_rows(summarise(.,
+#                      across(where(is.numeric), sum),
+#                      across(where(is.factor), ~"Total"))) %>%
+    datatable(class = "compact stripe",
+            caption = "Counts of possible and attested syllables, ignoring labialized onsets",
+            options = list(pageLength = 25),
+            rownames = FALSE)
+```
+
+## Canonical syllable shape
+[Trần & Vallée 2009](https://hal.archives-ouvertes.fr/hal-01664848) report that "the prevalent monosyllabic pattern in Vietnamese...was the CVC syllable type, respectively 70% and 34% of the monosyllabic words, and respectively 70% and 20% of the language syllable inventory" (2009:232). Their counts were derived from a list of words with frequency above 2% in a 5,000 word lexicon.  If we collapse the above table into their three categories (CV, CVC, CCVC), we see the numbers are quite close: about 21% C(C)V, 71% CVC and 8% CCVC.
+

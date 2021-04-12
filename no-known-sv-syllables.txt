@@ -1,0 +1,6271 @@
+ang,ʔ aː ŋ 1
+au,ʔ a w 1
+ay,ʔ a j 1
+bai,ɓ aː j 1
+bam,ɓ aː m 1
+bau,ɓ a w 1
+bay,ɓ a j 1
+be,ɓ ɛ 1
+bem,ɓ ɛ m 1
+ben,ɓ ɛ n 1
+beo,ɓ ɛ w 1
+bia,ɓ iə 1
+bim,ɓ i m 1
+bin,ɓ i n 1
+biêng,ɓ iə ŋ 1
+biêu,ɓ iə w 1
+biếc,ɓ iə k 5
+biệc,ɓ iə k 6
+biềm,ɓ iə m 2
+biểm,ɓ iə m 3
+biễn,ɓ iə n 4
+biếng,ɓ iə ŋ 5
+biếp,ɓ iə p 5
+biếu,ɓ iə w 5
+bo,ɓ ɔ 1
+boa,ɓ w aː 1
+boe,ɓ w ɛ 1
+boi,ɓ ɔ j 1
+bom,ɓ ɔ m 1
+bon,ɓ ɔ n 1
+bong,ɓ ɔ ŋ 1
+boăn,ɓ w a n 1
+bu,ɓ u 1
+bua,ɓ uə 1
+bui,ɓ u j 1
+bum,ɓ u m 1
+bun,ɓ u n 1
+bung,ɓ u ŋ 1
+buy,ɓ w i 1
+buôi,ɓ uə j 1
+buôn,ɓ uə n 1
+buông,ɓ uə ŋ 1
+buýt,ɓ w i t 5
+buốc,ɓ uə k 5
+buộc,ɓ uə k 6
+buối,ɓ uə j 5
+buồi,ɓ uə j 2
+buổi,ɓ uə j 3
+buỗi,ɓ uə j 4
+buội,ɓ uə j 6
+buồm,ɓ uə m 2
+buộm,ɓ uə m 6
+buồn,ɓ uə n 2
+buồng,ɓ uə ŋ 2
+buốt,ɓ uə t 5
+buột,ɓ uə t 6
+bàm,ɓ aː m 2
+bàu,ɓ a w 2
+bày,ɓ a j 2
+bám,ɓ aː m 5
+bánh,ɓ ɛ ŋ 5
+báp,ɓ aː p 5
+báu,ɓ a w 5
+báy,ɓ a j 5
+bâng,ɓ ə ŋ 1
+bâu,ɓ ə w 1
+bây,ɓ ə j 1
+bã,ɓ aː 4
+bè,ɓ ɛ 2
+bèm,ɓ ɛ m 2
+bèn,ɓ ɛ n 2
+bèo,ɓ ɛ w 2
+bé,ɓ ɛ 5
+bén,ɓ ɛ n 5
+béo,ɓ ɛ w 5
+bép,ɓ ɛ p 5
+bét,ɓ ɛ t 5
+bê,ɓ e 1
+bên,ɓ e n 1
+bênh,ɓ e ŋ 1
+bêu,ɓ e w 1
+bìa,ɓ iə 2
+bìm,ɓ i m 2
+bìn,ɓ i n 2
+bìu,ɓ i w 2
+bía,ɓ iə 5
+bím,ɓ i m 5
+bín,ɓ i n 5
+bíp,ɓ i p 5
+bít,ɓ i t 5
+bíu,ɓ i w 5
+bò,ɓ ɔ 2
+bòi,ɓ ɔ j 2
+bòm,ɓ ɔ m 2
+bòn,ɓ ɔ n 2
+bòng,ɓ ɔ ŋ 2
+bó,ɓ ɔ 5
+bóc,ɓ ɔ k 5
+bói,ɓ ɔ j 5
+bón,ɓ ɔ n 5
+bóng,ɓ ɔ ŋ 5
+bóp,ɓ ɔ p 5
+bót,ɓ ɔ t 5
+bôm,ɓ o m 1
+bông,ɓ o ŋ 1
+bõ,ɓ ɔ 4
+bõm,ɓ ɔ m 4
+bõng,ɓ ɔ ŋ 4
+bù,ɓ u 2
+bùa,ɓ uə 2
+bùm,ɓ u m 2
+bùn,ɓ u n 2
+bùng,ɓ u ŋ 2
+bú,ɓ u 5
+búa,ɓ uə 5
+búc,ɓ u k 5
+búi,ɓ u j 5
+bún,ɓ u n 5
+búng,ɓ u ŋ 5
+búp,ɓ u p 5
+bơ,ɓ əː 1
+bư,ɓ ɨ 1
+bạ,ɓ aː 6
+bẹ,ɓ ɛ 6
+bẻ,ɓ ɛ 3
+bẽ,ɓ ɛ 4
+bể,ɓ e 3
+bọ,ɓ ɔ 6
+bỏ,ɓ ɔ 3
+bỗ,ɓ o 4
+bớ,ɓ əː 5
+bờ,ɓ əː 2
+bở,ɓ əː 3
+bỡ,ɓ əː 4
+bợ,ɓ əː 6
+bụ,ɓ u 6
+bủ,ɓ u 3
+bứ,ɓ ɨ 5
+bừ,ɓ ɨ 2
+bự,ɓ ɨ 6
+bưa,ɓ ɨə 1
+bỉa,ɓ iə 3
+bịa,ɓ iə 6
+bụa,ɓ uə 6
+bủa,ɓ uə 3
+bứa,ɓ ɨə 5
+bừa,ɓ ɨə 2
+bửa,ɓ ɨə 3
+bữa,ɓ ɨə 4
+bựa,ɓ ɨə 6
+bấc,ɓ ə k 5
+bậc,ɓ ə k 6
+bọc,ɓ ɔ k 6
+bục,ɓ u k 6
+bực,ɓ ɨ k 6
+bệch,ɓ e k 6
+bơi,ɓ əː j 1
+bải,ɓ aː j 3
+bỏi,ɓ ɔ j 3
+bổi,ɓ o j 3
+bới,ɓ əː j 5
+bời,ɓ əː j 2
+bởi,ɓ əː j 3
+bụi,ɓ u j 6
+băm,ɓ a m 1
+bũm,ɓ u m 4
+bơm,ɓ əː m 1
+bạm,ɓ aː m 6
+bảm,ɓ aː m 3
+bấm,ɓ ə m 5
+bầm,ɓ ə m 2
+bẫm,ɓ ə m 4
+bậm,ɓ ə m 6
+bằm,ɓ a m 2
+bẳm,ɓ a m 3
+bẵm,ɓ a m 4
+bặm,ɓ a m 6
+bẻm,ɓ ɛ m 3
+bỉm,ɓ i m 3
+bỏm,ɓ ɔ m 3
+bồm,ɓ o m 2
+bỗm,ɓ o m 4
+bờm,ɓ əː m 2
+bợm,ɓ əː m 6
+bụm,ɓ u m 6
+bủm,ɓ u m 3
+băn,ɓ a n 1
+bơn,ɓ əː n 1
+bẩn,ɓ ə n 3
+bận,ɓ ə n 6
+bắn,ɓ a n 5
+bằn,ɓ a n 2
+bẳn,ɓ a n 3
+bặn,ɓ a n 6
+bẹn,ɓ ɛ n 6
+bẽn,ɓ ɛ n 4
+bến,ɓ e n 5
+bền,ɓ e n 2
+bển,ɓ e n 3
+bện,ɓ e n 6
+bịn,ɓ i n 6
+bọn,ɓ ɔ n 6
+bỏn,ɓ ɔ n 3
+bốn,ɓ o n 5
+bớn,ɓ əː n 5
+bờn,ɓ əː n 2
+bỡn,ɓ əː n 4
+bợn,ɓ əː n 6
+bủn,ɓ u n 3
+bưng,ɓ ɨ ŋ 1
+bấng,ɓ ə ŋ 5
+bầng,ɓ ə ŋ 2
+bẫng,ɓ ə ŋ 4
+bậng,ɓ ə ŋ 6
+bắng,ɓ a ŋ 5
+bẳng,ɓ a ŋ 3
+bẵng,ɓ a ŋ 4
+bặng,ɓ a ŋ 6
+bọng,ɓ ɔ ŋ 6
+bỏng,ɓ ɔ ŋ 3
+bống,ɓ o ŋ 5
+bỗng,ɓ o ŋ 4
+bộng,ɓ o ŋ 6
+bụng,ɓ u ŋ 6
+bủng,ɓ u ŋ 3
+bứng,ɓ ɨ ŋ 5
+bừng,ɓ ɨ ŋ 2
+bửng,ɓ ɨ ŋ 3
+bựng,ɓ ɨ ŋ 6
+bĩnh,ɓ i ŋ 4
+bạnh,ɓ ɛ ŋ 6
+bảnh,ɓ ɛ ŋ 3
+bếnh,ɓ e ŋ 5
+bềnh,ɓ e ŋ 2
+bểnh,ɓ e ŋ 3
+bịnh,ɓ i ŋ 6
+bẹo,ɓ ɛ w 6
+bẻo,ɓ ɛ w 3
+bẽo,ɓ ɛ w 4
+bạp,ɓ aː p 6
+bấp,ɓ ə p 5
+bập,ɓ ə p 6
+bắp,ɓ a p 5
+bặp,ɓ a p 6
+bẹp,ɓ ɛ p 6
+bếp,ɓ e p 5
+bệp,ɓ e p 6
+bịp,ɓ i p 6
+bọp,ɓ ɔ p 6
+bốp,ɓ o p 5
+bộp,ɓ o p 6
+bớp,ɓ əː p 5
+bợp,ɓ əː p 6
+bụp,ɓ u p 6
+bắt,ɓ a t 5
+bặt,ɓ a t 6
+bẹt,ɓ ɛ t 6
+bết,ɓ e t 5
+bệt,ɓ e t 6
+bịt,ɓ i t 6
+bọt,ɓ ɔ t 6
+bốt,ɓ o t 5
+bớt,ɓ əː t 5
+bợt,ɓ əː t 6
+bụt,ɓ u t 6
+bứt,ɓ ɨ t 5
+bựt,ɓ ɨ t 6
+bĩu,ɓ i w 4
+bạu,ɓ a w 6
+bảu,ɓ a w 3
+bấu,ɓ ə w 5
+bẩu,ɓ ə w 3
+bậu,ɓ ə w 6
+bều,ɓ e w 2
+bệu,ɓ e w 6
+bỉu,ɓ i w 3
+bịu,ɓ i w 6
+bứu,ɓ ɨ w 5
+bửu,ɓ ɨ w 3
+bảy,ɓ a j 3
+bấy,ɓ ə j 5
+bầy,ɓ ə j 2
+bẩy,ɓ ə j 3
+bẫy,ɓ ə j 4
+bậy,ɓ ə j 6
+bước,ɓ ɨə k 5
+bươi,ɓ ɨə j 1
+bưởi,ɓ ɨə j 3
+bươm,ɓ ɨə m 1
+bướm,ɓ ɨə m 5
+bươn,ɓ ɨə n 1
+bương,ɓ ɨə ŋ 1
+bướng,ɓ ɨə ŋ 5
+bường,ɓ ɨə ŋ 2
+bưởng,ɓ ɨə ŋ 3
+bướp,ɓ ɨə p 5
+bượt,ɓ ɨə t 6
+bươu,ɓ ɨə w 1
+bướu,ɓ ɨə w 5
+cau,k a w 1
+cay,k a j 1
+chai,c aː j 1
+cham,c aː m 1
+chan,c aː n 1
+chang,c aː ŋ 1
+chao,c aː w 1
+chau,c a w 1
+chay,c a j 1
+che,c ɛ 1
+chem,c ɛ m 1
+chen,c ɛ n 1
+cheo,c ɛ w 1
+chia,c iə 1
+chim,c i m 1
+chin,c i n 1
+chiu,c i w 1
+chiêng,c iə ŋ 1
+chiếc,c iə k 5
+chiệc,c iə k 6
+chiểm,c iə m 3
+chiền,c iə n 2
+chiển,c iə n 3
+chiễn,c iə n 4
+chiện,c iə n 6
+chiếng,c iə ŋ 5
+chiềng,c iə ŋ 2
+chiều,c iə w 2
+cho,c ɔ 1
+choa,c w aː 1
+choai,c w aː j 1
+choang,c w aː ŋ 1
+choay,c w a j 1
+choe,c w ɛ 1
+choen,c w ɛ n 1
+choi,c ɔ j 1
+chom,c ɔ m 1
+chon,c ɔ n 1
+chong,c ɔ ŋ 1
+choài,c w aː j 2
+choàm,c w aː m 2
+choàng,c w aː ŋ 2
+choá,c w aː 5
+choác,c w aː k 5
+choái,c w aː j 5
+choán,c w aː n 5
+choáng,c w aː ŋ 5
+choã,c w aː 4
+choãi,c w aː j 4
+choè,c w ɛ 2
+choèn,c w ɛ n 2
+choé,c w ɛ 5
+choét,c w ɛ t 5
+choẹ,c w ɛ 6
+choạc,c w aː k 6
+choại,c w aː j 6
+choăn,c w a n 1
+choạng,c w aː ŋ 6
+choảng,c w aː ŋ 3
+choạp,c w aː p 6
+choắt,c w a t 5
+choẹt,c w ɛ t 6
+chua,c uə 1
+chui,c u j 1
+chum,c u m 1
+chun,c u n 1
+chuyền,c w iə n 2
+chuyện,c w iə n 6
+chuân,c w ə n 1
+chuôi,c uə j 1
+chuôm,c uə m 1
+chuôn,c uə n 1
+chuông,c uə ŋ 1
+chuý,c w i 5
+chuỳ,c w i 2
+chuốc,c uə k 5
+chuộc,c uə k 6
+chuếch,c w e k 5
+chuệch,c w e k 6
+chuối,c uə j 5
+chuồi,c uə j 2
+chuổi,c uə j 3
+chuỗi,c uə j 4
+chuội,c uə j 6
+chuẫn,c w ə n 4
+chuồn,c uə n 2
+chuồng,c uə ŋ 2
+chuổng,c uə ŋ 3
+chuộng,c uə ŋ 6
+chuếnh,c w e ŋ 5
+chuểnh,c w e ŋ 3
+chuệnh,c w e ŋ 6
+chuốt,c uə t 5
+chuột,c uə t 6
+chà,c aː 2
+chài,c aː j 2
+chàm,c aː m 2
+chành,c ɛ ŋ 2
+chào,c aː w 2
+chàu,c a w 2
+chày,c a j 2
+chác,c aː k 5
+chách,c ɛ k 5
+chái,c aː j 5
+chám,c aː m 5
+chán,c aː n 5
+cháng,c aː ŋ 5
+chánh,c ɛ ŋ 5
+cháo,c aː w 5
+chát,c aː t 5
+cháu,c a w 5
+cháy,c a j 5
+châng,c ə ŋ 1
+chây,c ə j 1
+chã,c aː 4
+chãi,c aː j 4
+chão,c aː w 4
+chè,c ɛ 2
+chèm,c ɛ m 2
+chèn,c ɛ n 2
+chèo,c ɛ w 2
+ché,c ɛ 5
+chém,c ɛ m 5
+chén,c ɛ n 5
+chéo,c ɛ w 5
+chép,c ɛ p 5
+chét,c ɛ t 5
+chê,c e 1
+chêm,c e m 1
+chênh,c e ŋ 1
+chêu,c e w 1
+chì,c i 2
+chìa,c iə 2
+chìm,c i m 2
+chình,c i ŋ 2
+chìu,c i w 2
+chía,c iə 5
+chím,c i m 5
+chín,c i n 5
+chíp,c i p 5
+chít,c i t 5
+chíu,c i w 5
+chò,c ɔ 2
+chòi,c ɔ j 2
+chòm,c ɔ m 2
+chòng,c ɔ ŋ 2
+chó,c ɔ 5
+chóc,c ɔ k 5
+chói,c ɔ j 5
+chón,c ɔ n 5
+chóng,c ɔ ŋ 5
+chóp,c ɔ p 5
+chót,c ɔ t 5
+chô,c o 1
+chôi,c o j 1
+chôm,c o m 1
+chôn,c o n 1
+chông,c o ŋ 1
+chõ,c ɔ 4
+chõm,c ɔ m 4
+chõng,c ɔ ŋ 4
+chùa,c uə 2
+chùm,c u m 2
+chùn,c u n 2
+chùng,c u ŋ 2
+chúa,c uə 5
+chúm,c u m 5
+chút,c u t 5
+chũ,c u 4
+chơ,c əː 1
+chạ,c aː 6
+chả,c aː 3
+chẻ,c ɛ 3
+chẽ,c ɛ 4
+chề,c e 2
+chể,c e 3
+chễ,c e 4
+chệ,c e 6
+chị,c i 6
+chọ,c ɔ 6
+chỏ,c ɔ 3
+chồ,c o 2
+chổ,c o 3
+chỗ,c o 4
+chộ,c o 6
+chớ,c əː 5
+chờ,c əː 2
+chở,c əː 3
+chợ,c əː 6
+chừ,c ɨ 2
+chữ,c ɨ 4
+chĩa,c iə 4
+chưa,c ɨə 1
+chỉa,c iə 3
+chịa,c iə 6
+chủa,c uə 3
+chứa,c ɨə 5
+chừa,c ɨə 2
+chửa,c ɨə 3
+chữa,c ɨə 4
+chạc,c aː k 6
+chậc,c ə k 6
+chắc,c a k 5
+chặc,c a k 6
+chọc,c ɔ k 6
+chốc,c o k 5
+chục,c u k 6
+chực,c ɨ k 6
+chạch,c ɛ k 6
+chếch,c e k 5
+chệch,c e k 6
+chũi,c u j 4
+chơi,c əː j 1
+chải,c aː j 3
+chọi,c ɔ j 6
+chỏi,c ɔ j 3
+chối,c o j 5
+chồi,c o j 2
+chổi,c o j 3
+chỗi,c o j 4
+chội,c o j 6
+chới,c əː j 5
+chời,c əː j 2
+chửi,c ɨ j 3
+chăm,c a m 1
+chũm,c u m 4
+chơm,c əː m 1
+chạm,c aː m 6
+chảm,c aː m 3
+chầm,c ə m 2
+chẫm,c ə m 4
+chậm,c ə m 6
+chắm,c a m 5
+chằm,c a m 2
+chẳm,c a m 3
+chặm,c a m 6
+chẹm,c ɛ m 6
+chẻm,c ɛ m 3
+chẽm,c ɛ m 4
+chếm,c e m 5
+chềm,c e m 2
+chễm,c e m 4
+chệm,c e m 6
+chỏm,c ɔ m 3
+chốm,c o m 5
+chồm,c o m 2
+chổm,c o m 3
+chỗm,c o m 4
+chớm,c əː m 5
+chờm,c əː m 2
+chởm,c əː m 3
+chụm,c u m 6
+chủm,c u m 3
+chăn,c a n 1
+chĩn,c i n 4
+chũn,c u n 4
+chơn,c əː n 1
+chưn,c ɨ n 1
+chạn,c aː n 6
+chản,c aː n 3
+chần,c ə n 2
+chẫn,c ə n 4
+chận,c ə n 6
+chắn,c a n 5
+chằn,c a n 2
+chẳn,c a n 3
+chẵn,c a n 4
+chặn,c a n 6
+chẹn,c ɛ n 6
+chẻn,c ɛ n 3
+chẽn,c ɛ n 4
+chện,c e n 6
+chỉn,c i n 3
+chịn,c i n 6
+chọn,c ɔ n 6
+chỏn,c ɔ n 3
+chốn,c o n 5
+chồn,c o n 2
+chộn,c o n 6
+chớn,c əː n 5
+chờn,c əː n 2
+chợn,c əː n 6
+chủn,c u n 3
+chừn,c ɨ n 2
+chăng,c a ŋ 1
+chũng,c u ŋ 4
+chạng,c aː ŋ 6
+chảng,c aː ŋ 3
+chằng,c a ŋ 2
+chẳng,c a ŋ 3
+chặng,c a ŋ 6
+chẻng,c ɛ ŋ 3
+chỏng,c ɔ ŋ 3
+chống,c o ŋ 5
+chồng,c o ŋ 2
+chổng,c o ŋ 3
+chừng,c ɨ ŋ 2
+chững,c ɨ ŋ 4
+chựng,c ɨ ŋ 6
+chĩnh,c i ŋ 4
+chạnh,c ɛ ŋ 6
+chếnh,c e ŋ 5
+chềnh,c e ŋ 2
+chểnh,c e ŋ 3
+chễnh,c e ŋ 4
+chệnh,c e ŋ 6
+chạo,c aː w 6
+chảo,c aː w 3
+chẹo,c ɛ w 6
+chẻo,c ɛ w 3
+chạp,c aː p 6
+chập,c ə p 6
+chắp,c a p 5
+chặp,c a p 6
+chẹp,c ɛ p 6
+chếp,c e p 5
+chệp,c e p 6
+chọp,c ɔ p 6
+chốp,c o p 5
+chộp,c o p 6
+chớp,c əː p 5
+chợp,c əː p 6
+chụp,c u p 6
+chạt,c aː t 6
+chật,c ə t 6
+chắt,c a t 5
+chặt,c a t 6
+chẹt,c ɛ t 6
+chết,c e t 5
+chệt,c e t 6
+chịt,c i t 6
+chọt,c ɔ t 6
+chốt,c o t 5
+chột,c o t 6
+chớt,c əː t 5
+chợt,c əː t 6
+chụt,c u t 6
+chứt,c ɨ t 5
+chảu,c a w 3
+chấu,c ə w 5
+chầu,c ə w 2
+chẩu,c ə w 3
+chẫu,c ə w 4
+chậu,c ə w 6
+chếu,c e w 5
+chều,c e w 2
+chịu,c i w 6
+chạy,c a j 6
+chảy,c a j 3
+chấy,c ə j 5
+chầy,c ə j 2
+chẩy,c ə j 3
+chậy,c ə j 6
+chược,c ɨə k 6
+chươi,c ɨə j 1
+chưởi,c ɨə j 3
+chườm,c ɨə m 2
+chường,c ɨə ŋ 2
+chưỡng,c ɨə ŋ 4
+chượp,c ɨə p 6
+chượt,c ɨə t 6
+co,k ɔ 1
+coe,k w ɛ 1
+coen,k w ɛ n 1
+coi,k ɔ j 1
+com,k ɔ m 1
+con,k ɔ n 1
+cong,k ɔ ŋ 1
+cu,k u 1
+cua,k uə 1
+cui,k u j 1
+cum,k u m 1
+cun,k u n 1
+cuông,k uə ŋ 1
+cuốc,k uə k 5
+cuộc,k uə k 6
+cuối,k uə j 5
+cuổi,k uə j 3
+cuội,k uə j 6
+cuỗm,k uə m 4
+cuốn,k uə n 5
+cuồn,k uə n 2
+cuộn,k uə n 6
+cuộng,k uə ŋ 6
+cà,k aː 2
+cài,k aː j 2
+càm,k aː m 2
+càng,k aː ŋ 2
+cành,k ɛ ŋ 2
+cào,k aː w 2
+càu,k a w 2
+cày,k a j 2
+cáng,k aː ŋ 5
+cáu,k a w 5
+cáy,k a j 5
+câng,k ə ŋ 1
+cây,k ə j 1
+cãi,k aː j 4
+cò,k ɔ 2
+còi,k ɔ j 2
+còm,k ɔ m 2
+còn,k ɔ n 2
+còng,k ɔ ŋ 2
+có,k ɔ 5
+cóc,k ɔ k 5
+cói,k ɔ j 5
+cóm,k ɔ m 5
+cón,k ɔ n 5
+cóng,k ɔ ŋ 5
+cóp,k ɔ p 5
+cót,k ɔ t 5
+côm,k o m 1
+cõ,k ɔ 4
+cõi,k ɔ j 4
+cõm,k ɔ m 4
+cõn,k ɔ n 4
+cõng,k ɔ ŋ 4
+cùa,k uə 2
+cùi,k u j 2
+cùm,k u m 2
+cùn,k u n 2
+cúa,k uə 5
+cúi,k u j 5
+cúm,k u m 5
+cún,k u n 5
+cúng,k u ŋ 5
+cúp,k u p 5
+cút,k u t 5
+cạ,k aː 6
+cả,k aː 3
+cọ,k ɔ 6
+cỏ,k ɔ 3
+cồ,k o 2
+cỗ,k o 4
+cộ,k o 6
+cớ,k əː 5
+cờ,k əː 2
+cở,k əː 3
+cỡ,k əː 4
+cữ,k ɨ 4
+cũa,k uə 4
+cưa,k ɨə 1
+của,k uə 3
+cứa,k ɨə 5
+cừa,k ɨə 2
+cửa,k ɨə 3
+cựa,k ɨə 6
+cạc,k aː k 6
+cấc,k ə k 5
+cắc,k a k 5
+cặc,k a k 6
+cọc,k ɔ k 6
+cộc,k o k 6
+cạch,k ɛ k 6
+cũi,k u j 4
+cơi,k əː j 1
+cọi,k ɔ j 6
+cỏi,k ɔ j 3
+cồi,k o j 2
+cổi,k o j 3
+cỗi,k o j 4
+cội,k o j 6
+cới,k əː j 5
+cời,k əː j 2
+cởi,k əː j 3
+cỡi,k əː j 4
+cụi,k u j 6
+củi,k u j 3
+cửi,k ɨ j 3
+căm,k a m 1
+cơm,k əː m 1
+cạm,k aː m 6
+cẫm,k ə m 4
+cậm,k ə m 6
+cắm,k a m 5
+cằm,k a m 2
+cẳm,k a m 3
+cặm,k a m 6
+cọm,k ɔ m 6
+cỏm,k ɔ m 3
+cốm,k o m 5
+cồm,k o m 2
+cộm,k o m 6
+cớm,k əː m 5
+cỡm,k əː m 4
+cợm,k əː m 6
+cụm,k u m 6
+củm,k u m 3
+cũn,k u n 4
+cơn,k əː n 1
+cạn,k aː n 6
+cẫn,k ə n 4
+cắn,k a n 5
+cằn,k a n 2
+cẳn,k a n 3
+cặn,k a n 6
+cọn,k ɔ n 6
+cỏn,k ɔ n 3
+cốn,k o n 5
+cồn,k o n 2
+cộn,k o n 6
+cớn,k əː n 5
+cờn,k əː n 2
+cỡn,k əː n 4
+cợn,k əː n 6
+củn,k u n 3
+cũng,k u ŋ 4
+cưng,k ɨ ŋ 1
+cạng,k aː ŋ 6
+cẫng,k ə ŋ 4
+cẳng,k a ŋ 3
+cẵng,k a ŋ 4
+cặng,k a ŋ 6
+cọng,k ɔ ŋ 6
+cỏng,k ɔ ŋ 3
+cồng,k o ŋ 2
+cổng,k o ŋ 3
+cụng,k u ŋ 6
+cứng,k ɨ ŋ 5
+cửng,k ɨ ŋ 3
+cạo,k aː w 6
+cạp,k aː p 6
+cắp,k a p 5
+cặp,k a p 6
+cọp,k ɔ p 6
+cốp,k o p 5
+cộp,k o p 6
+cợp,k əː p 6
+cụp,k u p 6
+cất,k ə t 5
+cắt,k a t 5
+cặt,k a t 6
+cọt,k ɔ t 6
+cớt,k əː t 5
+cợt,k əː t 6
+cụt,k u t 6
+cứt,k ɨ t 5
+cạu,k a w 6
+cảu,k a w 3
+cậu,k ə w 6
+cạy,k a j 6
+cảy,k a j 3
+cấy,k ə j 5
+cầy,k ə j 2
+cẩy,k ə j 3
+cậy,k ə j 6
+cươi,k ɨə j 1
+cưới,k ɨə j 5
+cười,k ɨə j 2
+cưỡi,k ɨə j 4
+cườm,k ɨə m 2
+cươn,k ɨə n 1
+cướp,k ɨə p 5
+dai,z aː j 1
+dam,z aː m 1
+dan,z aː n 1
+dang,z aː ŋ 1
+dau,z a w 1
+day,z a j 1
+de,z ɛ 1
+dem,z ɛ m 1
+den,z ɛ n 1
+deo,z ɛ w 1
+dia,z iə 1
+dim,z i m 1
+din,z i n 1
+diu,z i w 1
+diêng,z iə ŋ 1
+diếc,z iə k 5
+diếm,z iə m 5
+diềm,z iə m 2
+diểm,z iə m 3
+diến,z iə n 5
+diền,z iə n 2
+diển,z iə n 3
+diềng,z iə ŋ 2
+diểng,z iə ŋ 3
+diết,z iə t 5
+diều,z iə w 2
+diễu,z iə w 4
+doa,z w aː 1
+doai,z w aː j 1
+doan,z w aː n 1
+doang,z w aː ŋ 1
+doe,z w ɛ 1
+doi,z ɔ j 1
+dom,z ɔ m 1
+don,z ɔ n 1
+doàn,z w aː n 2
+doàng,z w aː ŋ 2
+doành,z w ɛ ŋ 2
+doá,z w aː 5
+doái,z w aː j 5
+doãi,z w aː j 4
+doãng,z w aː ŋ 4
+doạ,z w aː 6
+doạng,z w aː ŋ 6
+doạnh,z w ɛ ŋ 6
+dua,z uə 1
+dui,z u j 1
+dum,z u m 1
+dun,z u n 1
+duyền,z w iə n 2
+duyển,z w iə n 3
+duyết,z w iə t 5
+duân,z w ə n 1
+duôi,z uə j 1
+duông,z uə ŋ 1
+duế,z w e 5
+duỵ,z w i 6
+duốc,z uə k 5
+duộc,z uə k 6
+duối,z uə j 5
+duỗi,z uə j 4
+duấn,z w ə n 5
+duần,z w ə n 2
+duẩn,z w ə n 3
+duồn,z uə n 2
+duềnh,z w e ŋ 2
+dà,z aː 2
+dài,z aː j 2
+dàm,z aː m 2
+dàn,z aː n 2
+dàng,z aː ŋ 2
+dành,z ɛ ŋ 2
+dào,z aː w 2
+dàu,z a w 2
+dày,z a j 2
+dá,z aː 5
+dác,z aː k 5
+dách,z ɛ k 5
+dái,z aː j 5
+dám,z aː m 5
+dán,z aː n 5
+dáng,z aː ŋ 5
+dánh,z ɛ ŋ 5
+dáo,z aː w 5
+dát,z aː t 5
+dáu,z a w 5
+dáy,z a j 5
+dâng,z ə ŋ 1
+dâu,z ə w 1
+dây,z ə j 1
+dãi,z aː j 4
+dãn,z aː n 4
+dãnh,z ɛ ŋ 4
+dão,z aː w 4
+dãy,z a j 4
+dè,z ɛ 2
+dèm,z ɛ m 2
+dèn,z ɛ n 2
+dé,z ɛ 5
+dém,z ɛ m 5
+déo,z ɛ w 5
+dép,z ɛ p 5
+dên,z e n 1
+dênh,z e ŋ 1
+dì,z i 2
+dìa,z iə 2
+dìm,z i m 2
+dìn,z i n 2
+dình,z i ŋ 2
+dìu,z i w 2
+dí,z i 5
+dích,z i k 5
+dím,z i m 5
+dín,z i n 5
+dính,z i ŋ 5
+díp,z i p 5
+dít,z i t 5
+díu,z i w 5
+dò,z ɔ 2
+dòi,z ɔ j 2
+dòm,z ɔ m 2
+dòn,z ɔ n 2
+dòng,z ɔ ŋ 2
+dó,z ɔ 5
+dóc,z ɔ k 5
+dói,z ɔ j 5
+dóm,z ɔ m 5
+dón,z ɔ n 5
+dóng,z ɔ ŋ 5
+dót,z ɔ t 5
+dô,z o 1
+dôi,z o j 1
+dôm,z o m 1
+dôn,z o n 1
+dông,z o ŋ 1
+dõi,z ɔ j 4
+dõng,z ɔ ŋ 4
+dù,z u 2
+dùa,z uə 2
+dùi,z u j 2
+dùm,z u m 2
+dùn,z u n 2
+dùng,z u ŋ 2
+dú,z u 5
+dúa,z uə 5
+dúi,z u j 5
+dúm,z u m 5
+dún,z u n 5
+dúng,z u ŋ 5
+dút,z u t 5
+dơ,z əː 1
+dả,z aː 3
+dẻ,z ɛ 3
+dẽ,z ɛ 4
+dế,z e 5
+dề,z e 2
+dể,z e 3
+dễ,z e 4
+dệ,z e 6
+dỉ,z i 3
+dọ,z ɔ 6
+dỏ,z ɔ 3
+dồ,z o 2
+dỗ,z o 4
+dộ,z o 6
+dớ,z əː 5
+dờ,z əː 2
+dở,z əː 3
+dỡ,z əː 4
+dợ,z əː 6
+dủ,z u 3
+dứ,z ɨ 5
+dừ,z ɨ 2
+dử,z ɨ 3
+dĩa,z iə 4
+dũa,z uə 4
+dưa,z ɨə 1
+dịa,z iə 6
+dụa,z uə 6
+dứa,z ɨə 5
+dừa,z ɨə 2
+dựa,z ɨə 6
+dạc,z aː k 6
+dắc,z a k 5
+dọc,z ɔ k 6
+dốc,z o k 5
+dộc,z o k 6
+dức,z ɨ k 5
+dếch,z e k 5
+dệch,z e k 6
+dũi,z u j 4
+dơi,z əː j 1
+dại,z aː j 6
+dải,z aː j 3
+dọi,z ɔ j 6
+dối,z o j 5
+dồi,z o j 2
+dổi,z o j 3
+dỗi,z o j 4
+dội,z o j 6
+dời,z əː j 2
+dụi,z u j 6
+dủi,z u j 3
+dăm,z a m 1
+dạm,z aː m 6
+dấm,z ə m 5
+dầm,z ə m 2
+dẩm,z ə m 3
+dẫm,z ə m 4
+dậm,z ə m 6
+dắm,z a m 5
+dằm,z a m 2
+dặm,z a m 6
+dẹm,z ɛ m 6
+dỏm,z ɔ m 3
+dổm,z o m 3
+dởm,z əː m 3
+dợm,z əː m 6
+dụm,z u m 6
+dừm,z ɨ m 2
+dăn,z a n 1
+dĩn,z i n 4
+dơn,z əː n 1
+dạn,z aː n 6
+dấn,z ə n 5
+dẩn,z ə n 3
+dằn,z a n 2
+dẳn,z a n 3
+dặn,z a n 6
+dến,z e n 5
+dền,z e n 2
+dện,z e n 6
+dọn,z ɔ n 6
+dồn,z o n 2
+dớn,z əː n 5
+dờn,z əː n 2
+dỡn,z əː n 4
+dợn,z əː n 6
+dưng,z ɨ ŋ 1
+dằng,z a ŋ 2
+dẳng,z a ŋ 3
+dặng,z a ŋ 6
+dọng,z ɔ ŋ 6
+dỏng,z ɔ ŋ 3
+dống,z o ŋ 5
+dồng,z o ŋ 2
+dộng,z o ŋ 6
+dủng,z u ŋ 3
+dứng,z ɨ ŋ 5
+dừng,z ɨ ŋ 2
+dửng,z ɨ ŋ 3
+dững,z ɨ ŋ 4
+dạnh,z ɛ ŋ 6
+dảnh,z ɛ ŋ 3
+dếnh,z e ŋ 5
+dềnh,z e ŋ 2
+dệnh,z e ŋ 6
+dịnh,z i ŋ 6
+dạo,z aː w 6
+dảo,z aː w 3
+dẹo,z ɛ w 6
+dẻo,z ɛ w 3
+dấp,z ə p 5
+dẹp,z ɛ p 6
+dịp,z i p 6
+dọp,z ɔ p 6
+dốp,z o p 5
+dộp,z o p 6
+dớp,z əː p 5
+dạt,z aː t 6
+dất,z ə t 5
+dắt,z a t 5
+dặt,z a t 6
+dẹt,z ɛ t 6
+dết,z e t 5
+dệt,z e t 6
+dịt,z i t 6
+dốt,z o t 5
+dột,z o t 6
+dớt,z əː t 5
+dợt,z əː t 6
+dụt,z u t 6
+dứt,z ɨ t 5
+dựt,z ɨ t 6
+dấu,z ə w 5
+dầu,z ə w 2
+dẩu,z ə w 3
+dẫu,z ə w 4
+dều,z e w 2
+dệu,z e w 6
+dịu,z i w 6
+dạy,z a j 6
+dảy,z a j 3
+dấy,z ə j 5
+dầy,z ə j 2
+dẩy,z ə j 3
+dẫy,z ə j 4
+dậy,z ə j 6
+dước,z ɨə k 5
+dưới,z ɨə j 5
+dười,z ɨə j 2
+dượi,z ɨə j 6
+dướn,z ɨə n 5
+dướng,z ɨə ŋ 5
+dường,z ɨə ŋ 2
+dượt,z ɨə t 6
+e,ʔ ɛ 1
+em,ʔ ɛ m 1
+en,ʔ ɛ n 1
+eo,ʔ ɛ w 1
+ga,ɣ aː 1
+gai,ɣ aː j 1
+gam,ɣ aː m 1
+gan,ɣ aː n 1
+gang,ɣ aː ŋ 1
+ganh,ɣ ɛ ŋ 1
+gao,ɣ aː w 1
+gau,ɣ a w 1
+gay,ɣ a j 1
+ge,ɣ ɛ 1
+gen,ɣ ɛ n 1
+ghi,ɣ i 1
+ghim,ɣ i m 1
+ghiếc,ɣ iə k 5
+ghiền,ɣ iə n 2
+ghè,ɣ ɛ 2
+ghèn,ɣ ɛ n 2
+ghé,ɣ ɛ 5
+ghéc,ɣ ɛ k 5
+ghém,ɣ ɛ m 5
+ghép,ɣ ɛ p 5
+ghét,ɣ ɛ t 5
+ghê,ɣ e 1
+ghì,ɣ i 2
+ghìm,ɣ i m 2
+ghình,ɣ i ŋ 2
+ghín,ɣ i n 5
+ghính,ɣ i ŋ 5
+ghít,ɣ i t 5
+ghẹ,ɣ ɛ 6
+ghẻ,ɣ ɛ 3
+ghẽ,ɣ ɛ 4
+ghế,ɣ e 5
+ghề,ɣ e 2
+ghị,ɣ i 6
+ghếch,ɣ e k 5
+ghệch,ɣ e k 6
+ghẹn,ɣ ɛ n 6
+ghềnh,ɣ e ŋ 2
+ghểnh,ɣ e ŋ 3
+ghễnh,ɣ e ŋ 4
+ghẹo,ɣ ɛ w 6
+ghệt,ɣ e t 6
+ghịt,ɣ i t 6
+gi,ʑ i 1
+gianh,ʑ ɛ ŋ 1
+giau,ʑ a w 1
+giay,ʑ a j 1
+gie,ʑ ɛ 1
+gien,ʑ ɛ n 1
+gieo,ʑ ɛ w 1
+gim,ʑ i m 1
+gin,ʑ i n 1
+gio,ʑ ɔ 1
+gioan,ʑ w aː n 1
+gioi,ʑ ɔ j 1
+gion,ʑ ɔ n 1
+giong,ʑ ɔ ŋ 1
+gioàng,ʑ w aː ŋ 2
+gioăng,ʑ w a ŋ 1
+giu,ʑ u 1
+giua,ʑ uə 1
+giun,ʑ u n 1
+giuộc,ʑ uə k 6
+giàm,ʑ aː m 2
+giàn,ʑ aː n 2
+giàng,ʑ aː ŋ 2
+giành,ʑ ɛ ŋ 2
+giào,ʑ aː w 2
+giàu,ʑ a w 2
+giày,ʑ a j 2
+giát,ʑ aː t 5
+giáy,ʑ a j 5
+giâm,ʑ ə m 1
+giâu,ʑ ə w 1
+giây,ʑ ə j 1
+giã,ʑ aː 4
+giãi,ʑ aː j 4
+giãn,ʑ aː n 4
+giãy,ʑ a j 4
+gièm,ʑ ɛ m 2
+gié,ʑ ɛ 5
+giéo,ʑ ɛ w 5
+giê,ʑ iə 1
+giêng,ʑ iə ŋ 1
+giò,ʑ ɔ 2
+giòi,ʑ ɔ j 2
+giòn,ʑ ɔ n 2
+gió,ʑ ɔ 5
+gióc,ʑ ɔ k 5
+giói,ʑ ɔ j 5
+gión,ʑ ɔ n 5
+gióng,ʑ ɔ ŋ 5
+giót,ʑ ɔ t 5
+giô,ʑ o 1
+giôn,ʑ o n 1
+giông,ʑ o ŋ 1
+giùi,ʑ u j 2
+giùm,ʑ u m 2
+giú,ʑ u 5
+giúi,ʑ u j 5
+giúp,ʑ u p 5
+giút,ʑ u t 5
+giũ,ʑ u 4
+giơ,ʑ əː 1
+giạ,ʑ aː 6
+giẻ,ʑ ɛ 3
+giẽ,ʑ ɛ 4
+giề,ʑ iə 2
+giọ,ʑ ɔ 6
+giỏ,ʑ ɔ 3
+giồ,ʑ o 2
+giỗ,ʑ o 4
+giộ,ʑ o 6
+giớ,ʑ əː 5
+giờ,ʑ əː 2
+giở,ʑ əː 3
+giỡ,ʑ əː 4
+giừ,ʑ ɨ 2
+giữ,ʑ ɨ 4
+giũa,ʑ uə 4
+giụa,ʑ uə 6
+giửa,ʑ ɨə 3
+giữa,ʑ ɨə 4
+giạc,ʑ aː k 6
+giấc,ʑ ə k 5
+giắc,ʑ a k 5
+giặc,ʑ a k 6
+giếc,ʑ iə k 5
+giọc,ʑ ɔ k 6
+giốc,ʑ o k 5
+giục,ʑ u k 6
+giại,ʑ aː j 6
+giọi,ʑ ɔ j 6
+giỏi,ʑ ɔ j 3
+giối,ʑ o j 5
+giồi,ʑ o j 2
+giổi,ʑ o j 3
+giỗi,ʑ o j 4
+giội,ʑ o j 6
+giời,ʑ əː j 2
+giụi,ʑ u j 6
+giủi,ʑ u j 3
+giăm,ʑ a m 1
+giạm,ʑ aː m 6
+giấm,ʑ ə m 5
+giầm,ʑ ə m 2
+giẫm,ʑ ə m 4
+giậm,ʑ ə m 6
+giắm,ʑ a m 5
+giằm,ʑ a m 2
+giẵm,ʑ a m 4
+giặm,ʑ a m 6
+giếm,ʑ iə m 5
+giấn,ʑ ə n 5
+giần,ʑ ə n 2
+giận,ʑ ə n 6
+giắn,ʑ a n 5
+giằn,ʑ a n 2
+giẳn,ʑ a n 3
+giặn,ʑ a n 6
+giỏn,ʑ ɔ n 3
+giờn,ʑ əː n 2
+giỡn,ʑ əː n 4
+giăng,ʑ a ŋ 1
+giạng,ʑ aː ŋ 6
+giắng,ʑ a ŋ 5
+giằng,ʑ a ŋ 2
+giếng,ʑ iə ŋ 5
+giềng,ʑ iə ŋ 2
+giọng,ʑ ɔ ŋ 6
+giỏng,ʑ ɔ ŋ 3
+giống,ʑ o ŋ 5
+giồng,ʑ o ŋ 2
+giảnh,ʑ ɛ ŋ 3
+giẹo,ʑ ɛ w 6
+giạp,ʑ aː p 6
+giấp,ʑ ə p 5
+giập,ʑ ə p 6
+giẹp,ʑ ɛ p 6
+giộp,ʑ o p 6
+giạt,ʑ aː t 6
+giật,ʑ ə t 6
+giắt,ʑ a t 5
+giặt,ʑ a t 6
+giết,ʑ iə t 5
+giọt,ʑ ɔ t 6
+giốt,ʑ o t 5
+giựt,ʑ ɨ t 6
+giảu,ʑ a w 3
+giấu,ʑ ə w 5
+giầu,ʑ ə w 2
+giậu,ʑ ə w 6
+giễu,ʑ e w 4
+giấy,ʑ ə j 5
+giầy,ʑ ə j 2
+giẫy,ʑ ə j 4
+giương,ʑ ɨə ŋ 1
+giướng,ʑ ɨə ŋ 5
+giường,ʑ ɨə ŋ 2
+giượng,ʑ ɨə ŋ 6
+go,ɣ ɔ 1
+goa,ɣ w aː 1
+goi,ɣ ɔ j 1
+gom,ɣ ɔ m 1
+gon,ɣ ɔ n 1
+gong,ɣ ɔ ŋ 1
+goá,ɣ w aː 5
+gu,ɣ u 1
+gui,ɣ u j 1
+gum,ɣ u m 1
+gun,ɣ u n 1
+gung,ɣ u ŋ 1
+guy,ɣ w i 1
+guyên,ɣ w iə n 1
+guốc,ɣ uə k 5
+guộc,ɣ uə k 6
+guồi,ɣ uə j 2
+guộn,ɣ uə n 6
+guồng,ɣ uə ŋ 2
+guổng,ɣ uə ŋ 3
+guột,ɣ uə t 6
+gà,ɣ aː 2
+gài,ɣ aː j 2
+gàn,ɣ aː n 2
+gàng,ɣ aː ŋ 2
+gành,ɣ ɛ ŋ 2
+gào,ɣ aː w 2
+gàu,ɣ a w 2
+gày,ɣ a j 2
+gá,ɣ aː 5
+gác,ɣ aː k 5
+gái,ɣ aː j 5
+gám,ɣ aː m 5
+gán,ɣ aː n 5
+gánh,ɣ ɛ ŋ 5
+gáo,ɣ aː w 5
+gáp,ɣ aː p 5
+gát,ɣ aː t 5
+gáu,ɣ a w 5
+gáy,ɣ a j 5
+gâm,ɣ ə m 1
+gân,ɣ ə n 1
+gâu,ɣ ə w 1
+gây,ɣ ə j 1
+gã,ɣ aː 4
+gãi,ɣ aː j 4
+gãy,ɣ a j 4
+gía,z iə 5
+gò,ɣ ɔ 2
+gòi,ɣ ɔ j 2
+gòn,ɣ ɔ n 2
+góc,ɣ ɔ k 5
+gói,ɣ ɔ j 5
+góp,ɣ ɔ p 5
+gót,ɣ ɔ t 5
+gô,ɣ o 1
+gôi,ɣ o j 1
+gôm,ɣ o m 1
+gôn,ɣ o n 1
+gông,ɣ o ŋ 1
+gõ,ɣ ɔ 4
+gù,ɣ u 2
+gùa,ɣ uə 2
+gùi,ɣ u j 2
+gùn,ɣ u n 2
+gùng,ɣ u ŋ 2
+gú,ɣ u 5
+gúa,ɣ uə 5
+gúp,ɣ u p 5
+gút,ɣ u t 5
+gơ,ɣ əː 1
+gạ,ɣ aː 6
+gả,ɣ aː 3
+gọ,ɣ ɔ 6
+gồ,ɣ o 2
+gổ,ɣ o 3
+gỗ,ɣ o 4
+gộ,ɣ o 6
+gờ,ɣ əː 2
+gở,ɣ əː 3
+gỡ,ɣ əː 4
+gụ,ɣ u 6
+gừ,ɣ ɨ 2
+gữ,ɣ ɨ 4
+gỉa,z iə 3
+gủa,ɣ uə 3
+gừa,ɣ ɨə 2
+gữa,ɣ ɨə 4
+gạc,ɣ aː k 6
+gấc,ɣ ə k 5
+gặc,ɣ a k 6
+gọc,ɣ ɔ k 6
+gốc,ɣ o k 5
+gộc,ɣ o k 6
+gục,ɣ u k 6
+gạch,ɣ ɛ k 6
+gũi,ɣ u j 4
+gại,ɣ aː j 6
+gải,ɣ aː j 3
+gọi,ɣ ɔ j 6
+gỏi,ɣ ɔ j 3
+gối,ɣ o j 5
+gồi,ɣ o j 2
+gội,ɣ o j 6
+gới,ɣ əː j 5
+gởi,ɣ əː j 3
+gợi,ɣ əː j 6
+gụi,ɣ u j 6
+gủi,ɣ u j 3
+gửi,ɣ ɨ j 3
+găm,ɣ a m 1
+gấm,ɣ ə m 5
+gầm,ɣ ə m 2
+gẩm,ɣ ə m 3
+gẫm,ɣ ə m 4
+gậm,ɣ ə m 6
+gắm,ɣ a m 5
+gằm,ɣ a m 2
+gặm,ɣ a m 6
+gốm,ɣ o m 5
+gồm,ɣ o m 2
+gớm,ɣ əː m 5
+gờm,ɣ əː m 2
+găn,ɣ a n 1
+gạn,ɣ aː n 6
+gấn,ɣ ə n 5
+gần,ɣ ə n 2
+gận,ɣ ə n 6
+gắn,ɣ a n 5
+gằn,ɣ a n 2
+gặn,ɣ a n 6
+gịn,z i n 6
+gọn,ɣ ɔ n 6
+gờn,ɣ əː n 2
+gợn,ɣ əː n 6
+găng,ɣ a ŋ 1
+gắng,ɣ a ŋ 5
+gẵng,ɣ a ŋ 4
+gặng,ɣ a ŋ 6
+gọng,ɣ ɔ ŋ 6
+gỏng,ɣ ɔ ŋ 3
+gồng,ɣ o ŋ 2
+gứng,ɣ ɨ ŋ 5
+gừng,ɣ ɨ ŋ 2
+gạnh,ɣ ɛ ŋ 6
+gảnh,ɣ ɛ ŋ 3
+gạo,ɣ aː w 6
+gấp,ɣ ə p 5
+gập,ɣ ə p 6
+gắp,ɣ a p 5
+gặp,ɣ a p 6
+gộp,ɣ o p 6
+gớp,ɣ əː p 5
+gạt,ɣ aː t 6
+gật,ɣ ə t 6
+gắt,ɣ a t 5
+gặt,ɣ a t 6
+gọt,ɣ ɔ t 6
+gột,ɣ o t 6
+gợt,ɣ əː t 6
+gụt,ɣ u t 6
+gấu,ɣ ə w 5
+gầu,ɣ ə w 2
+gẫu,ɣ ə w 4
+gạy,ɣ a j 6
+gảy,ɣ a j 3
+gấy,ɣ ə j 5
+gầy,ɣ ə j 2
+gẩy,ɣ ə j 3
+gẫy,ɣ ə j 4
+gậy,ɣ ə j 6
+gười,ɣ ɨə j 2
+gưởi,ɣ ɨə j 3
+gươm,ɣ ɨə m 1
+gườm,ɣ ɨə m 2
+gượm,ɣ ɨə m 6
+gương,ɣ ɨə ŋ 1
+gường,ɣ ɨə ŋ 2
+gưỡng,ɣ ɨə ŋ 4
+gượng,ɣ ɨə ŋ 6
+hau,h a w 1
+hay,h a j 1
+he,h ɛ 1
+hem,h ɛ m 1
+hen,h ɛ n 1
+heo,h ɛ w 1
+hia,h iə 1
+him,h i m 1
+hin,h i n 1
+hiu,h i w 1
+hiêm,h iə m 1
+hiêng,h iə ŋ 1
+hiếc,h iə k 5
+hiếm,h iə m 5
+hiệm,h iə m 6
+hiếng,h iə ŋ 5
+hiềng,h iə ŋ 2
+hiều,h iə w 2
+ho,h ɔ 1
+hoai,h w aː j 1
+hoay,h w a j 1
+hoe,h w ɛ 1
+hoen,h w ɛ n 1
+hoi,h ɔ j 1
+hom,h ɔ m 1
+hon,h ɔ n 1
+hong,h ɔ ŋ 1
+hoác,h w aː k 5
+hoáng,h w aː ŋ 5
+hoánh,h w ɛ ŋ 5
+hoát,h w aː t 5
+hoáy,h w a j 5
+hoãng,h w aː ŋ 4
+hoét,h w ɛ t 5
+hoẹ,h w ɛ 6
+hoạc,h w aː k 6
+hoải,h w aː j 3
+hoăm,h w a m 1
+hoắm,h w a m 5
+hoằn,h w a n 2
+hoẳn,h w a n 3
+hoặn,h w a n 6
+hoẻn,h w ɛ n 3
+hoẵng,h w a ŋ 4
+hoảnh,h w ɛ ŋ 3
+hoắt,h w a t 5
+hoẹt,h w ɛ t 6
+hua,h uə 1
+hui,h u j 1
+hum,h u m 1
+hun,h u n 1
+huyn,h w i n 1
+huê,h w e 1
+huênh,h w e ŋ 1
+huôi,h uə j 1
+huý,h w i 5
+huýt,h w i t 5
+huế,h w e 5
+huỳ,h w i 2
+huỷ,h w i 3
+huếch,h w e k 5
+huỵch,h w i k 6
+huối,h uə j 5
+huồi,h uə j 2
+huổi,h uə j 3
+huội,h uə j 6
+huần,h w ə n 2
+huẩn,h w ə n 3
+huận,h w ə n 6
+huổng,h uə ŋ 3
+huốt,h uə t 5
+huầy,h w ə j 2
+hàu,h a w 2
+hày,h a j 2
+hái,h aː j 5
+háng,h aː ŋ 5
+hánh,h ɛ ŋ 5
+háo,h aː w 5
+háp,h aː p 5
+háu,h a w 5
+háy,h a j 5
+hâu,h ə w 1
+hây,h ə j 1
+hão,h aː w 4
+hãy,h a j 4
+hè,h ɛ 2
+hèm,h ɛ m 2
+hèn,h ɛ n 2
+hèo,h ɛ w 2
+hé,h ɛ 5
+hén,h ɛ n 5
+héo,h ɛ w 5
+hép,h ɛ p 5
+hét,h ɛ t 5
+hê,h e 1
+hên,h e n 1
+hênh,h e ŋ 1
+hì,h i 2
+hía,h iə 5
+hín,h i n 5
+hính,h i ŋ 5
+híp,h i p 5
+hít,h i t 5
+hò,h ɔ 2
+hòi,h ɔ j 2
+hòm,h ɔ m 2
+hòn,h ɔ n 2
+hòng,h ɔ ŋ 2
+hó,h ɔ 5
+hóc,h ɔ k 5
+hói,h ɔ j 5
+hóm,h ɔ m 5
+hón,h ɔ n 5
+hóng,h ɔ ŋ 5
+hóp,h ɔ p 5
+hót,h ɔ t 5
+hôm,h o m 1
+hông,h o ŋ 1
+hõm,h ɔ m 4
+hù,h u 2
+hùa,h uə 2
+hùi,h u j 2
+hùm,h u m 2
+hùn,h u n 2
+húa,h uə 5
+húm,h u m 5
+hún,h u n 5
+húp,h u p 5
+hút,h u t 5
+hũ,h u 4
+hơ,h əː 1
+hả,h aː 3
+hẹ,h ɛ 6
+hẻ,h ɛ 3
+hế,h e 5
+hể,h e 3
+hị,h i 6
+họ,h ɔ 6
+hỏ,h ɔ 3
+hớ,h əː 5
+hờ,h əː 2
+hở,h əː 3
+hỡ,h əː 4
+hợ,h əː 6
+hụ,h u 6
+hứ,h ɨ 5
+hừ,h ɨ 2
+hữ,h ɨ 4
+hự,h ɨ 6
+hưa,h ɨə 1
+hủa,h uə 3
+hừa,h ɨə 2
+hục,h u k 6
+hếch,h e k 5
+hệch,h e k 6
+hơi,h əː j 1
+họi,h ɔ j 6
+hỏi,h ɔ j 3
+hới,h əː j 5
+hời,h əː j 2
+hởi,h əː j 3
+hỡi,h əː j 4
+hụi,h u j 6
+hăm,h a m 1
+hĩm,h i m 4
+hũm,h u m 4
+hấm,h ə m 5
+hầm,h ə m 2
+hẩm,h ə m 3
+hậm,h ə m 6
+hằm,h a m 2
+hẳm,h a m 3
+hẵm,h a m 4
+hặm,h a m 6
+hẹm,h ɛ m 6
+hẻm,h ɛ m 3
+hẽm,h ɛ m 4
+hỏm,h ɔ m 3
+hổm,h o m 3
+hỗm,h o m 4
+hớm,h əː m 5
+hờm,h əː m 2
+hỡm,h əː m 4
+hợm,h əː m 6
+hụm,h u m 6
+hủm,h u m 3
+hừm,h ɨ m 2
+hăn,h a n 1
+hơn,h əː n 1
+hản,h aː n 3
+hắn,h a n 5
+hằn,h a n 2
+hẳn,h a n 3
+hẵn,h a n 4
+hẹn,h ɛ n 6
+hẻn,h ɛ n 3
+hến,h e n 5
+hển,h e n 3
+hện,h e n 6
+hỏn,h ɔ n 3
+hổn,h o n 3
+hộn,h o n 6
+hớn,h əː n 5
+hờn,h əː n 2
+hởn,h əː n 3
+hủn,h u n 3
+hăng,h a ŋ 1
+hũng,h u ŋ 4
+hơng,h əː ŋ 1
+hảng,h aː ŋ 3
+hấng,h ə ŋ 5
+hẩng,h ə ŋ 3
+hẫng,h ə ŋ 4
+hắng,h a ŋ 5
+hẵng,h a ŋ 4
+họng,h ɔ ŋ 6
+hỏng,h ɔ ŋ 3
+hổng,h o ŋ 3
+hỗng,h o ŋ 4
+hủng,h u ŋ 3
+hừng,h ɨ ŋ 2
+hửng,h ɨ ŋ 3
+hững,h ɨ ŋ 4
+hảnh,h ɛ ŋ 3
+hềnh,h e ŋ 2
+hểnh,h e ŋ 3
+hỉnh,h i ŋ 3
+hẹo,h ɛ w 6
+hẻo,h ɛ w 3
+hập,h ə p 6
+hẹp,h ɛ p 6
+họp,h ɔ p 6
+hộp,h o p 6
+hớp,h əː p 5
+hụp,h u p 6
+hắt,h a t 5
+hẹt,h ɛ t 6
+hết,h e t 5
+hệt,h e t 6
+họt,h ɔ t 6
+hớt,h əː t 5
+hợt,h əː t 6
+hụt,h u t 6
+hẩu,h ə w 3
+hẫu,h ə w 4
+hếu,h e w 5
+hều,h e w 2
+hểu,h e w 3
+hạy,h a j 6
+hảy,h a j 3
+hấy,h ə j 5
+hầy,h ə j 2
+hẩy,h ə j 3
+hươm,h ɨə m 1
+hướm,h ɨə m 5
+hườm,h ɨə m 2
+hượm,h ɨə m 6
+hươn,h ɨə n 1
+hưởn,h ɨə n 3
+hường,h ɨə ŋ 2
+hưỡng,h ɨə ŋ 4
+hươu,h ɨə w 1
+hượu,h ɨə w 6
+ia,ʔ iə 1
+im,ʔ i m 1
+in,ʔ i n 1
+inh,ʔ i ŋ 1
+iu,ʔ i w 1
+ke,k ɛ 1
+kem,k ɛ m 1
+ken,k ɛ n 1
+keo,k ɛ w 1
+khau,x a w 1
+khay,x a j 1
+khe,x ɛ 1
+khem,x ɛ m 1
+khen,x ɛ n 1
+kheo,x ɛ w 1
+khim,x i m 1
+khin,x i n 1
+khiu,x i w 1
+khiêng,x iə ŋ 1
+khiệm,x iə m 6
+khiến,x iə n 5
+khiền,x iə n 2
+khiện,x iə n 6
+khiểng,x iə ŋ 3
+khiễng,x iə ŋ 4
+khiệng,x iə ŋ 6
+khiểu,x iə w 3
+kho,x ɔ 1
+khoai,x w aː j 1
+khoang,x w aː ŋ 1
+khoanh,x w ɛ ŋ 1
+khoe,x w ɛ 1
+khoen,x w ɛ n 1
+khoeo,x w ɛ w 1
+khoi,x ɔ j 1
+khom,x ɔ m 1
+khon,x ɔ n 1
+khong,x ɔ ŋ 1
+khoài,x w aː j 2
+khoàn,x w aː n 2
+khoàng,x w aː ŋ 2
+khoành,x w ɛ ŋ 2
+khoào,x w a w 2
+khoách,x w ɛ k 5
+khoáy,x w a j 5
+khoèo,x w ɛ w 2
+khoé,x w ɛ 5
+khoén,x w ɛ n 5
+khoét,x w ɛ t 5
+khoẻ,x w ɛ 3
+khoải,x w aː j 3
+khoăm,x w a m 1
+khoắm,x w a m 5
+khoằm,x w a m 2
+khoặm,x w a m 6
+khoăn,x w a n 1
+khoắn,x w a n 5
+khoạng,x w aː ŋ 6
+khoảng,x w aː ŋ 3
+khoắng,x w a ŋ 5
+khoẻo,x w ɛ w 3
+khoắt,x w a t 5
+khua,x uə 1
+khui,x u j 1
+khum,x u m 1
+khun,x u n 1
+khuya,x w iə 1
+khuâng,x w ə ŋ 1
+khuây,x w ə j 1
+khuôn,x uə n 1
+khuýp,x w i p 5
+khuờ,x uə 2
+khuỵ,x w i 6
+khuỷ,x w i 3
+khuổi,x uə j 3
+khuống,x uə ŋ 5
+khuỳnh,x w i ŋ 2
+khuỷnh,x w i ŋ 3
+khuều,x w e w 2
+khuỵu,x w i w 6
+khuỷu,x w i w 3
+khuấy,x w ə j 5
+khà,x aː 2
+khài,x aː j 2
+khàn,x aː n 2
+khàng,x aː ŋ 2
+khành,x ɛ ŋ 2
+khày,x a j 2
+khá,x aː 5
+kháu,x a w 5
+kháy,x a j 5
+khân,x ə n 1
+khâng,x ə ŋ 1
+khè,x ɛ 2
+khèn,x ɛ n 2
+khèo,x ɛ w 2
+khé,x ɛ 5
+khén,x ɛ n 5
+khéo,x ɛ w 5
+khép,x ɛ p 5
+khét,x ɛ t 5
+khênh,x e ŋ 1
+khêu,x e w 1
+khì,x i 2
+khìa,x iə 2
+khìn,x i n 2
+khía,x iə 5
+khín,x i n 5
+khính,x i ŋ 5
+khít,x i t 5
+khíu,x i w 5
+khò,x ɔ 2
+khòe,x w ɛ 2
+khòm,x ɔ m 2
+khòn,x ɔ n 2
+khòng,x ɔ ŋ 2
+khó,x ɔ 5
+khóc,x ɔ k 5
+khói,x ɔ j 5
+khóm,x ɔ m 5
+khôm,x o m 1
+khù,x u 2
+khùng,x u ŋ 2
+khú,x u 5
+khúm,x u m 5
+khơ,x əː 1
+khạ,x aː 6
+khẻ,x ɛ 3
+khẽ,x ɛ 4
+khề,x e 2
+khệ,x e 6
+khị,x i 6
+khỏ,x ɔ 3
+khớ,x əː 5
+khờ,x əː 2
+khụ,x u 6
+khừ,x ɨ 2
+khự,x ɨ 6
+khịa,x iə 6
+khủa,x uə 3
+khứa,x ɨə 5
+khừa,x ɨə 2
+khạc,x aː k 6
+khấc,x ə k 5
+khậc,x ə k 6
+khặc,x a k 6
+khẹc,x ɛ k 6
+khục,x u k 6
+khức,x ɨ k 5
+khệch,x e k 6
+khơi,x əː j 1
+khỏi,x ɔ j 3
+khới,x əː j 5
+khăm,x a m 1
+khấm,x ə m 5
+khẩm,x ə m 3
+khậm,x ə m 6
+khắm,x a m 5
+khằm,x a m 2
+khẳm,x a m 3
+khẻm,x ɛ m 3
+khọm,x ɔ m 6
+khốm,x o m 5
+khụm,x u m 6
+khăn,x a n 1
+khưn,x ɨ n 1
+khấn,x ə n 5
+khắn,x a n 5
+khằn,x a n 2
+khẳn,x a n 3
+khặn,x a n 6
+khỏn,x ɔ n 3
+khăng,x a ŋ 1
+khạng,x aː ŋ 6
+khầng,x ə ŋ 2
+khắng,x a ŋ 5
+khằng,x a ŋ 2
+khặng,x a ŋ 6
+khỏng,x ɔ ŋ 3
+khồng,x o ŋ 2
+khộng,x o ŋ 6
+khụng,x u ŋ 6
+khứng,x ɨ ŋ 5
+khừng,x ɨ ŋ 2
+khựng,x ɨ ŋ 6
+khĩnh,x i ŋ 4
+khảnh,x ɛ ŋ 3
+khếnh,x e ŋ 5
+khềnh,x e ŋ 2
+khểnh,x e ŋ 3
+khễnh,x e ŋ 4
+khệnh,x e ŋ 6
+khỉnh,x i ŋ 3
+khạo,x aː w 6
+khẻo,x ɛ w 3
+khập,x ə p 6
+khắp,x a p 5
+khộp,x o p 6
+khớp,x əː p 5
+khật,x ə t 6
+khắt,x a t 5
+khẹt,x ɛ t 6
+khịt,x i t 6
+khọt,x ɔ t 6
+khụt,x u t 6
+khảu,x a w 3
+khầu,x ə w 2
+khều,x e w 2
+khịu,x i w 6
+khảy,x a j 3
+khấy,x ə j 5
+khẩy,x ə j 3
+khụy,x u j 6
+khươi,x ɨə j 1
+khươm,x ɨə m 1
+khươn,x ɨə n 1
+khường,x ɨə ŋ 2
+khưởng,x ɨə ŋ 3
+khưỡng,x ɨə ŋ 4
+khướt,x ɨə t 5
+khượt,x ɨə t 6
+khướu,x ɨə w 5
+kia,k iə 1
+kin,k i n 1
+kiêng,k iə ŋ 1
+kiếng,k iə ŋ 5
+kiềng,k iə ŋ 2
+kiểng,k iə ŋ 3
+kiễng,k iə ŋ 4
+kuênh,k w e ŋ 1
+kuýp,k w i p 5
+kè,k ɛ 2
+kèm,k ɛ m 2
+kèn,k ɛ n 2
+kèo,k ɛ w 2
+ké,k ɛ 5
+kém,k ɛ m 5
+kén,k ɛ n 5
+kéo,k ɛ w 5
+kép,k ɛ p 5
+két,k ɛ t 5
+kên,k e n 1
+kêng,k e ŋ 1
+kêu,k e w 1
+kìa,k iə 2
+kìm,k i m 2
+kìn,k i n 2
+kía,k iə 5
+kím,k i m 5
+kín,k i n 5
+kíp,k i p 5
+kít,k i t 5
+kíu,k i w 5
+kẹ,k ɛ 6
+kẻ,k ɛ 3
+kẽ,k ɛ 4
+kề,k e 2
+kể,k e 3
+kịa,k iə 6
+kếch,k e k 5
+kệch,k e k 6
+kẹm,k ɛ m 6
+kẻm,k ɛ m 3
+kẽm,k ɛ m 4
+kếm,k e m 5
+kềm,k e m 2
+kĩn,k i n 4
+kẹn,k ɛ n 6
+kến,k e n 5
+kền,k e n 2
+kễnh,k e ŋ 4
+kệnh,k e ŋ 6
+kỉnh,k i ŋ 3
+kẹo,k ɛ w 6
+kẻo,k ɛ w 3
+kẽo,k ɛ w 4
+kẹp,k ɛ p 6
+kếp,k e p 5
+kẹt,k ɛ t 6
+kịt,k i t 6
+kĩu,k i w 4
+kếu,k e w 5
+kều,k e w 2
+lanh,l ɛ ŋ 1
+lau,l a w 1
+lay,l a j 1
+le,l ɛ 1
+lem,l ɛ m 1
+len,l ɛ n 1
+leo,l ɛ w 1
+lia,l iə 1
+lim,l i m 1
+lin,l i n 1
+liu,l i w 1
+liêng,l iə ŋ 1
+liếc,l iə k 5
+liệc,l iə k 6
+liếm,l iə m 5
+liềm,l iə m 2
+liến,l iə n 5
+liền,l iə n 2
+liện,l iə n 6
+liếng,l iə ŋ 5
+liềng,l iə ŋ 2
+liểng,l iə ŋ 3
+liễng,l iə ŋ 4
+liệng,l iə ŋ 6
+liếp,l iə p 5
+liếu,l iə w 5
+liều,l iə w 2
+lo,l ɔ 1
+loai,l w aː j 1
+loang,l w aː ŋ 1
+loanh,l w ɛ ŋ 1
+loay,l w a j 1
+loe,l w ɛ 1
+loen,l w ɛ n 1
+loi,l ɔ j 1
+lom,l ɔ m 1
+lon,l ɔ n 1
+loà,l w aː 2
+loài,l w aː j 2
+loàn,l w aː n 2
+loàng,l w aː ŋ 2
+loá,l w aː 5
+loác,l w aː k 5
+loán,l w aː n 5
+loáng,l w aː ŋ 5
+loáo,l w a w 5
+loáy,l w a j 5
+loãn,l w aː n 4
+loãng,l w aː ŋ 4
+loè,l w ɛ 2
+loé,l w ɛ 5
+loét,l w ɛ t 5
+loạc,l w aː k 6
+loạch,l w ɛ k 6
+loăn,l w a n 1
+loắn,l w a n 5
+loằn,l w a n 2
+loăng,l w a ŋ 1
+loạng,l w aː ŋ 6
+loảng,l w aː ŋ 3
+loằng,l w a ŋ 2
+loẻng,l w ɛ ŋ 3
+loẻo,l w ɛ w 3
+loạt,l w aː t 6
+loắt,l w a t 5
+loẹt,l w ɛ t 6
+lu,l u 1
+lua,l uə 1
+lui,l u j 1
+lum,l u m 1
+lun,l u n 1
+luya,l w iə 1
+luyn,l w i n 1
+luynh,l w i ŋ 1
+luôm,l uə m 1
+luôn,l uə n 1
+luông,l uə ŋ 1
+luý,l w i 5
+luých,l w i k 5
+luýnh,l w i ŋ 5
+luýt,l w i t 5
+luệ,l w e 6
+luỵ,l w i 6
+luỹ,l w i 4
+luốc,l uə k 5
+luộc,l uə k 6
+luồi,l uə j 2
+luộm,l uə m 6
+luấn,l w ə n 5
+luẩn,l w ə n 3
+luồn,l uə n 2
+luống,l uə ŋ 5
+luồng,l uə ŋ 2
+luổng,l uə ŋ 3
+luỗng,l uə ŋ 4
+luốt,l uə t 5
+luột,l uə t 6
+là,l aː 2
+lài,l aː j 2
+làm,l aː m 2
+làn,l aː n 2
+làng,l aː ŋ 2
+lành,l ɛ ŋ 2
+lào,l aː w 2
+làu,l a w 2
+lày,l a j 2
+lá,l aː 5
+lác,l aː k 5
+lách,l ɛ k 5
+lái,l aː j 5
+lán,l aː n 5
+láng,l aː ŋ 5
+lánh,l ɛ ŋ 5
+láo,l aː w 5
+láp,l aː p 5
+lát,l aː t 5
+láu,l a w 5
+láy,l a j 5
+lâng,l ə ŋ 1
+lây,l ə j 1
+lã,l aː 4
+lè,l ɛ 2
+lèm,l ɛ m 2
+lèn,l ɛ n 2
+lèo,l ɛ w 2
+lé,l ɛ 5
+lém,l ɛ m 5
+lén,l ɛ n 5
+léo,l ɛ w 5
+lép,l ɛ p 5
+lét,l ɛ t 5
+lên,l e n 1
+lênh,l e ŋ 1
+lêu,l e w 1
+lì,l i 2
+lìa,l iə 2
+lìm,l i m 2
+lìn,l i n 2
+lình,l i ŋ 2
+lìu,l i w 2
+lía,l iə 5
+líc,l i k 5
+lính,l i ŋ 5
+líp,l i p 5
+lít,l i t 5
+líu,l i w 5
+lò,l ɔ 2
+lòi,l ɔ j 2
+lòm,l ɔ m 2
+lòn,l ɔ n 2
+lòng,l ɔ ŋ 2
+ló,l ɔ 5
+lóc,l ɔ k 5
+lói,l ɔ j 5
+lóm,l ɔ m 5
+lóng,l ɔ ŋ 5
+lóp,l ɔ p 5
+lót,l ɔ t 5
+lôm,l o m 1
+lõ,l ɔ 4
+lõi,l ɔ j 4
+lõm,l ɔ m 4
+lõng,l ɔ ŋ 4
+lù,l u 2
+lùa,l uə 2
+lùi,l u j 2
+lùm,l u m 2
+lùn,l u n 2
+lùng,l u ŋ 2
+lú,l u 5
+lúa,l uə 5
+lúc,l u k 5
+lúi,l u j 5
+lúm,l u m 5
+lún,l u n 5
+lúng,l u ŋ 5
+lúp,l u p 5
+lút,l u t 5
+lĩ,l i 4
+lơ,l əː 1
+lạ,l aː 6
+lả,l aː 3
+lẹ,l ɛ 6
+lẻ,l ɛ 3
+lẽ,l ɛ 4
+lế,l e 5
+lề,l e 2
+lể,l e 3
+lỉ,l i 3
+lọ,l ɔ 6
+lố,l o 5
+lồ,l o 2
+lổ,l o 3
+lớ,l əː 5
+lờ,l əː 2
+lở,l əː 3
+lỡ,l əː 4
+lợ,l əː 6
+lụ,l u 6
+lủ,l u 3
+lừ,l ɨ 2
+lử,l ɨ 3
+lũa,l uə 4
+lưa,l ɨə 1
+lịa,l iə 6
+lụa,l uə 6
+lủa,l uə 3
+lứa,l ɨə 5
+lừa,l ɨə 2
+lửa,l ɨə 3
+lữa,l ɨə 4
+lựa,l ɨə 6
+lấc,l ə k 5
+lắc,l a k 5
+lọc,l ɔ k 6
+lốc,l o k 5
+lức,l ɨ k 5
+lạch,l ɛ k 6
+lếch,l e k 5
+lệch,l e k 6
+lơi,l əː j 1
+lải,l aː j 3
+lọi,l ɔ j 6
+lỏi,l ɔ j 3
+lối,l o j 5
+lồi,l o j 2
+lội,l o j 6
+lới,l əː j 5
+lời,l əː j 2
+lởi,l əː j 3
+lỡi,l əː j 4
+lủi,l u j 3
+lăm,l a m 1
+lũm,l u m 4
+lảm,l aː m 3
+lầm,l ə m 2
+lẩm,l ə m 3
+lậm,l ə m 6
+lắm,l a m 5
+lằm,l a m 2
+lẳm,l a m 3
+lặm,l a m 6
+lẹm,l ɛ m 6
+lẻm,l ɛ m 3
+lỉm,l i m 3
+lịm,l i m 6
+lọm,l ɔ m 6
+lỏm,l ɔ m 3
+lốm,l o m 5
+lồm,l o m 2
+lổm,l o m 3
+lỗm,l o m 4
+lộm,l o m 6
+lớm,l əː m 5
+lờm,l əː m 2
+lởm,l əː m 3
+lỡm,l əː m 4
+lợm,l əː m 6
+lụm,l u m 6
+lủm,l u m 3
+lăn,l a n 1
+lũn,l u n 4
+lơn,l əː n 1
+lưn,l ɨ n 1
+lản,l aː n 3
+lần,l ə n 2
+lẩn,l ə n 3
+lẫn,l ə n 4
+lằn,l a n 2
+lẳn,l a n 3
+lặn,l a n 6
+lẹn,l ɛ n 6
+lẻn,l ɛ n 3
+lẽn,l ɛ n 4
+lến,l e n 5
+lền,l e n 2
+lọn,l ɔ n 6
+lỏn,l ɔ n 3
+lốn,l o n 5
+lồn,l o n 2
+lổn,l o n 3
+lộn,l o n 6
+lớn,l əː n 5
+lờn,l əː n 2
+lởn,l əː n 3
+lợn,l əː n 6
+lụn,l u n 6
+lủn,l u n 3
+lưng,l ɨ ŋ 1
+lạng,l aː ŋ 6
+lảng,l aː ŋ 3
+lắng,l a ŋ 5
+lằng,l a ŋ 2
+lẳng,l a ŋ 3
+lẵng,l a ŋ 4
+lặng,l a ŋ 6
+lẻng,l ɛ ŋ 3
+lọng,l ɔ ŋ 6
+lỏng,l ɔ ŋ 3
+lống,l o ŋ 5
+lồng,l o ŋ 2
+lổng,l o ŋ 3
+lỗng,l o ŋ 4
+lụng,l u ŋ 6
+lủng,l u ŋ 3
+lừng,l ɨ ŋ 2
+lửng,l ɨ ŋ 3
+lững,l ɨ ŋ 4
+lựng,l ɨ ŋ 6
+lạnh,l ɛ ŋ 6
+lềnh,l e ŋ 2
+lỉnh,l i ŋ 3
+lịnh,l i ŋ 6
+lảo,l aː w 3
+lẹo,l ɛ w 6
+lẻo,l ɛ w 3
+lẽo,l ɛ w 4
+lấp,l ə p 5
+lắp,l a p 5
+lặp,l a p 6
+lẹp,l ɛ p 6
+lếp,l e p 5
+lọp,l ɔ p 6
+lốp,l o p 5
+lộp,l o p 6
+lớp,l əː p 5
+lợp,l əː p 6
+lụp,l u p 6
+lất,l ə t 5
+lắt,l a t 5
+lặt,l a t 6
+lẹt,l ɛ t 6
+lết,l e t 5
+lệt,l e t 6
+lọt,l ɔ t 6
+lốt,l o t 5
+lột,l o t 6
+lớt,l əː t 5
+lợt,l əː t 6
+lụt,l u t 6
+lứt,l ɨ t 5
+lạu,l a w 6
+lảu,l a w 3
+lấu,l ə w 5
+lầu,l ə w 2
+lẩu,l ə w 3
+lếu,l e w 5
+lều,l e w 2
+lểu,l e w 3
+lễu,l e w 4
+lỉu,l i w 3
+lịu,l i w 6
+lừu,l ɨ w 2
+lạy,l a j 6
+lảy,l a j 3
+lấy,l ə j 5
+lầy,l ə j 2
+lẩy,l ə j 3
+lẫy,l ə j 4
+lậy,l ə j 6
+lưới,l ɨə j 5
+lười,l ɨə j 2
+lưởi,l ɨə j 3
+lưỡi,l ɨə j 4
+lươm,l ɨə m 1
+lườm,l ɨə m 2
+lượm,l ɨə m 6
+lươn,l ɨə n 1
+lườn,l ɨə n 2
+lượn,l ɨə n 6
+lướng,l ɨə ŋ 5
+lường,l ɨə ŋ 2
+lưởng,l ɨə ŋ 3
+lướp,l ɨə p 5
+lướt,l ɨə t 5
+lượt,l ɨə t 6
+lướu,l ɨə w 5
+mam,m aː m 1
+mau,m a w 1
+may,m a j 1
+me,m ɛ 1
+mem,m ɛ m 1
+men,m ɛ n 1
+meo,m ɛ w 1
+mia,m iə 1
+mim,m i m 1
+min,m i n 1
+miu,m i w 1
+miêng,m iə ŋ 1
+miền,m iə n 2
+miếng,m iə ŋ 5
+miềng,m iə ŋ 2
+miểng,m iə ŋ 3
+miệng,m iə ŋ 6
+miều,m iə w 2
+mo,m ɔ 1
+moa,m w aː 1
+moan,m w aː n 1
+moay,m w a j 1
+moi,m ɔ j 1
+mom,m ɔ m 1
+mon,m ɔ n 1
+mong,m ɔ ŋ 1
+mu,m u 1
+mua,m uə 1
+mui,m u j 1
+mum,m u m 1
+mun,m u n 1
+mung,m u ŋ 1
+muy,m w i 1
+muya,m w iə 1
+muôi,m uə j 1
+muôn,m uə n 1
+muông,m uə ŋ 1
+muých,m w i k 5
+muối,m uə j 5
+muồi,m uə j 2
+muổi,m uə j 3
+muỗi,m uə j 4
+muồm,m uə m 2
+muỗm,m uə m 4
+muốn,m uə n 5
+muống,m uə ŋ 5
+muồng,m uə ŋ 2
+muỗng,m uə ŋ 4
+muốt,m uə t 5
+mà,m aː 2
+mài,m aː j 2
+màn,m aː n 2
+màng,m aː ŋ 2
+mành,m ɛ ŋ 2
+mào,m aː w 2
+màu,m a w 2
+mày,m a j 2
+mác,m aː k 5
+mách,m ɛ k 5
+mái,m aː j 5
+mám,m aː m 5
+mán,m aː n 5
+máng,m aː ŋ 5
+mánh,m ɛ ŋ 5
+máo,m aː w 5
+mát,m aː t 5
+máu,m a w 5
+máy,m a j 5
+mâm,m ə m 1
+mâng,m ə ŋ 1
+mây,m ə j 1
+mè,m ɛ 2
+mèm,m ɛ m 2
+mèn,m ɛ n 2
+mèo,m ɛ w 2
+mé,m ɛ 5
+mém,m ɛ m 5
+mén,m ɛ n 5
+méo,m ɛ w 5
+mép,m ɛ p 5
+mét,m ɛ t 5
+mênh,m e ŋ 1
+mì,m i 2
+mìn,m i n 2
+mình,m i ŋ 2
+mìu,m i w 2
+mí,m i 5
+mía,m iə 5
+mích,m i k 5
+mím,m i m 5
+mín,m i n 5
+míp,m i p 5
+mít,m i t 5
+míu,m i w 5
+mò,m ɔ 2
+mòi,m ɔ j 2
+mòm,m ɔ m 2
+mòn,m ɔ n 2
+mòng,m ɔ ŋ 2
+mó,m ɔ 5
+móc,m ɔ k 5
+mói,m ɔ j 5
+móm,m ɔ m 5
+món,m ɔ n 5
+móng,m ɔ ŋ 5
+móp,m ɔ p 5
+mót,m ɔ t 5
+môm,m o m 1
+mõ,m ɔ 4
+mõi,m ɔ j 4
+mõm,m ɔ m 4
+mù,m u 2
+mùa,m uə 2
+mùi,m u j 2
+mùn,m u n 2
+mùng,m u ŋ 2
+mú,m u 5
+múa,m uə 5
+múc,m u k 5
+múi,m u j 5
+múm,m u m 5
+mún,m u n 5
+múp,m u p 5
+mút,m u t 5
+mũ,m u 4
+mơ,m əː 1
+mả,m aː 3
+mẹ,m ɛ 6
+mẻ,m ɛ 3
+mẽ,m ɛ 4
+mế,m e 5
+mề,m e 2
+mể,m e 3
+mỉ,m i 3
+mọ,m ɔ 6
+mỏ,m ɔ 3
+mố,m o 5
+mồ,m o 2
+mổ,m o 3
+mớ,m əː 5
+mờ,m əː 2
+mở,m əː 3
+mỡ,m əː 4
+mợ,m əː 6
+mụ,m u 6
+mủ,m u 3
+mứ,m ɨ 5
+mừ,m ɨ 2
+mự,m ɨ 6
+mưa,m ɨə 1
+mỉa,m iə 3
+mứa,m ɨə 5
+mửa,m ɨə 3
+mựa,m ɨə 6
+mắc,m a k 5
+mọc,m ɔ k 6
+mốc,m o k 5
+mức,m ɨ k 5
+mực,m ɨ k 6
+mếch,m e k 5
+mũi,m u j 4
+mơi,m əː j 1
+mải,m aː j 3
+mọi,m ɔ j 6
+mỏi,m ɔ j 3
+mối,m o j 5
+mồi,m o j 2
+mới,m əː j 5
+mời,m əː j 2
+mởi,m əː j 3
+mợi,m əː j 6
+mụi,m u j 6
+mủi,m u j 3
+măm,m a m 1
+mĩm,m i m 4
+mũm,m u m 4
+mầm,m ə m 2
+mẩm,m ə m 3
+mẫm,m ə m 4
+mậm,m ə m 6
+mắm,m a m 5
+mẵm,m a m 4
+mềm,m e m 2
+mỉm,m i m 3
+mỏm,m ɔ m 3
+mồm,m o m 2
+mớm,m əː m 5
+mờm,m əː m 2
+mủm,m u m 3
+măn,m a n 1
+mơn,m əː n 1
+mản,m aː n 3
+mấn,m ə n 5
+mần,m ə n 2
+mẩn,m ə n 3
+mận,m ə n 6
+mắn,m a n 5
+mằn,m a n 2
+mẳn,m a n 3
+mặn,m a n 6
+mến,m e n 5
+mền,m e n 2
+mịn,m i n 6
+mọn,m ɔ n 6
+mốn,m o n 5
+mồn,m o n 2
+mớn,m əː n 5
+mởn,m əː n 3
+mụn,m u n 6
+mủn,m u n 3
+mứn,m ɨ n 5
+mưng,m ɨ ŋ 1
+mạng,m aː ŋ 6
+mảng,m aː ŋ 3
+mầng,m ə ŋ 2
+mắng,m a ŋ 5
+mằng,m a ŋ 2
+mọng,m ɔ ŋ 6
+mỏng,m ɔ ŋ 3
+mống,m o ŋ 5
+mồng,m o ŋ 2
+mổng,m o ŋ 3
+mủng,m u ŋ 3
+mừng,m ɨ ŋ 2
+mửng,m ɨ ŋ 3
+mựng,m ɨ ŋ 6
+mảnh,m ɛ ŋ 3
+mềnh,m e ŋ 2
+mịnh,m i ŋ 6
+mảo,m aː w 3
+mẹo,m ɛ w 6
+mẻo,m ɛ w 3
+mạp,m aː p 6
+mấp,m ə p 5
+mập,m ə p 6
+mẹp,m ɛ p 6
+mọp,m ɔ p 6
+mớp,m əː p 5
+mụp,m u p 6
+mất,m ə t 5
+mắt,m a t 5
+mặt,m a t 6
+mẹt,m ɛ t 6
+mết,m e t 5
+mệt,m e t 6
+mịt,m i t 6
+mọt,m ɔ t 6
+mốt,m o t 5
+mụt,m u t 6
+mứt,m ɨ t 5
+mấu,m ə w 5
+mầu,m ə w 2
+mẩu,m ə w 3
+mếu,m e w 5
+mỉu,m i w 3
+mứu,m ɨ w 5
+mừu,m ɨ w 2
+mạy,m a j 6
+mảy,m a j 3
+mấy,m ə j 5
+mầy,m ə j 2
+mẩy,m ə j 3
+mậy,m ə j 6
+mược,m ɨə k 6
+mươi,m ɨə j 1
+mười,m ɨə j 2
+mưởi,m ɨə j 3
+mươn,m ɨə n 1
+mướn,m ɨə n 5
+mườn,m ɨə n 2
+mượn,m ɨə n 6
+mương,m ɨə ŋ 1
+mường,m ɨə ŋ 2
+mướp,m ɨə p 5
+mướt,m ɨə t 5
+mượt,m ɨə t 6
+mưỡu,m ɨə w 4
+nai,n aː j 1
+nau,n a w 1
+nay,n a j 1
+ne,n ɛ 1
+nem,n ɛ m 1
+nen,n ɛ n 1
+neo,n ɛ w 1
+ngam,ŋ aː m 1
+nganh,ŋ ɛ ŋ 1
+ngau,ŋ a w 1
+ngay,ŋ a j 1
+nghe,ŋ ɛ 1
+nghen,ŋ ɛ n 1
+ngheo,ŋ ɛ w 1
+nghia,ŋ iə 1
+nghim,ŋ i m 1
+nghin,ŋ i n 1
+nghinh,ŋ i ŋ 1
+nghiu,ŋ i w 1
+nghiêng,ŋ iə ŋ 1
+nghiến,ŋ iə n 5
+nghiền,ŋ iə n 2
+nghè,ŋ ɛ 2
+nghèn,ŋ ɛ n 2
+nghèo,ŋ ɛ w 2
+nghé,ŋ ɛ 5
+nghén,ŋ ɛ n 5
+nghéo,ŋ ɛ w 5
+nghép,ŋ ɛ p 5
+nghét,ŋ ɛ t 5
+nghêu,ŋ e w 1
+nghì,ŋ i 2
+nghìn,ŋ i n 2
+nghí,ŋ i 5
+nghía,ŋ iə 5
+nghín,ŋ i n 5
+nghít,ŋ i t 5
+nghẹ,ŋ ɛ 6
+nghẻ,ŋ ɛ 3
+nghế,ŋ e 5
+nghề,ŋ e 2
+nghể,ŋ e 3
+nghỉ,ŋ i 3
+nghếch,ŋ e k 5
+nghệch,ŋ e k 6
+nghệm,ŋ e m 6
+nghỉm,ŋ i m 3
+nghẹn,ŋ ɛ n 6
+nghẻn,ŋ ɛ n 3
+nghẽn,ŋ ɛ n 4
+nghến,ŋ e n 5
+nghền,ŋ e n 2
+nghển,ŋ e n 3
+nghện,ŋ e n 6
+nghỉn,ŋ i n 3
+nghĩnh,ŋ i ŋ 4
+nghềnh,ŋ e ŋ 2
+nghểnh,ŋ e ŋ 3
+nghễnh,ŋ e ŋ 4
+nghỉnh,ŋ i ŋ 3
+nghẹo,ŋ ɛ w 6
+nghẻo,ŋ ɛ w 3
+nghẽo,ŋ ɛ w 4
+nghệp,ŋ e p 6
+nghẹt,ŋ ɛ t 6
+nghệt,ŋ e t 6
+nghịt,ŋ i t 6
+nghều,ŋ e w 2
+nghểu,ŋ e w 3
+nghễu,ŋ e w 4
+nghệu,ŋ e w 6
+nghỉu,ŋ i w 3
+nghịu,ŋ i w 6
+ngo,ŋ ɔ 1
+ngoai,ŋ w aː j 1
+ngoam,ŋ w aː m 1
+ngoang,ŋ w aː ŋ 1
+ngoao,ŋ w a w 1
+ngoay,ŋ w a j 1
+ngoe,ŋ w ɛ 1
+ngoem,ŋ w ɛ m 1
+ngoen,ŋ w ɛ n 1
+ngoeo,ŋ w ɛ w 1
+ngoi,ŋ ɔ j 1
+ngon,ŋ ɔ n 1
+ngong,ŋ ɔ ŋ 1
+ngoài,ŋ w aː j 2
+ngoàm,ŋ w aː m 2
+ngoác,ŋ w aː k 5
+ngoách,ŋ w ɛ k 5
+ngoái,ŋ w aː j 5
+ngoáo,ŋ w a w 5
+ngoáp,ŋ w aː p 5
+ngoáy,ŋ w a j 5
+ngoãn,ŋ w aː n 4
+ngoèo,ŋ w ɛ w 2
+ngoé,ŋ w ɛ 5
+ngoém,ŋ w ɛ m 5
+ngoén,ŋ w ɛ n 5
+ngoéo,ŋ w ɛ w 5
+ngoét,ŋ w ɛ t 5
+ngoạc,ŋ w aː k 6
+ngoắc,ŋ w a k 5
+ngoặc,ŋ w a k 6
+ngoạch,ŋ w ɛ k 6
+ngoải,ŋ w aː j 3
+ngoạm,ŋ w aː m 6
+ngoảm,ŋ w aː m 3
+ngoẻm,ŋ w ɛ m 3
+ngoăn,ŋ w a n 1
+ngoằn,ŋ w a n 2
+ngoẳn,ŋ w a n 3
+ngoẻn,ŋ w ɛ n 3
+ngoăng,ŋ w a ŋ 1
+ngoảng,ŋ w aː ŋ 3
+ngoằng,ŋ w a ŋ 2
+ngoẳng,ŋ w a ŋ 3
+ngoẵng,ŋ w a ŋ 4
+ngoảnh,ŋ w ɛ ŋ 3
+ngoẹo,ŋ w ɛ w 6
+ngoẻo,ŋ w ɛ w 3
+ngoạp,ŋ w aː p 6
+ngoắt,ŋ w a t 5
+ngoặt,ŋ w a t 6
+ngoạy,ŋ w a j 6
+ngoảy,ŋ w a j 3
+ngum,ŋ u m 1
+ngun,ŋ u n 1
+nguyến,ŋ w iə n 5
+nguyền,ŋ w iə n 2
+nguyển,ŋ w iə n 3
+nguây,ŋ w ə j 1
+nguôi,ŋ uə j 1
+nguých,ŋ w i k 5
+nguýt,ŋ w i t 5
+nguỳ,ŋ w i 2
+nguỵ,ŋ w i 6
+nguếch,ŋ w e k 5
+nguệch,ŋ w e k 6
+nguồi,ŋ uə j 2
+nguội,ŋ uə j 6
+nguốn,ŋ uə n 5
+nguồn,ŋ uə n 2
+nguỷu,ŋ w i w 3
+nguầy,ŋ w ə j 2
+nguẩy,ŋ w ə j 3
+nguậy,ŋ w ə j 6
+ngà,ŋ aː 2
+ngài,ŋ aː j 2
+ngàm,ŋ aː m 2
+ngàn,ŋ aː n 2
+ngàng,ŋ aː ŋ 2
+ngành,ŋ ɛ ŋ 2
+ngào,ŋ aː w 2
+ngàu,ŋ a w 2
+ngày,ŋ a j 2
+ngác,ŋ aː k 5
+ngách,ŋ ɛ k 5
+ngái,ŋ aː j 5
+ngám,ŋ aː m 5
+ngán,ŋ aː n 5
+ngáng,ŋ aː ŋ 5
+ngánh,ŋ ɛ ŋ 5
+ngáo,ŋ aː w 5
+ngáp,ŋ aː p 5
+ngát,ŋ aː t 5
+ngáu,ŋ a w 5
+ngáy,ŋ a j 5
+ngâu,ŋ ə w 1
+ngây,ŋ ə j 1
+ngãng,ŋ aː ŋ 4
+ngão,ŋ aː w 4
+ngò,ŋ ɔ 2
+ngòi,ŋ ɔ j 2
+ngòm,ŋ ɔ m 2
+ngòn,ŋ ɔ n 2
+ngòng,ŋ ɔ ŋ 2
+ngó,ŋ ɔ 5
+ngóc,ŋ ɔ k 5
+ngói,ŋ ɔ j 5
+ngóm,ŋ ɔ m 5
+ngón,ŋ ɔ n 5
+ngóng,ŋ ɔ ŋ 5
+ngóp,ŋ ɔ p 5
+ngót,ŋ ɔ t 5
+ngông,ŋ o ŋ 1
+ngõ,ŋ ɔ 4
+ngõi,ŋ ɔ j 4
+ngõng,ŋ ɔ ŋ 4
+ngù,ŋ u 2
+ngùi,ŋ u j 2
+ngùn,ŋ u n 2
+ngùng,ŋ u ŋ 2
+ngú,ŋ u 5
+ngúc,ŋ u k 5
+ngúm,ŋ u m 5
+ngún,ŋ u n 5
+ngúng,ŋ u ŋ 5
+ngút,ŋ u t 5
+ngơ,ŋ əː 1
+ngả,ŋ aː 3
+ngỏ,ŋ ɔ 3
+ngố,ŋ o 5
+ngồ,ŋ o 2
+ngổ,ŋ o 3
+ngớ,ŋ əː 5
+ngờ,ŋ əː 2
+ngỡ,ŋ əː 4
+ngợ,ŋ əː 6
+ngủ,ŋ u 3
+ngứ,ŋ ɨ 5
+ngừ,ŋ ɨ 2
+ngưa,ŋ ɨə 1
+ngụa,ŋ uə 6
+ngứa,ŋ ɨə 5
+ngừa,ŋ ɨə 2
+ngửa,ŋ ɨə 3
+ngữa,ŋ ɨə 4
+ngựa,ŋ ɨə 6
+ngấc,ŋ ə k 5
+ngắc,ŋ a k 5
+ngộc,ŋ o k 6
+ngơi,ŋ əː j 1
+ngồi,ŋ o j 2
+ngỗi,ŋ o j 4
+ngời,ŋ əː j 2
+ngởi,ŋ əː j 3
+ngỡi,ŋ əː j 4
+ngợi,ŋ əː j 6
+ngủi,ŋ u j 3
+ngửi,ŋ ɨ j 3
+ngăm,ŋ a m 1
+ngơm,ŋ əː m 1
+ngấm,ŋ ə m 5
+ngầm,ŋ ə m 2
+ngẩm,ŋ ə m 3
+ngẫm,ŋ ə m 4
+ngậm,ŋ ə m 6
+ngắm,ŋ a m 5
+ngỏm,ŋ ɔ m 3
+ngồm,ŋ o m 2
+ngổm,ŋ o m 3
+ngờm,ŋ əː m 2
+ngợm,ŋ əː m 6
+ngụm,ŋ u m 6
+ngủm,ŋ u m 3
+ngừm,ŋ ɨ m 2
+ngăn,ŋ a n 1
+ngũn,ŋ u n 4
+ngơn,ŋ əː n 1
+ngấn,ŋ ə n 5
+ngần,ŋ ə n 2
+ngẩn,ŋ ə n 3
+ngẫn,ŋ ə n 4
+ngắn,ŋ a n 5
+ngằn,ŋ a n 2
+ngẳn,ŋ a n 3
+ngọn,ŋ ɔ n 6
+ngỏn,ŋ ɔ n 3
+ngốn,ŋ o n 5
+ngồn,ŋ o n 2
+ngổn,ŋ o n 3
+ngỗn,ŋ o n 4
+ngớn,ŋ əː n 5
+ngởn,ŋ əː n 3
+ngỡn,ŋ əː n 4
+ngủn,ŋ u n 3
+ngũng,ŋ u ŋ 4
+ngảng,ŋ aː ŋ 3
+ngẩng,ŋ ə ŋ 3
+ngẳng,ŋ a ŋ 3
+ngẵng,ŋ a ŋ 4
+ngọng,ŋ ɔ ŋ 6
+ngỏng,ŋ ɔ ŋ 3
+ngồng,ŋ o ŋ 2
+ngổng,ŋ o ŋ 3
+ngỗng,ŋ o ŋ 4
+ngủng,ŋ u ŋ 3
+ngứng,ŋ ɨ ŋ 5
+ngừng,ŋ ɨ ŋ 2
+ngửng,ŋ ɨ ŋ 3
+ngảnh,ŋ ɛ ŋ 3
+ngảo,ŋ aː w 3
+ngấp,ŋ ə p 5
+ngộp,ŋ o p 6
+ngớp,ŋ əː p 5
+ngợp,ŋ əː p 6
+ngụp,ŋ u p 6
+ngất,ŋ ə t 5
+ngắt,ŋ a t 5
+ngặt,ŋ a t 6
+ngọt,ŋ ɔ t 6
+ngốt,ŋ o t 5
+ngớt,ŋ əː t 5
+ngụt,ŋ u t 6
+ngứt,ŋ ɨ t 5
+ngấu,ŋ ə w 5
+ngầu,ŋ ə w 2
+ngậu,ŋ ə w 6
+ngựu,ŋ ɨ w 6
+ngấy,ŋ ə j 5
+ngầy,ŋ ə j 2
+ngẩy,ŋ ə j 3
+ngậy,ŋ ə j 6
+ngước,ŋ ɨə k 5
+ngươi,ŋ ɨə j 1
+ngưới,ŋ ɨə j 5
+người,ŋ ɨə j 2
+ngưởi,ŋ ɨə j 3
+ngượi,ŋ ɨə j 6
+ngườm,ŋ ɨə m 2
+ngươn,ŋ ɨə n 1
+ngường,ŋ ɨə ŋ 2
+ngưởng,ŋ ɨə ŋ 3
+ngượng,ŋ ɨə ŋ 6
+nhang,ɲ aː ŋ 1
+nhanh,ɲ ɛ ŋ 1
+nhao,ɲ aː w 1
+nhau,ɲ a w 1
+nhay,ɲ a j 1
+nhe,ɲ ɛ 1
+nhem,ɲ ɛ m 1
+nhen,ɲ ɛ n 1
+nheo,ɲ ɛ w 1
+nhia,ɲ iə 1
+nhim,ɲ i m 1
+nhin,ɲ i n 1
+nhinh,ɲ i ŋ 1
+nhiu,ɲ i w 1
+nhiếc,ɲ iə k 5
+nhiềm,ɲ iə m 2
+nhiểm,ɲ iə m 3
+nhiệm,ɲ iə m 6
+nhiền,ɲ iə n 2
+nhiển,ɲ iə n 3
+nhiện,ɲ iə n 6
+nhiệp,ɲ iə p 6
+nhiếu,ɲ iə w 5
+nhiều,ɲ iə w 2
+nhiểu,ɲ iə w 3
+nhiệu,ɲ iə w 6
+nhoai,ɲ w aː j 1
+nhoang,ɲ w aː ŋ 1
+nhoay,ɲ w a j 1
+nhoe,ɲ w ɛ 1
+nhoen,ɲ w ɛ n 1
+nhoi,ɲ ɔ j 1
+nhom,ɲ ɔ m 1
+nhon,ɲ ɔ n 1
+nhong,ɲ ɔ ŋ 1
+nhoà,ɲ w aː 2
+nhoài,ɲ w aː j 2
+nhoàm,ɲ w aː m 2
+nhoàng,ɲ w aː ŋ 2
+nhoá,ɲ w aː 5
+nhoáng,ɲ w aː ŋ 5
+nhoáy,ɲ w a j 5
+nhoè,ɲ w ɛ 2
+nhoèn,ɲ w ɛ n 2
+nhoé,ɲ w ɛ 5
+nhoét,ɲ w ɛ t 5
+nhoạm,ɲ w aː m 6
+nhoẻn,ɲ w ɛ n 3
+nhoạng,ɲ w aː ŋ 6
+nhoằng,ɲ w a ŋ 2
+nhoẹt,ɲ w ɛ t 6
+nhui,ɲ u j 1
+nhum,ɲ u m 1
+nhun,ɲ u n 1
+nhuân,ɲ w ə n 1
+nhuôm,ɲ uə m 1
+nhuệ,ɲ w e 6
+nhuỵ,ɲ w i 6
+nhuốc,ɲ uə k 5
+nhuốm,ɲ uə m 5
+nhuộm,ɲ uə m 6
+nhuần,ɲ w ə n 2
+nhuồn,ɲ uə n 2
+nhuật,ɲ w ə t 6
+nhà,ɲ aː 2
+nhài,ɲ aː j 2
+nhàm,ɲ aː m 2
+nhàng,ɲ aː ŋ 2
+nhành,ɲ ɛ ŋ 2
+nhào,ɲ aː w 2
+nhàu,ɲ a w 2
+nhày,ɲ a j 2
+nhá,ɲ aː 5
+nhác,ɲ aː k 5
+nhách,ɲ ɛ k 5
+nhái,ɲ aː j 5
+nhám,ɲ aː m 5
+nháng,ɲ aː ŋ 5
+nhánh,ɲ ɛ ŋ 5
+nháo,ɲ aː w 5
+nháp,ɲ aː p 5
+nhát,ɲ aː t 5
+nháu,ɲ a w 5
+nháy,ɲ a j 5
+nhâng,ɲ ə ŋ 1
+nhâu,ɲ ə w 1
+nhây,ɲ ə j 1
+nhãi,ɲ aː j 4
+nhãng,ɲ aː ŋ 4
+nhão,ɲ aː w 4
+nhè,ɲ ɛ 2
+nhèm,ɲ ɛ m 2
+nhèn,ɲ ɛ n 2
+nhèo,ɲ ɛ w 2
+nhé,ɲ ɛ 5
+nhém,ɲ ɛ m 5
+nhén,ɲ ɛ n 5
+nhéo,ɲ ɛ w 5
+nhép,ɲ ɛ p 5
+nhét,ɲ ɛ t 5
+nhê,ɲ e 1
+nhênh,ɲ e ŋ 1
+nhì,ɲ i 2
+nhìa,ɲ iə 2
+nhìn,ɲ i n 2
+nhìu,ɲ i w 2
+nhí,ɲ i 5
+nhía,ɲ iə 5
+nhích,ɲ i k 5
+nhím,ɲ i m 5
+nhín,ɲ i n 5
+nhính,ɲ i ŋ 5
+nhíp,ɲ i p 5
+nhít,ɲ i t 5
+nhíu,ɲ i w 5
+nhò,ɲ ɔ 2
+nhòm,ɲ ɔ m 2
+nhòng,ɲ ɔ ŋ 2
+nhó,ɲ ɔ 5
+nhóc,ɲ ɔ k 5
+nhói,ɲ ɔ j 5
+nhóm,ɲ ɔ m 5
+nhón,ɲ ɔ n 5
+nhóng,ɲ ɔ ŋ 5
+nhóp,ɲ ɔ p 5
+nhót,ɲ ɔ t 5
+nhô,ɲ o 1
+nhôi,ɲ o j 1
+nhôm,ɲ o m 1
+nhôn,ɲ o n 1
+nhông,ɲ o ŋ 1
+nhõ,ɲ ɔ 4
+nhõi,ɲ ɔ j 4
+nhõm,ɲ ɔ m 4
+nhõn,ɲ ɔ n 4
+nhõng,ɲ ɔ ŋ 4
+nhù,ɲ u 2
+nhùi,ɲ u j 2
+nhùn,ɲ u n 2
+nhùng,ɲ u ŋ 2
+nhú,ɲ u 5
+nhúa,ɲ uə 5
+nhúc,ɲ u k 5
+nhúi,ɲ u j 5
+nhúm,ɲ u m 5
+nhún,ɲ u n 5
+nhúng,ɲ u ŋ 5
+nhúp,ɲ u p 5
+nhút,ɲ u t 5
+nhơ,ɲ əː 1
+nhả,ɲ aː 3
+nhẹ,ɲ ɛ 6
+nhẻ,ɲ ɛ 3
+nhẽ,ɲ ɛ 4
+nhể,ɲ e 3
+nhễ,ɲ e 4
+nhỉ,ɲ i 3
+nhọ,ɲ ɔ 6
+nhỏ,ɲ ɔ 3
+nhố,ɲ o 5
+nhổ,ɲ o 3
+nhớ,ɲ əː 5
+nhờ,ɲ əː 2
+nhở,ɲ əː 3
+nhỡ,ɲ əː 4
+nhợ,ɲ əː 6
+nhủ,ɲ u 3
+nhừ,ɲ ɨ 2
+nhử,ɲ ɨ 3
+nhịa,ɲ iə 6
+nhụa,ɲ uə 6
+nhựa,ɲ ɨə 6
+nhấc,ɲ ə k 5
+nhắc,ɲ a k 5
+nhọc,ɲ ɔ k 6
+nhốc,ɲ o k 5
+nhức,ɲ ɨ k 5
+nhếch,ɲ e k 5
+nhệch,ɲ e k 6
+nhơi,ɲ əː j 1
+nhại,ɲ aː j 6
+nhải,ɲ aː j 3
+nhối,ɲ o j 5
+nhồi,ɲ o j 2
+nhội,ɲ o j 6
+nhời,ɲ əː j 2
+nhởi,ɲ əː j 3
+nhợi,ɲ əː j 6
+nhủi,ɲ u j 3
+nhăm,ɲ a m 1
+nhơm,ɲ əː m 1
+nhảm,ɲ aː m 3
+nhấm,ɲ ə m 5
+nhầm,ɲ ə m 2
+nhẩm,ɲ ə m 3
+nhắm,ɲ a m 5
+nhằm,ɲ a m 2
+nhặm,ɲ a m 6
+nhẹm,ɲ ɛ m 6
+nhẻm,ɲ ɛ m 3
+nhỏm,ɲ ɔ m 3
+nhốm,ɲ o m 5
+nhồm,ɲ o m 2
+nhổm,ɲ o m 3
+nhớm,ɲ əː m 5
+nhờm,ɲ əː m 2
+nhăn,ɲ a n 1
+nhũn,ɲ u n 4
+nhơn,ɲ əː n 1
+nhưn,ɲ ɨ n 1
+nhản,ɲ aː n 3
+nhấn,ɲ ə n 5
+nhần,ɲ ə n 2
+nhẩn,ɲ ə n 3
+nhắn,ɲ a n 5
+nhằn,ɲ a n 2
+nhẳn,ɲ a n 3
+nhẵn,ɲ a n 4
+nhặn,ɲ a n 6
+nhẹn,ɲ ɛ n 6
+nhền,ɲ e n 2
+nhện,ɲ e n 6
+nhịn,ɲ i n 6
+nhọn,ɲ ɔ n 6
+nhỏn,ɲ ɔ n 3
+nhốn,ɲ o n 5
+nhồn,ɲ o n 2
+nhổn,ɲ o n 3
+nhộn,ɲ o n 6
+nhớn,ɲ əː n 5
+nhờn,ɲ əː n 2
+nhởn,ɲ əː n 3
+nhỡn,ɲ əː n 4
+nhợn,ɲ əː n 6
+nhủn,ɲ u n 3
+nhăng,ɲ a ŋ 1
+nhạng,ɲ aː ŋ 6
+nhắng,ɲ a ŋ 5
+nhằng,ɲ a ŋ 2
+nhẳng,ɲ a ŋ 3
+nhẵng,ɲ a ŋ 4
+nhặng,ɲ a ŋ 6
+nhỏng,ɲ ɔ ŋ 3
+nhồng,ɲ o ŋ 2
+nhổng,ɲ o ŋ 3
+nhộng,ɲ o ŋ 6
+nhụng,ɲ u ŋ 6
+nhủng,ɲ u ŋ 3
+nhứng,ɲ ɨ ŋ 5
+nhừng,ɲ ɨ ŋ 2
+nhửng,ɲ ɨ ŋ 3
+những,ɲ ɨ ŋ 4
+nhạnh,ɲ ɛ ŋ 6
+nhảnh,ɲ ɛ ŋ 3
+nhỉnh,ɲ i ŋ 3
+nhảo,ɲ aː w 3
+nhẹo,ɲ ɛ w 6
+nhẻo,ɲ ɛ w 3
+nhẽo,ɲ ɛ w 4
+nhạp,ɲ aː p 6
+nhấp,ɲ ə p 5
+nhắp,ɲ a p 5
+nhẹp,ɲ ɛ p 6
+nhịp,ɲ i p 6
+nhốp,ɲ o p 5
+nhộp,ɲ o p 6
+nhớp,ɲ əː p 5
+nhợp,ɲ əː p 6
+nhạt,ɲ aː t 6
+nhắt,ɲ a t 5
+nhặt,ɲ a t 6
+nhẹt,ɲ ɛ t 6
+nhịt,ɲ i t 6
+nhọt,ɲ ɔ t 6
+nhốt,ɲ o t 5
+nhột,ɲ o t 6
+nhớt,ɲ əː t 5
+nhợt,ɲ əː t 6
+nhụt,ɲ u t 6
+nhứt,ɲ ɨ t 5
+nhựt,ɲ ɨ t 6
+nhảu,ɲ a w 3
+nhầu,ɲ ə w 2
+nhẩu,ɲ ə w 3
+nhậu,ɲ ə w 6
+nhếu,ɲ e w 5
+nhều,ɲ e w 2
+nhểu,ɲ e w 3
+nhệu,ɲ e w 6
+nhỉu,ɲ i w 3
+nhịu,ɲ i w 6
+nhạy,ɲ a j 6
+nhảy,ɲ a j 3
+nhấy,ɲ ə j 5
+nhầy,ɲ ə j 2
+nhẩy,ɲ ə j 3
+nhẫy,ɲ ə j 4
+nhậy,ɲ ə j 6
+nhướn,ɲ ɨə n 5
+nhướng,ɲ ɨə ŋ 5
+nhường,ɲ ɨə ŋ 2
+nia,n iə 1
+nim,n i m 1
+nin,n i n 1
+niu,n i w 1
+niêng,n iə ŋ 1
+niêu,n iə w 1
+niềm,n iə m 2
+niền,n iə n 2
+niện,n iə n 6
+niềng,n iə ŋ 2
+niễng,n iə ŋ 4
+no,n ɔ 1
+noan,n w aː n 1
+noe,n w ɛ 1
+noi,n ɔ j 1
+nom,n ɔ m 1
+non,n ɔ n 1
+nong,n ɔ ŋ 1
+noé,n w ɛ 5
+nu,n u 1
+nua,n uə 1
+nui,n u j 1
+num,n u m 1
+nun,n u n 1
+nung,n u ŋ 1
+nuôi,n uə j 1
+nuôn,n uə n 1
+nuông,n uə ŋ 1
+nuýp,n w i p 5
+nuốc,n uə k 5
+nuộc,n uə k 6
+nuối,n uə j 5
+nuốm,n uə m 5
+nuốt,n uə t 5
+nuột,n uə t 6
+nà,n aː 2
+nài,n aː j 2
+nàn,n aː n 2
+nàng,n aː ŋ 2
+nành,n ɛ ŋ 2
+nào,n aː w 2
+nàu,n a w 2
+này,n a j 2
+ná,n aː 5
+nác,n aː k 5
+nách,n ɛ k 5
+nái,n aː j 5
+nám,n aː m 5
+nán,n aː n 5
+náng,n aː ŋ 5
+nánh,n ɛ ŋ 5
+náp,n aː p 5
+nát,n aː t 5
+náu,n a w 5
+náy,n a j 5
+nâm,n ə m 1
+nân,n ə n 1
+nâng,n ə ŋ 1
+nâu,n ə w 1
+nây,n ə j 1
+nã,n aː 4
+nãy,n a j 4
+nè,n ɛ 2
+nèn,n ɛ n 2
+nèo,n ɛ w 2
+né,n ɛ 5
+ném,n ɛ m 5
+nén,n ɛ n 5
+néo,n ɛ w 5
+nép,n ɛ p 5
+nét,n ɛ t 5
+nêm,n e m 1
+nên,n e n 1
+nênh,n e ŋ 1
+nêu,n e w 1
+nì,n i 2
+nình,n i ŋ 2
+ní,n i 5
+ních,n i k 5
+nín,n i n 5
+níp,n i p 5
+nít,n i t 5
+níu,n i w 5
+nò,n ɔ 2
+nòi,n ɔ j 2
+nòm,n ɔ m 2
+nòng,n ɔ ŋ 2
+nó,n ɔ 5
+nóc,n ɔ k 5
+nói,n ɔ j 5
+nón,n ɔ n 5
+nóng,n ɔ ŋ 5
+nóp,n ɔ p 5
+nót,n ɔ t 5
+nôi,n o j 1
+nôm,n o m 1
+nôn,n o n 1
+nõ,n ɔ 4
+nõn,n ɔ n 4
+nùa,n uə 2
+nùi,n u j 2
+nùn,n u n 2
+nú,n u 5
+núa,n uə 5
+núc,n u k 5
+núi,n u j 5
+núm,n u m 5
+núng,n u ŋ 5
+núp,n u p 5
+nút,n u t 5
+nơ,n əː 1
+nạ,n aː 6
+nả,n aː 3
+nẹ,n ɛ 6
+nẻ,n ɛ 3
+nề,n e 2
+nể,n e 3
+nệ,n e 6
+nọ,n ɔ 6
+nỏ,n ɔ 3
+nố,n o 5
+nồ,n o 2
+nổ,n o 3
+nớ,n əː 5
+nờ,n əː 2
+nở,n əː 3
+nỡ,n əː 4
+nợ,n əː 6
+nụ,n u 6
+nủ,n u 3
+nử,n ɨ 3
+nự,n ɨ 6
+nĩa,n iə 4
+nưa,n ɨə 1
+nủa,n uə 3
+nứa,n ɨə 5
+nửa,n ɨə 3
+nữa,n ɨə 4
+nạc,n aː k 6
+nấc,n ə k 5
+nắc,n a k 5
+nọc,n ɔ k 6
+nốc,n o k 5
+nức,n ɨ k 5
+nực,n ɨ k 6
+nơi,n əː j 1
+nải,n aː j 3
+nọi,n ɔ j 6
+nỏi,n ɔ j 3
+nối,n o j 5
+nồi,n o j 2
+nổi,n o j 3
+nới,n əː j 5
+nởi,n əː j 3
+năm,n a m 1
+nơm,n əː m 1
+nấm,n ə m 5
+nầm,n ə m 2
+nẫm,n ə m 4
+nậm,n ə m 6
+nắm,n a m 5
+nằm,n a m 2
+nặm,n a m 6
+nếm,n e m 5
+nệm,n e m 6
+nỏm,n ɔ m 3
+nồm,n o m 2
+nộm,n o m 6
+nờm,n əː m 2
+nỡm,n əː m 4
+năn,n a n 1
+nơn,n əː n 1
+nản,n aː n 3
+nấn,n ə n 5
+nần,n ə n 2
+nẫn,n ə n 4
+nắn,n a n 5
+nằn,n a n 2
+nặn,n a n 6
+nến,n e n 5
+nền,n e n 2
+nện,n e n 6
+nọn,n ɔ n 6
+nũng,n u ŋ 4
+nưng,n ɨ ŋ 1
+nạng,n aː ŋ 6
+nấng,n ə ŋ 5
+nẫng,n ə ŋ 4
+nậng,n ə ŋ 6
+nắng,n a ŋ 5
+nằng,n a ŋ 2
+nẳng,n a ŋ 3
+nặng,n a ŋ 6
+nọng,n ɔ ŋ 6
+nỏng,n ɔ ŋ 3
+nống,n o ŋ 5
+nồng,n o ŋ 2
+nổng,n o ŋ 3
+nỗng,n o ŋ 4
+nứng,n ɨ ŋ 5
+nừng,n ɨ ŋ 2
+nững,n ɨ ŋ 4
+nựng,n ɨ ŋ 6
+nạnh,n ɛ ŋ 6
+nếnh,n e ŋ 5
+nềnh,n e ŋ 2
+nảo,n aː w 3
+nẻo,n ɛ w 3
+nấp,n ə p 5
+nập,n ə p 6
+nắp,n a p 5
+nẹp,n ɛ p 6
+nếp,n e p 5
+nệp,n e p 6
+nốp,n o p 5
+nộp,n o p 6
+nớp,n əː p 5
+nợp,n əː p 6
+nạt,n aː t 6
+nẹt,n ɛ t 6
+nết,n e t 5
+nịt,n i t 6
+nọt,n ɔ t 6
+nốt,n o t 5
+nớt,n əː t 5
+nứt,n ɨ t 5
+nấu,n ə w 5
+nẩu,n ə w 3
+nẫu,n ə w 4
+nếu,n e w 5
+nịu,n i w 6
+nạy,n a j 6
+nảy,n a j 3
+nấy,n ə j 5
+nầy,n ə j 2
+nẩy,n ə j 3
+nẫy,n ə j 4
+nậy,n ə j 6
+nước,n ɨə k 5
+nược,n ɨə k 6
+nười,n ɨə j 2
+nườm,n ɨə m 2
+nướng,n ɨə ŋ 5
+nường,n ɨə ŋ 2
+nượp,n ɨə p 6
+nướu,n ɨə w 5
+o,ʔ ɔ 1
+oang,w aː ŋ 1
+oe,w ɛ 1
+oem,w ɛ m 1
+oeo,w ɛ w 1
+oi,ʔ ɔ j 1
+om,ʔ ɔ m 1
+on,ʔ ɔ n 1
+ong,ʔ ɔ ŋ 1
+oà,w aː 2
+oài,w aː j 2
+oàm,w aː m 2
+oàng,w aː ŋ 2
+oành,w ɛ ŋ 2
+oác,w aː k 5
+oáp,w aː p 5
+oèo,w ɛ w 2
+oé,w ɛ 5
+oét,w ɛ t 5
+oẹ,w ɛ 6
+oẻ,w ɛ 3
+oạc,w aː k 6
+oắc,w a k 5
+oạch,w ɛ k 6
+oại,w aː j 6
+oải,w aː j 3
+oăm,w a m 1
+oăn,w a n 1
+oằn,w a n 2
+oẳn,w a n 3
+oăng,w a ŋ 1
+oẳng,w a ŋ 3
+oạp,w aː p 6
+oắt,w a t 5
+oặt,w a t 6
+pa,p aː 1
+pai,p aː j 1
+pam,p aː m 1
+pan,p aː n 1
+pang,p aː ŋ 1
+panh,p ɛ ŋ 1
+pao,p aː w 1
+pau,p a w 1
+pay,p a j 1
+pe,p ɛ 1
+pen,p ɛ n 1
+peo,p ɛ w 1
+phai,f aː j 1
+pham,f aː m 1
+phang,f aː ŋ 1
+phau,f a w 1
+phay,f a j 1
+phe,f ɛ 1
+phen,f ɛ n 1
+pheo,f ɛ w 1
+phia,f iə 1
+phim,f i m 1
+phin,f i n 1
+phiu,f i w 1
+phiêng,f iə ŋ 1
+phiện,f iə n 6
+phiềng,f iə ŋ 2
+phiếp,f iə p 5
+phiểu,f iə w 3
+phiệu,f iə w 6
+pho,f ɔ 1
+phoanh,f w ɛ ŋ 1
+phoi,f ɔ j 1
+phom,f ɔ m 1
+phon,f ɔ n 1
+phui,f u j 1
+phum,f u m 1
+phung,f u ŋ 1
+phuy,f w i 1
+phuông,f uə ŋ 1
+phuộc,f uə k 6
+phà,f aː 2
+phài,f aː j 2
+phàng,f aː ŋ 2
+phành,f ɛ ŋ 2
+phào,f aː w 2
+phám,f aː m 5
+pháy,f a j 5
+phâm,f ə m 1
+phâng,f ə ŋ 1
+phâu,f ə w 1
+phây,f ə j 1
+phè,f ɛ 2
+phèn,f ɛ n 2
+phèo,f ɛ w 2
+phé,f ɛ 5
+phéng,f ɛ ŋ 5
+phéo,f ɛ w 5
+phép,f ɛ p 5
+phét,f ɛ t 5
+phên,f e n 1
+phênh,f e ŋ 1
+phêu,f e w 1
+phìa,f iə 2
+phìn,f i n 2
+phình,f i ŋ 2
+phía,f iə 5
+phím,f i m 5
+phính,f i ŋ 5
+phít,f i t 5
+phò,f ɔ 2
+phòi,f ɔ j 2
+phòm,f ɔ m 2
+phóc,f ɔ k 5
+phón,f ɔ n 5
+phóp,f ɔ p 5
+phót,f ɔ t 5
+phôm,f o m 1
+phông,f o ŋ 1
+phùa,f uə 2
+phùn,f u n 2
+phút,f u t 5
+phơ,f əː 1
+phư,f ɨ 1
+phề,f e 2
+phị,f i 6
+phọ,f ɔ 6
+phồ,f o 2
+phớ,f əː 5
+phờ,f əː 2
+phở,f əː 3
+phử,f ɨ 3
+phịa,f iə 6
+phứa,f ɨə 5
+phựa,f ɨə 6
+phạc,f aː k 6
+phắc,f a k 5
+phực,f ɨ k 6
+phạch,f ɛ k 6
+phếch,f e k 5
+phịch,f i k 6
+phơi,f əː j 1
+phải,f aː j 3
+phổi,f o j 3
+phới,f əː j 5
+phời,f əː j 2
+phủi,f u j 3
+phăm,f a m 1
+phảm,f aː m 3
+phấm,f ə m 5
+phầm,f ə m 2
+phậm,f ə m 6
+phỏm,f ɔ m 3
+phồm,f o m 2
+phăn,f a n 1
+phơn,f əː n 1
+phắn,f a n 5
+phến,f e n 5
+phễn,f e n 4
+phớn,f əː n 5
+phởn,f əː n 3
+phỡn,f əː n 4
+phừn,f ɨ n 2
+phăng,f a ŋ 1
+phưng,f ɨ ŋ 1
+phạng,f aː ŋ 6
+phẳng,f a ŋ 3
+phặng,f a ŋ 6
+phọng,f ɔ ŋ 6
+phồng,f o ŋ 2
+phổng,f o ŋ 3
+phỗng,f o ŋ 4
+phộng,f o ŋ 6
+phụng,f u ŋ 6
+phừng,f ɨ ŋ 2
+phĩnh,f i ŋ 4
+phềnh,f e ŋ 2
+phệnh,f e ŋ 6
+phỉnh,f i ŋ 3
+phạo,f aː w 6
+phảo,f aː w 3
+phấp,f ə p 5
+phập,f ə p 6
+phắp,f a p 5
+phọp,f ɔ p 6
+phốp,f o p 5
+phụp,f u p 6
+phắt,f a t 5
+phẹt,f ɛ t 6
+phết,f e t 5
+phệt,f e t 6
+phịt,f i t 6
+phọt,f ɔ t 6
+phốt,f o t 5
+phớt,f əː t 5
+phụt,f u t 6
+phứt,f ɨ t 5
+phựt,f ɨ t 6
+phẩu,f ə w 3
+phều,f e w 2
+phễu,f e w 4
+phệu,f e w 6
+phịu,f i w 6
+phảy,f a j 3
+phẩy,f ə j 3
+phước,f ɨə k 5
+phược,f ɨə k 6
+phươn,f ɨə n 1
+phướn,f ɨə n 5
+phưỡn,f ɨə n 4
+phướng,f ɨə ŋ 5
+phưỡng,f ɨə ŋ 4
+phượt,f ɨə t 6
+phượu,f ɨə w 6
+pi,p i 1
+pia,p iə 1
+pim,p i m 1
+pin,p i n 1
+piu,p i w 1
+piên,p iə n 1
+piêng,p iə ŋ 1
+piêu,p iə w 1
+piềng,p iə ŋ 2
+po,p ɔ 1
+poan,p w aː n 1
+poe,p w ɛ 1
+pom,p ɔ m 1
+pon,p ɔ n 1
+pong,p ɔ ŋ 1
+pu,p u 1
+pua,p uə 1
+pui,p u j 1
+pun,p u n 1
+pung,p u ŋ 1
+puốc,p uə k 5
+puộc,p uə k 6
+pà,p aː 2
+pài,p aː j 2
+pàn,p aː n 2
+pàng,p aː ŋ 2
+pành,p ɛ ŋ 2
+pá,p aː 5
+pác,p aː k 5
+pách,p ɛ k 5
+pán,p aː n 5
+páo,p aː w 5
+páp,p aː p 5
+pát,p aː t 5
+pâu,p ə w 1
+pây,p ə j 1
+pè,p ɛ 2
+pé,p ɛ 5
+pém,p ɛ m 5
+péo,p ɛ w 5
+pét,p ɛ t 5
+pê,p e 1
+pênh,p e ŋ 1
+pì,p i 2
+pí,p i 5
+pía,p iə 5
+pích,p i k 5
+pín,p i n 5
+píp,p i p 5
+pít,p i t 5
+pò,p ɔ 2
+pó,p ɔ 5
+pô,p o 1
+pôn,p o n 1
+pông,p o ŋ 1
+pù,p u 2
+pùa,p uə 2
+pú,p u 5
+púa,p uə 5
+púng,p u ŋ 5
+pút,p u t 5
+pơ,p əː 1
+pư,p ɨ 1
+pạ,p aː 6
+pả,p aː 3
+pẻ,p ɛ 3
+pố,p o 5
+pồ,p o 2
+pớ,p əː 5
+pờ,p əː 2
+pịa,p iə 6
+pụa,p uə 6
+pủa,p uə 3
+pứa,p ɨə 5
+pạc,p aː k 6
+pấc,p ə k 5
+pắc,p a k 5
+pẹc,p ɛ k 6
+pốc,p o k 5
+păm,p a m 1
+păn,p a n 1
+pưn,p ɨ n 1
+pản,p aː n 3
+pằn,p a n 2
+pồn,p o n 2
+pớn,p əː n 5
+păng,p a ŋ 1
+pơng,p əː ŋ 1
+pầng,p ə ŋ 2
+pọng,p ɔ ŋ 6
+pềnh,p e ŋ 2
+pỉnh,p i ŋ 3
+pết,p e t 5
+pốt,p o t 5
+pẩu,p ə w 3
+pếu,p e w 5
+pươi,p ɨə j 1
+quanh,k w ɛ ŋ 1
+quao,k w aː w 1
+quau,k w a w 1
+quay,k w a j 1
+queo,k w ɛ w 1
+quin,k w i n 1
+quo,k w ɔ 1
+quà,k w aː 2
+quài,k w aː j 2
+quàn,k w aː n 2
+quàng,k w aː ŋ 2
+quành,k w ɛ ŋ 2
+quào,k w aː w 2
+quàu,k w a w 2
+quày,k w a j 2
+quác,k w aː k 5
+quáo,k w aː w 5
+quáu,k w a w 5
+quáy,k w a j 5
+quây,k w ə j 1
+quãng,k w aː ŋ 4
+què,k w ɛ 2
+quèn,k w ɛ n 2
+quèo,k w ɛ w 2
+qué,k w ɛ 5
+quén,k w ɛ n 5
+quéo,k w ɛ w 5
+quét,k w ɛ t 5
+quê,k w e 1
+quên,k w e n 1
+quích,k w i k 5
+quít,k w i t 5
+quóc,k w ɔ k 5
+quơ,k w əː 1
+quạ,k w aː 6
+quẻ,k w ɛ 3
+quẽ,k w ɛ 4
+quề,k w e 2
+quọ,k w ɔ 6
+quố,k w o 5
+quớ,k w əː 5
+quờ,k w əː 2
+quở,k w əː 3
+quạc,k w aː k 6
+quấc,k w ə k 5
+quộc,k w o k 6
+quạch,k w ɛ k 6
+quếch,k w e k 5
+quệch,k w e k 6
+quại,k w aː j 6
+quới,k w əː j 5
+quăm,k w a m 1
+quắm,k w a m 5
+quằm,k w a m 2
+quẳm,k w a m 3
+quặm,k w a m 6
+quăn,k w a n 1
+quơn,k w əː n 1
+quẩn,k w ə n 3
+quắn,k w a n 5
+quằn,k w a n 2
+quặn,k w a n 6
+quẹn,k w ɛ n 6
+quến,k w e n 5
+quện,k w e n 6
+quờn,k w əː n 2
+quạng,k w aː ŋ 6
+quầng,k w ə ŋ 2
+quẩng,k w ə ŋ 3
+quẳng,k w a ŋ 3
+quặng,k w a ŋ 6
+quạnh,k w ɛ ŋ 6
+quếnh,k w e ŋ 5
+quềnh,k w e ŋ 2
+quệnh,k w e ŋ 6
+quỷnh,k w i ŋ 3
+quạo,k w aː w 6
+quẹo,k w ɛ w 6
+quắp,k w a p 5
+quặp,k w a p 6
+quỵp,k w i p 6
+quạt,k w aː t 6
+quắt,k w a t 5
+quặt,k w a t 6
+quẹt,k w ɛ t 6
+quết,k w e t 5
+quệt,k w e t 6
+quịt,k w i t 6
+quớt,k w əː t 5
+quạu,k w a w 6
+quếu,k w e w 5
+quều,k w e w 2
+quạy,k w a j 6
+quảy,k w a j 3
+quấy,k w ə j 5
+quầy,k w ə j 2
+quẩy,k w ə j 3
+quẫy,k w ə j 4
+quậy,k w ə j 6
+ra,r aː 1
+rai,r aː j 1
+ram,r aː m 1
+ran,r aː n 1
+rang,r aː ŋ 1
+ranh,r ɛ ŋ 1
+rao,r aː w 1
+rau,r a w 1
+ray,r a j 1
+re,r ɛ 1
+rem,r ɛ m 1
+ren,r ɛ n 1
+reo,r ɛ w 1
+ri,r i 1
+ria,r iə 1
+rim,r i m 1
+rin,r i n 1
+rinh,r i ŋ 1
+riu,r i w 1
+rià,r iə 2
+riên,r iə n 1
+riêng,r iə ŋ 1
+riêu,r iə w 1
+riệc,r iə k 6
+riềm,r iə m 2
+riềng,r iə ŋ 2
+riệp,r iə p 6
+riết,r iə t 5
+riệt,r iə t 6
+riếu,r iə w 5
+riều,r iə w 2
+riễu,r iə w 4
+riệu,r iə w 6
+ro,r ɔ 1
+roa,r w aː 1
+roam,r w aː m 1
+roe,r w ɛ 1
+roi,r ɔ j 1
+rom,r ɔ m 1
+ron,r ɔ n 1
+rong,r ɔ ŋ 1
+roàng,r w aː ŋ 2
+roá,r w aː 5
+roát,r w aː t 5
+roãn,r w aː n 4
+roạt,r w aː t 6
+roẹt,r w ɛ t 6
+ru,r u 1
+rua,r uə 1
+rui,r u j 1
+rum,r u m 1
+run,r u n 1
+rung,r u ŋ 1
+ruy,r w i 1
+ruê,r w e 1
+ruôn,r uə n 1
+ruệ,r w e 6
+ruốc,r uə k 5
+ruộc,r uə k 6
+ruối,r uə j 5
+ruồi,r uə j 2
+ruổi,r uə j 3
+ruộm,r uə m 6
+ruồng,r uə ŋ 2
+ruỗng,r uə ŋ 4
+ruộng,r uə ŋ 6
+ruốt,r uə t 5
+ruột,r uə t 6
+rà,r aː 2
+rài,r aː j 2
+ràm,r aː m 2
+ràn,r aː n 2
+ràng,r aː ŋ 2
+rành,r ɛ ŋ 2
+rào,r aː w 2
+rày,r a j 2
+rá,r aː 5
+rác,r aː k 5
+rách,r ɛ k 5
+rái,r aː j 5
+rám,r aː m 5
+rán,r aː n 5
+ráng,r aː ŋ 5
+ráo,r aː w 5
+ráp,r aː p 5
+rát,r aː t 5
+ráu,r a w 5
+ráy,r a j 5
+râm,r ə m 1
+rân,r ə n 1
+râu,r ə w 1
+rây,r ə j 1
+rã,r aː 4
+rãi,r aː j 4
+rãnh,r ɛ ŋ 4
+rão,r aː w 4
+rãy,r a j 4
+rè,r ɛ 2
+rèm,r ɛ m 2
+rèn,r ɛ n 2
+rèo,r ɛ w 2
+ré,r ɛ 5
+rén,r ɛ n 5
+réo,r ɛ w 5
+rép,r ɛ p 5
+rét,r ɛ t 5
+rê,r e 1
+rêm,r e m 1
+rên,r e n 1
+rêu,r e w 1
+rì,r i 2
+rình,r i ŋ 2
+rìu,r i w 2
+rí,r i 5
+rích,r i k 5
+rím,r i m 5
+rít,r i t 5
+ríu,r i w 5
+rò,r ɔ 2
+ròi,r ɔ j 2
+ròm,r ɔ m 2
+ròn,r ɔ n 2
+ròng,r ɔ ŋ 2
+ró,r ɔ 5
+róc,r ɔ k 5
+rói,r ɔ j 5
+róm,r ɔ m 5
+rón,r ɔ n 5
+róng,r ɔ ŋ 5
+rót,r ɔ t 5
+rô,r o 1
+rôi,r o j 1
+rôm,r o m 1
+rôn,r o n 1
+rông,r o ŋ 1
+rõ,r ɔ 4
+rõi,r ɔ j 4
+rù,r u 2
+rùa,r uə 2
+rùi,r u j 2
+rùm,r u m 2
+rùn,r u n 2
+rùng,r u ŋ 2
+rú,r u 5
+rúc,r u k 5
+rúi,r u j 5
+rúm,r u m 5
+rún,r u n 5
+rúng,r u ŋ 5
+rúp,r u p 5
+rút,r u t 5
+rĩ,r i 4
+rũ,r u 4
+rơ,r əː 1
+rư,r ɨ 1
+rạ,r aː 6
+rả,r aː 3
+rẻ,r ɛ 3
+rẽ,r ɛ 4
+rế,r e 5
+rề,r e 2
+rể,r e 3
+rễ,r e 4
+rệ,r e 6
+rỉ,r i 3
+rị,r i 6
+rọ,r ɔ 6
+rỏ,r ɔ 3
+rồ,r o 2
+rổ,r o 3
+rỗ,r o 4
+rộ,r o 6
+rớ,r əː 5
+rờ,r əː 2
+rở,r əː 3
+rỡ,r əː 4
+rợ,r əː 6
+rủ,r u 3
+rứ,r ɨ 5
+rừ,r ɨ 2
+rự,r ɨ 6
+rũa,r uə 4
+rưa,r ɨə 1
+rỉa,r iə 3
+rịa,r iə 6
+rụa,r uə 6
+rủa,r uə 3
+rứa,r ɨə 5
+rửa,r ɨə 3
+rữa,r ɨə 4
+rựa,r ɨə 6
+rạc,r aː k 6
+rắc,r a k 5
+rặc,r a k 6
+rẹc,r ɛ k 6
+rọc,r ɔ k 6
+rốc,r o k 5
+rộc,r o k 6
+rục,r u k 6
+rức,r ɨ k 5
+rực,r ɨ k 6
+rếch,r e k 5
+rệch,r e k 6
+rịch,r i k 6
+rơi,r əː j 1
+rải,r aː j 3
+rọi,r ɔ j 6
+rỏi,r ɔ j 3
+rối,r o j 5
+rồi,r o j 2
+rổi,r o j 3
+rỗi,r o j 4
+rời,r əː j 2
+rợi,r əː j 6
+rụi,r u j 6
+rủi,r u j 3
+răm,r a m 1
+rơm,r əː m 1
+rạm,r aː m 6
+rấm,r ə m 5
+rầm,r ə m 2
+rẩm,r ə m 3
+rẫm,r ə m 4
+rậm,r ə m 6
+rắm,r a m 5
+rằm,r a m 2
+rặm,r a m 6
+rọm,r ɔ m 6
+rỏm,r ɔ m 3
+rồm,r o m 2
+rộm,r o m 6
+rớm,r əː m 5
+rờm,r əː m 2
+rởm,r əː m 3
+rợm,r əː m 6
+rụm,r u m 6
+răn,r a n 1
+rĩn,r i n 4
+rơn,r əː n 1
+rạn,r aː n 6
+rấn,r ə n 5
+rần,r ə n 2
+rận,r ə n 6
+rắn,r a n 5
+rằn,r a n 2
+rặn,r a n 6
+rến,r e n 5
+rền,r e n 2
+rện,r e n 6
+rỉn,r i n 3
+rịn,r i n 6
+rọn,r ɔ n 6
+rỏn,r ɔ n 3
+rốn,r o n 5
+rồn,r o n 2
+rổn,r o n 3
+rộn,r o n 6
+rờn,r əː n 2
+rởn,r əː n 3
+rỡn,r əː n 4
+rợn,r əː n 6
+rủn,r u n 3
+răng,r a ŋ 1
+rưng,r ɨ ŋ 1
+rạng,r aː ŋ 6
+rảng,r aː ŋ 3
+rầng,r ə ŋ 2
+rằng,r a ŋ 2
+rẳng,r a ŋ 3
+rặng,r a ŋ 6
+rẻng,r ɛ ŋ 3
+rỏng,r ɔ ŋ 3
+rống,r o ŋ 5
+rồng,r o ŋ 2
+rổng,r o ŋ 3
+rỗng,r o ŋ 4
+rộng,r o ŋ 6
+rụng,r u ŋ 6
+rủng,r u ŋ 3
+rừng,r ɨ ŋ 2
+rửng,r ɨ ŋ 3
+rựng,r ɨ ŋ 6
+rạnh,r ɛ ŋ 6
+rềnh,r e ŋ 2
+rểnh,r e ŋ 3
+rỉnh,r i ŋ 3
+rạo,r aː w 6
+rảo,r aː w 3
+rẹo,r ɛ w 6
+rẻo,r ɛ w 3
+rạp,r aː p 6
+rấp,r ə p 5
+rập,r ə p 6
+rắp,r a p 5
+rệp,r e p 6
+rịp,r i p 6
+rốp,r o p 5
+rộp,r o p 6
+rớp,r əː p 5
+rợp,r əː p 6
+rụp,r u p 6
+rạt,r aː t 6
+rất,r ə t 5
+rật,r ə t 6
+rắt,r a t 5
+rặt,r a t 6
+rẹt,r ɛ t 6
+rết,r e t 5
+rệt,r e t 6
+rịt,r i t 6
+rọt,r ɔ t 6
+rốt,r o t 5
+rột,r o t 6
+rớt,r əː t 5
+rợt,r əː t 6
+rụt,r u t 6
+rứt,r ɨ t 5
+rảu,r a w 3
+rầu,r ə w 2
+rậu,r ə w 6
+rếu,r e w 5
+rều,r e w 2
+rệu,r e w 6
+rạy,r a j 6
+rảy,r a j 3
+rấy,r ə j 5
+rầy,r ə j 2
+rẩy,r ə j 3
+rẫy,r ə j 4
+rước,r ɨə k 5
+rược,r ɨə k 6
+rươi,r ɨə j 1
+rưới,r ɨə j 5
+rười,r ɨə j 2
+rưởi,r ɨə j 3
+rưỡi,r ɨə j 4
+rượi,r ɨə j 6
+rươm,r ɨə m 1
+rướm,r ɨə m 5
+rườm,r ɨə m 2
+rướn,r ɨə n 5
+rườn,r ɨə n 2
+rượn,r ɨə n 6
+rương,r ɨə ŋ 1
+rường,r ɨə ŋ 2
+rượng,r ɨə ŋ 6
+rượt,r ɨə t 6
+rượu,r ɨə w 6
+sau,ʂ a w 1
+say,ʂ a j 1
+se,ʂ ɛ 1
+sem,ʂ ɛ m 1
+sen,ʂ ɛ n 1
+seo,ʂ ɛ w 1
+sia,ʂ iə 1
+sim,ʂ i m 1
+sin,ʂ i n 1
+siu,ʂ i w 1
+siêm,ʂ iə m 1
+siên,ʂ iə n 1
+siêng,ʂ iə ŋ 1
+siếc,ʂ iə k 5
+siễn,ʂ iə n 4
+siểng,ʂ iə ŋ 3
+siết,ʂ iə t 5
+so,ʂ ɔ 1
+soa,ʂ w aː 1
+soi,ʂ ɔ j 1
+som,ʂ ɔ m 1
+son,ʂ ɔ n 1
+soà,ʂ w aː 2
+soài,ʂ w aː j 2
+soàm,ʂ w aː m 2
+soàn,ʂ w aː n 2
+soát,ʂ w aː t 5
+soải,ʂ w aː j 3
+soản,ʂ w aː n 3
+soạng,ʂ w aː ŋ 6
+soảng,ʂ w aː ŋ 3
+soạp,ʂ w aː p 6
+soạt,ʂ w aː t 6
+soẹt,ʂ w ɛ t 6
+su,ʂ u 1
+sua,ʂ uə 1
+sui,ʂ u j 1
+sum,ʂ u m 1
+sun,ʂ u n 1
+suyển,ʂ w iə n 3
+suê,ʂ w e 1
+suôn,ʂ uə n 1
+suông,ʂ uə ŋ 1
+suý,ʂ w i 5
+suýt,ʂ w i t 5
+suối,ʂ uə j 5
+suồng,ʂ uə ŋ 2
+suốt,ʂ uə t 5
+suỵt,ʂ w i t 6
+sà,ʂ aː 2
+sành,ʂ ɛ ŋ 2
+sánh,ʂ ɛ ŋ 5
+sáu,ʂ a w 5
+sáy,ʂ a j 5
+sâng,ʂ ə ŋ 1
+sâu,ʂ ə w 1
+sây,ʂ ə j 1
+sã,ʂ aː 4
+sãi,ʂ aː j 4
+são,ʂ aː w 4
+sè,ʂ ɛ 2
+sèo,ʂ ɛ w 2
+sém,ʂ ɛ m 5
+séo,ʂ ɛ w 5
+sét,ʂ ɛ t 5
+sê,ʂ e 1
+sên,ʂ e n 1
+sênh,ʂ e ŋ 1
+sêu,ʂ e w 1
+sì,ʂ i 2
+sìn,ʂ i n 2
+sình,ʂ i ŋ 2
+síc,ʂ i k 5
+sím,ʂ i m 5
+sín,ʂ i n 5
+síp,ʂ i p 5
+sít,ʂ i t 5
+síu,ʂ i w 5
+sò,ʂ ɔ 2
+sòi,ʂ ɔ j 2
+sòm,ʂ ɔ m 2
+sòn,ʂ ɔ n 2
+sòng,ʂ ɔ ŋ 2
+só,ʂ ɔ 5
+sói,ʂ ɔ j 5
+sóm,ʂ ɔ m 5
+són,ʂ ɔ n 5
+sóng,ʂ ɔ ŋ 5
+sót,ʂ ɔ t 5
+sôi,ʂ o j 1
+sôn,ʂ o n 1
+sông,ʂ o ŋ 1
+sõi,ʂ ɔ j 4
+sõng,ʂ ɔ ŋ 4
+sù,ʂ u 2
+sùi,ʂ u j 2
+sùm,ʂ u m 2
+sú,ʂ u 5
+súa,ʂ uə 5
+sún,ʂ u n 5
+súp,ʂ u p 5
+sút,ʂ u t 5
+sũ,ʂ u 4
+sả,ʂ aː 3
+sẹ,ʂ ɛ 6
+sẻ,ʂ ɛ 3
+sẽ,ʂ ɛ 4
+sề,ʂ e 2
+sể,ʂ e 3
+sễ,ʂ e 4
+sệ,ʂ e 6
+sị,ʂ i 6
+sọ,ʂ ɔ 6
+sỏ,ʂ ɔ 3
+sỗ,ʂ o 4
+sộ,ʂ o 6
+sờ,ʂ əː 2
+sỡ,ʂ əː 4
+sợ,ʂ əː 6
+sụ,ʂ u 6
+sủ,ʂ u 3
+sưa,ʂ ɨə 1
+sỉa,ʂ iə 3
+sịa,ʂ iə 6
+sụa,ʂ uə 6
+sủa,ʂ uə 3
+sứa,ʂ ɨə 5
+sửa,ʂ ɨə 3
+sữa,ʂ ɨə 4
+sạc,ʂ aː k 6
+sặc,ʂ a k 6
+sẹc,ʂ ɛ k 6
+sọc,ʂ ɔ k 6
+sốc,ʂ o k 5
+sộc,ʂ o k 6
+sục,ʂ u k 6
+sực,ʂ ɨ k 6
+sệch,ʂ e k 6
+sịch,ʂ i k 6
+sơi,ʂ əː j 1
+sại,ʂ aː j 6
+sải,ʂ aː j 3
+sỏi,ʂ ɔ j 3
+sồi,ʂ o j 2
+sổi,ʂ o j 3
+sội,ʂ o j 6
+sới,ʂ əː j 5
+sởi,ʂ əː j 3
+sợi,ʂ əː j 6
+săm,ʂ a m 1
+sơm,ʂ əː m 1
+sạm,ʂ aː m 6
+sảm,ʂ aː m 3
+sẩm,ʂ ə m 3
+sẫm,ʂ ə m 4
+sậm,ʂ ə m 6
+sắm,ʂ a m 5
+sặm,ʂ a m 6
+sẹm,ʂ ɛ m 6
+sọm,ʂ ɔ m 6
+sổm,ʂ o m 3
+sớm,ʂ əː m 5
+sờm,ʂ əː m 2
+sụm,ʂ u m 6
+săn,ʂ a n 1
+sơn,ʂ əː n 1
+sần,ʂ ə n 2
+sắn,ʂ a n 5
+sằn,ʂ a n 2
+sẳn,ʂ a n 3
+sẵn,ʂ a n 4
+sẻn,ʂ ɛ n 3
+sến,ʂ e n 5
+sền,ʂ e n 2
+sển,ʂ e n 3
+sện,ʂ e n 6
+sỉn,ʂ i n 3
+sồn,ʂ o n 2
+sớn,ʂ əː n 5
+sờn,ʂ əː n 2
+sởn,ʂ əː n 3
+sụn,ʂ u n 6
+sừn,ʂ ɨ n 2
+săng,ʂ a ŋ 1
+sũng,ʂ u ŋ 4
+sưng,ʂ ɨ ŋ 1
+sắng,ʂ a ŋ 5
+sằng,ʂ a ŋ 2
+sẵng,ʂ a ŋ 4
+sống,ʂ o ŋ 5
+sồng,ʂ o ŋ 2
+sổng,ʂ o ŋ 3
+sộng,ʂ o ŋ 6
+sụng,ʂ u ŋ 6
+sừng,ʂ ɨ ŋ 2
+sửng,ʂ ɨ ŋ 3
+sững,ʂ ɨ ŋ 4
+sựng,ʂ ɨ ŋ 6
+sạnh,ʂ ɛ ŋ 6
+sếnh,ʂ e ŋ 5
+sềnh,ʂ e ŋ 2
+sểnh,ʂ e ŋ 3
+sỉnh,ʂ i ŋ 3
+sạo,ʂ aː w 6
+sẹo,ʂ ɛ w 6
+sạp,ʂ aː p 6
+sấp,ʂ ə p 5
+sập,ʂ ə p 6
+sắp,ʂ a p 5
+sẹp,ʂ ɛ p 6
+sếp,ʂ e p 5
+sệp,ʂ e p 6
+sịp,ʂ i p 6
+sốp,ʂ o p 5
+sộp,ʂ o p 6
+sụp,ʂ u p 6
+sạt,ʂ aː t 6
+sật,ʂ ə t 6
+sặt,ʂ a t 6
+sẹt,ʂ ɛ t 6
+sết,ʂ e t 5
+sệt,ʂ e t 6
+sịt,ʂ i t 6
+sọt,ʂ ɔ t 6
+sốt,ʂ o t 5
+sột,ʂ o t 6
+sớt,ʂ əː t 5
+sụt,ʂ u t 6
+sứt,ʂ ɨ t 5
+sựt,ʂ ɨ t 6
+sếu,ʂ e w 5
+sều,ʂ e w 2
+sảy,ʂ a j 3
+sấy,ʂ ə j 5
+sầy,ʂ ə j 2
+sẩy,ʂ ə j 3
+sậy,ʂ ə j 6
+sươi,ʂ ɨə j 1
+sưởi,ʂ ɨə j 3
+sườn,ʂ ɨə n 2
+sường,ʂ ɨə ŋ 2
+sượng,ʂ ɨə ŋ 6
+sướt,ʂ ɨə t 5
+sượt,ʂ ɨə t 6
+tan,t aː n 1
+tanh,t ɛ ŋ 1
+tau,t a w 1
+tay,t a j 1
+te,t ɛ 1
+tem,t ɛ m 1
+ten,t ɛ n 1
+teo,t ɛ w 1
+thau,tʰ a w 1
+thay,tʰ a j 1
+the,tʰ ɛ 1
+them,tʰ ɛ m 1
+then,tʰ ɛ n 1
+theo,tʰ ɛ w 1
+thia,tʰ iə 1
+thim,tʰ i m 1
+thin,tʰ i n 1
+thiu,tʰ i w 1
+thiêng,tʰ iə ŋ 1
+thiếc,tʰ iə k 5
+thiềng,tʰ iə ŋ 2
+tho,tʰ ɔ 1
+thoai,tʰ w aː j 1
+thoang,tʰ w aː ŋ 1
+thoi,tʰ ɔ j 1
+thom,tʰ ɔ m 1
+thon,tʰ ɔ n 1
+thong,tʰ ɔ ŋ 1
+thoà,tʰ w aː 2
+thoàn,tʰ w aː n 2
+thoáng,tʰ w aː ŋ 5
+thoã,tʰ w aː 4
+thoải,tʰ w aː j 3
+thoăn,tʰ w a n 1
+thoạn,tʰ w aː n 6
+thoảng,tʰ w aː ŋ 3
+thoắng,tʰ w a ŋ 5
+thoạt,tʰ w aː t 6
+thoắt,tʰ w a t 5
+thua,tʰ uə 1
+thui,tʰ u j 1
+thum,tʰ u m 1
+thun,tʰ u n 1
+thuy,tʰ w i 1
+thuyến,tʰ w iə n 5
+thuyển,tʰ w iə n 3
+thuyện,tʰ w iə n 6
+thuê,tʰ w e 1
+thuôn,tʰ uə n 1
+thuông,tʰ uə ŋ 1
+thuý,tʰ w i 5
+thuể,tʰ w e 3
+thuở,tʰ uə 3
+thuỳ,tʰ w i 2
+thuỵ,tʰ w i 6
+thuỷ,tʰ w i 3
+thuốc,tʰ uə k 5
+thuồi,tʰ uə j 2
+thuội,tʰ uə j 6
+thuộm,tʰ uə m 6
+thuẩn,tʰ w ə n 3
+thuốn,tʰ uə n 5
+thuồn,tʰ uə n 2
+thuỗn,tʰ uə n 4
+thuồng,tʰ uə ŋ 2
+thuổng,tʰ uə ŋ 3
+thuỳnh,tʰ w i ŋ 2
+thuột,tʰ uə t 6
+thà,tʰ aː 2
+thài,tʰ aː j 2
+thàm,tʰ aː m 2
+thàn,tʰ aː n 2
+thàng,tʰ aː ŋ 2
+thào,tʰ aː w 2
+thày,tʰ a j 2
+thá,tʰ aː 5
+thách,tʰ ɛ k 5
+tháng,tʰ aː ŋ 5
+tháu,tʰ a w 5
+tháy,tʰ a j 5
+thây,tʰ ə j 1
+thãi,tʰ aː j 4
+thão,tʰ aː w 4
+thè,tʰ ɛ 2
+thèm,tʰ ɛ m 2
+thèn,tʰ ɛ n 2
+thèo,tʰ ɛ w 2
+thé,tʰ ɛ 5
+thém,tʰ ɛ m 5
+thén,tʰ ɛ n 5
+théo,tʰ ɛ w 5
+thép,tʰ ɛ p 5
+thét,tʰ ɛ t 5
+thêm,tʰ e m 1
+thên,tʰ e n 1
+thênh,tʰ e ŋ 1
+thêu,tʰ e w 1
+thìa,tʰ iə 2
+thìm,tʰ i m 2
+thìn,tʰ i n 2
+thình,tʰ i ŋ 2
+thìu,tʰ i w 2
+thía,tʰ iə 5
+thím,tʰ i m 5
+thín,tʰ i n 5
+thíp,tʰ i p 5
+thít,tʰ i t 5
+thò,tʰ ɔ 2
+thòi,tʰ ɔ j 2
+thòm,tʰ ɔ m 2
+thòn,tʰ ɔ n 2
+thòng,tʰ ɔ ŋ 2
+thó,tʰ ɔ 5
+thóc,tʰ ɔ k 5
+thói,tʰ ɔ j 5
+thóm,tʰ ɔ m 5
+thóng,tʰ ɔ ŋ 5
+thóp,tʰ ɔ p 5
+thót,tʰ ɔ t 5
+thôm,tʰ o m 1
+thõm,tʰ ɔ m 4
+thõng,tʰ ɔ ŋ 4
+thùa,tʰ uə 2
+thùm,tʰ u m 2
+thùn,tʰ u n 2
+thùng,tʰ u ŋ 2
+thúng,tʰ u ŋ 5
+thút,tʰ u t 5
+thĩ,tʰ i 4
+thơ,tʰ əː 1
+thạ,tʰ aː 6
+thẻ,tʰ ɛ 3
+thẽ,tʰ ɛ 4
+thề,tʰ e 2
+thỏ,tʰ ɔ 3
+thồ,tʰ o 2
+thớ,tʰ əː 5
+thờ,tʰ əː 2
+thở,tʰ əː 3
+thợ,tʰ əː 6
+thưa,tʰ ɨə 1
+thửa,tʰ ɨə 3
+thọc,tʰ ɔ k 6
+thộc,tʰ o k 6
+thếch,tʰ e k 5
+thịch,tʰ i k 6
+thơi,tʰ əː j 1
+thỏi,tʰ ɔ j 3
+thồi,tʰ o j 2
+thổi,tʰ o j 3
+thới,tʰ əː j 5
+thởi,tʰ əː j 3
+thăm,tʰ a m 1
+thơm,tʰ əː m 1
+thẫm,tʰ ə m 4
+thắm,tʰ a m 5
+thẳm,tʰ a m 3
+thềm,tʰ e m 2
+thỏm,tʰ ɔ m 3
+thồm,tʰ o m 2
+thớm,tʰ əː m 5
+thờm,tʰ əː m 2
+thủm,tʰ u m 3
+thăn,tʰ a n 1
+thơn,tʰ əː n 1
+thưn,tʰ ɨ n 1
+thẫn,tʰ ə n 4
+thắn,tʰ a n 5
+thằn,tʰ a n 2
+thẳn,tʰ a n 3
+thẹn,tʰ ɛ n 6
+thẻn,tʰ ɛ n 3
+thện,tʰ e n 6
+thọn,tʰ ɔ n 6
+thỏn,tʰ ɔ n 3
+thồn,tʰ o n 2
+thổn,tʰ o n 3
+thỗn,tʰ o n 4
+thộn,tʰ o n 6
+thờn,tʰ əː n 2
+thưng,tʰ ɨ ŋ 1
+thẳng,tʰ a ŋ 3
+thồng,tʰ o ŋ 2
+thụng,tʰ u ŋ 6
+thủng,tʰ u ŋ 3
+thừng,tʰ ɨ ŋ 2
+thửng,tʰ ɨ ŋ 3
+thững,tʰ ɨ ŋ 4
+thạnh,tʰ ɛ ŋ 6
+thảnh,tʰ ɛ ŋ 3
+thếnh,tʰ e ŋ 5
+thềnh,tʰ e ŋ 2
+thạo,tʰ aː w 6
+thẹo,tʰ ɛ w 6
+thẻo,tʰ ɛ w 3
+thắp,tʰ a p 5
+thẹp,tʰ ɛ p 6
+thếp,tʰ e p 5
+thộp,tʰ o p 6
+thụp,tʰ u p 6
+thạt,tʰ aː t 6
+thắt,tʰ a t 5
+thặt,tʰ a t 6
+thết,tʰ e t 5
+thịt,tʰ i t 6
+thọt,tʰ ɔ t 6
+thột,tʰ o t 6
+thớt,tʰ əː t 5
+thợt,tʰ əː t 6
+thụt,tʰ u t 6
+thầu,tʰ ə w 2
+thẩu,tʰ ə w 3
+thều,tʰ e w 2
+thểu,tʰ e w 3
+thỉu,tʰ i w 3
+thịu,tʰ i w 6
+thựu,tʰ ɨ w 6
+thảy,tʰ a j 3
+thấy,tʰ ə j 5
+thầy,tʰ ə j 2
+thẩy,tʰ ə j 3
+thười,tʰ ɨə j 2
+thưỡi,tʰ ɨə j 4
+thươn,tʰ ɨə n 1
+thườn,tʰ ɨə n 2
+thưỡn,tʰ ɨə n 4
+thướt,tʰ ɨə t 5
+thượt,tʰ ɨə t 6
+tia,t iə 1
+tim,t i m 1
+tin,t i n 1
+tiu,t i w 1
+tiêng,t iə ŋ 1
+tiếc,t iə k 5
+tiệc,t iə k 6
+tiểm,t iə m 3
+tiếng,t iə ŋ 5
+tiềng,t iə ŋ 2
+tiểng,t iə ŋ 3
+tiễng,t iə ŋ 4
+tiệt,t iə t 6
+tiệu,t iə w 6
+to,t ɔ 1
+toang,t w aː ŋ 1
+toanh,t w ɛ ŋ 1
+toe,t w ɛ 1
+toen,t w ɛ n 1
+toi,t ɔ j 1
+tom,t ɔ m 1
+ton,t ɔ n 1
+tong,t ɔ ŋ 1
+toà,t w aː 2
+toài,t w aː j 2
+toàng,t w aː ŋ 2
+toá,t w aː 5
+toác,t w aː k 5
+toáng,t w aː ŋ 5
+toáy,t w a j 5
+toè,t w ɛ 2
+toèn,t w ɛ n 2
+toé,t w ɛ 5
+toét,t w ɛ t 5
+toẻ,t w ɛ 3
+toẽ,t w ɛ 4
+toạc,t w aː k 6
+toạn,t w aː n 6
+toạng,t w aː ŋ 6
+toẹt,t w ɛ t 6
+tram,ʈ aː m 1
+tran,ʈ aː n 1
+trau,ʈ a w 1
+tray,ʈ a j 1
+tre,ʈ ɛ 1
+tren,ʈ ɛ n 1
+treo,ʈ ɛ w 1
+tria,ʈ iə 1
+triên,ʈ iə n 1
+triêng,ʈ iə ŋ 1
+triến,ʈ iə n 5
+triễn,ʈ iə n 4
+triềng,ʈ iə ŋ 2
+triệng,ʈ iə ŋ 6
+triểu,ʈ iə w 3
+tro,ʈ ɔ 1
+troi,ʈ ɔ j 1
+tron,ʈ ɔ n 1
+trong,ʈ ɔ ŋ 1
+troẹt,ʈ w ɛ t 6
+trui,ʈ u j 1
+trum,ʈ u m 1
+trun,ʈ u n 1
+truyên,ʈ w iə n 1
+truyển,ʈ w iə n 3
+truyệt,ʈ w iə t 6
+truông,ʈ uə ŋ 1
+truỵ,ʈ w i 6
+truỷ,ʈ w i 3
+truồi,ʈ uə j 2
+truồng,ʈ uə ŋ 2
+truốt,ʈ uə t 5
+truột,ʈ uə t 6
+trài,ʈ aː j 2
+tràm,ʈ aː m 2
+tràn,ʈ aː n 2
+tràu,ʈ a w 2
+trày,ʈ a j 2
+trâng,ʈ ə ŋ 1
+trây,ʈ ə j 1
+trã,ʈ aː 4
+trè,ʈ ɛ 2
+trèm,ʈ ɛ m 2
+trèn,ʈ ɛ n 2
+trèo,ʈ ɛ w 2
+tré,ʈ ɛ 5
+trém,ʈ ɛ m 5
+tréo,ʈ ɛ w 5
+trép,ʈ ɛ p 5
+trét,ʈ ɛ t 5
+trê,ʈ e 1
+trên,ʈ e n 1
+trêu,ʈ e w 1
+trìu,ʈ i w 2
+tría,ʈ iə 5
+trính,ʈ i ŋ 5
+trít,ʈ i t 5
+tríu,ʈ i w 5
+trò,ʈ ɔ 2
+tròi,ʈ ɔ j 2
+tròm,ʈ ɔ m 2
+tròn,ʈ ɔ n 2
+tròng,ʈ ɔ ŋ 2
+tró,ʈ ɔ 5
+trói,ʈ ɔ j 5
+tróm,ʈ ɔ m 5
+tróng,ʈ ɔ ŋ 5
+trót,ʈ ɔ t 5
+trô,ʈ o 1
+trôi,ʈ o j 1
+trôm,ʈ o m 1
+trôn,ʈ o n 1
+trông,ʈ o ŋ 1
+trõm,ʈ ɔ m 4
+trõn,ʈ ɔ n 4
+trùm,ʈ u m 2
+trùn,ʈ u n 2
+trúm,ʈ u m 5
+trút,ʈ u t 5
+trũ,ʈ u 4
+trơ,ʈ əː 1
+trẹ,ʈ ɛ 6
+trẻ,ʈ ɛ 3
+trẽ,ʈ ɛ 4
+trề,ʈ e 2
+trể,ʈ e 3
+trễ,ʈ e 4
+trỉ,ʈ i 3
+trọ,ʈ ɔ 6
+trỏ,ʈ ɔ 3
+trố,ʈ o 5
+trồ,ʈ o 2
+trổ,ʈ o 3
+trỗ,ʈ o 4
+trộ,ʈ o 6
+trờ,ʈ əː 2
+trủ,ʈ u 3
+trự,ʈ ɨ 6
+trưa,ʈ ɨə 1
+trỉa,ʈ iə 3
+trịa,ʈ iə 6
+trụa,ʈ uə 6
+trừa,ʈ ɨə 2
+trặc,ʈ a k 6
+trốc,ʈ o k 5
+trộc,ʈ o k 6
+trức,ʈ ɨ k 5
+trếch,ʈ e k 5
+trệch,ʈ e k 6
+trũi,ʈ u j 4
+trơi,ʈ əː j 1
+trải,ʈ aː j 3
+trọi,ʈ ɔ j 6
+trỏi,ʈ ɔ j 3
+trối,ʈ o j 5
+trồi,ʈ o j 2
+trổi,ʈ o j 3
+trỗi,ʈ o j 4
+trội,ʈ o j 6
+trới,ʈ əː j 5
+trời,ʈ əː j 2
+trợi,ʈ əː j 6
+trăm,ʈ a m 1
+trẩm,ʈ ə m 3
+trậm,ʈ ə m 6
+trắm,ʈ a m 5
+trằm,ʈ a m 2
+trẹm,ʈ ɛ m 6
+trộm,ʈ o m 6
+trờm,ʈ əː m 2
+trụm,ʈ u m 6
+trơn,ʈ əː n 1
+trạn,ʈ aː n 6
+trẩn,ʈ ə n 3
+trằn,ʈ a n 2
+trặn,ʈ a n 6
+trẽn,ʈ ɛ n 4
+trến,ʈ e n 5
+trển,ʈ e n 3
+trọn,ʈ ɔ n 6
+trốn,ʈ o n 5
+trộn,ʈ o n 6
+trớn,ʈ əː n 5
+trờn,ʈ əː n 2
+trợn,ʈ əː n 6
+trụn,ʈ u n 6
+trăng,ʈ a ŋ 1
+trũng,ʈ u ŋ 4
+trảng,ʈ aː ŋ 3
+trắng,ʈ a ŋ 5
+trằng,ʈ a ŋ 2
+trẳng,ʈ a ŋ 3
+trỏng,ʈ ɔ ŋ 3
+trống,ʈ o ŋ 5
+trồng,ʈ o ŋ 2
+trổng,ʈ o ŋ 3
+trộng,ʈ o ŋ 6
+trụng,ʈ u ŋ 6
+trứng,ʈ ɨ ŋ 5
+trửng,ʈ ɨ ŋ 3
+trĩnh,ʈ i ŋ 4
+trạnh,ʈ ɛ ŋ 6
+trảnh,ʈ ɛ ŋ 3
+trếnh,ʈ e ŋ 5
+trẹo,ʈ ɛ w 6
+trẻo,ʈ ɛ w 3
+trẽo,ʈ ɛ w 4
+trớp,ʈ əː p 5
+trụp,ʈ u p 6
+trạt,ʈ aː t 6
+trắt,ʈ a t 5
+trẹt,ʈ ɛ t 6
+trết,ʈ e t 5
+trệt,ʈ e t 6
+trịt,ʈ i t 6
+trọt,ʈ ɔ t 6
+trốt,ʈ o t 5
+trớt,ʈ əː t 5
+trợt,ʈ əː t 6
+trụt,ʈ u t 6
+trĩu,ʈ i w 4
+trảu,ʈ a w 3
+trấu,ʈ ə w 5
+trầu,ʈ ə w 2
+trẩu,ʈ ə w 3
+trếu,ʈ e w 5
+trệu,ʈ e w 6
+trạy,ʈ a j 6
+trảy,ʈ a j 3
+trầy,ʈ ə j 2
+trẩy,ʈ ə j 3
+trược,ʈ ɨə k 6
+trươi,ʈ ɨə j 1
+trườn,ʈ ɨə n 2
+trưỡng,ʈ ɨə ŋ 4
+trượt,ʈ ɨə t 6
+tua,t uə 1
+tui,t u j 1
+tum,t u m 1
+tun,t u n 1
+tuya,t w iə 1
+tuyn,t w i n 1
+tuynh,t w i ŋ 1
+tuyễn,t w iə n 4
+tuyện,t w iə n 6
+tuôi,t uə j 1
+tuôn,t uə n 1
+tuông,t uə ŋ 1
+tuý,t w i 5
+tuýp,t w i p 5
+tuýt,t w i t 5
+tuỳ,t w i 2
+tuỵ,t w i 6
+tuỷ,t w i 3
+tuốc,t uə k 5
+tuộc,t uə k 6
+tuếch,t w e k 5
+tuệch,t w e k 6
+tuối,t uə j 5
+tuồi,t uə j 2
+tuổi,t uə j 3
+tuận,t w ə n 6
+tuốn,t uə n 5
+tuồn,t uə n 2
+tuồng,t uə ŋ 2
+tuềnh,t w e ŋ 2
+tuốt,t uə t 5
+tuột,t uə t 6
+tành,t ɛ ŋ 2
+tàu,t a w 2
+tày,t a j 2
+tách,t ɛ k 5
+tám,t aː m 5
+tánh,t ɛ ŋ 5
+táu,t a w 5
+táy,t a j 5
+tâng,t ə ŋ 1
+tâu,t ə w 1
+tây,t ə j 1
+tã,t aː 4
+tãi,t aː j 4
+tãng,t aː ŋ 4
+tè,t ɛ 2
+tèm,t ɛ m 2
+tèn,t ɛ n 2
+tèo,t ɛ w 2
+té,t ɛ 5
+tém,t ɛ m 5
+tén,t ɛ n 5
+téo,t ɛ w 5
+tép,t ɛ p 5
+tét,t ɛ t 5
+têm,t e m 1
+tên,t e n 1
+tênh,t e ŋ 1
+têu,t e w 1
+tìa,t iə 2
+tìm,t i m 2
+tìn,t i n 2
+tía,t iə 5
+tím,t i m 5
+típ,t i p 5
+tít,t i t 5
+tíu,t i w 5
+tò,t ɔ 2
+tòi,t ɔ j 2
+tòm,t ɔ m 2
+tòn,t ɔ n 2
+tòng,t ɔ ŋ 2
+tó,t ɔ 5
+tóc,t ɔ k 5
+tói,t ɔ j 5
+tóm,t ɔ m 5
+tóng,t ɔ ŋ 5
+tóp,t ɔ p 5
+tót,t ɔ t 5
+tôi,t o j 1
+tôm,t o m 1
+tõm,t ɔ m 4
+tùm,t u m 2
+túa,t uə 5
+túm,t u m 5
+túp,t u p 5
+tút,t u t 5
+tĩ,t i 4
+tơ,t əː 1
+tẻ,t ɛ 3
+tẽ,t ɛ 4
+tọ,t ɔ 6
+tỏ,t ɔ 3
+tớ,t əː 5
+tờ,t əː 2
+tở,t əː 3
+tợ,t əː 6
+tủ,t u 3
+tưa,t ɨə 1
+tỉa,t iə 3
+tụa,t uə 6
+tủa,t uə 3
+tứa,t ɨə 5
+từa,t ɨə 2
+tửa,t ɨə 3
+tựa,t ɨə 6
+tấc,t ə k 5
+tẹc,t ɛ k 6
+tọc,t ɔ k 6
+tực,t ɨ k 6
+tếch,t e k 5
+tơi,t əː j 1
+tỏi,t ɔ j 3
+tổi,t o j 3
+tới,t əː j 5
+tời,t əː j 2
+tợi,t əː j 6
+tăm,t a m 1
+tũm,t u m 4
+tấm,t ə m 5
+tậm,t ə m 6
+tắm,t a m 5
+tằm,t a m 2
+tẻm,t ɛ m 3
+tỉm,t i m 3
+tỏm,t ɔ m 3
+tồm,t o m 2
+tởm,t əː m 3
+tụm,t u m 6
+tủm,t u m 3
+tăn,t a n 1
+tĩn,t i n 4
+tũn,t u n 4
+tơn,t əː n 1
+tạn,t aː n 6
+tẩn,t ə n 3
+tắn,t a n 5
+tằn,t a n 2
+tẳn,t a n 3
+tặn,t a n 6
+tẽn,t ɛ n 4
+tớn,t əː n 5
+tởn,t əː n 3
+tợn,t əː n 6
+tủn,t u n 3
+tưng,t ɨ ŋ 1
+tấng,t ə ŋ 5
+tầng,t ə ŋ 2
+tọng,t ɔ ŋ 6
+tỏng,t ɔ ŋ 3
+tồng,t o ŋ 2
+tỗng,t o ŋ 4
+tứng,t ɨ ŋ 5
+từng,t ɨ ŋ 2
+tửng,t ɨ ŋ 3
+tạnh,t ɛ ŋ 6
+tếnh,t e ŋ 5
+tềnh,t e ŋ 2
+tểnh,t e ŋ 3
+tễnh,t e ŋ 4
+tẹo,t ɛ w 6
+tẻo,t ɛ w 3
+tắp,t a p 5
+tẹp,t ɛ p 6
+tếp,t e p 5
+tệp,t e p 6
+tọp,t ɔ p 6
+tốp,t o p 5
+tộp,t o p 6
+tớp,t əː p 5
+tợp,t əː p 6
+tắt,t a t 5
+tẹt,t ɛ t 6
+tết,t e t 5
+tịt,t i t 6
+tọt,t ɔ t 6
+tột,t o t 6
+tớt,t əː t 5
+tụt,t u t 6
+tĩu,t i w 4
+tạu,t a w 6
+tầu,t ə w 2
+tậu,t ə w 6
+tếu,t e w 5
+tều,t e w 2
+tễu,t e w 4
+tỉu,t i w 3
+tịu,t i w 6
+tảy,t a j 3
+tấy,t ə j 5
+tầy,t ə j 2
+tược,t ɨə k 6
+tươi,t ɨə j 1
+tưới,t ɨə j 5
+tưởi,t ɨə j 3
+tươm,t ɨə m 1
+tườm,t ɨə m 2
+tướn,t ɨə n 5
+tướp,t ɨə p 5
+tượp,t ɨə p 6
+tướt,t ɨə t 5
+tượt,t ɨə t 6
+tườu,t ɨə w 2
+ua,ʔ uə 1
+ui,ʔ u j 1
+um,ʔ u m 1
+un,ʔ u n 1
+uyn,w i n 1
+uôm,ʔ uə m 1
+uôn,ʔ uə n 1
+uý,w i 5
+uýnh,w i ŋ 5
+uể,w e 3
+uở,ʔ uə 3
+uỷ,w i 3
+uỵch,w i k 6
+uốn,ʔ uə n 5
+uống,ʔ uə ŋ 5
+uộng,ʔ uə ŋ 6
+uỳnh,w i ŋ 2
+uột,ʔ uə t 6
+uầy,w ə j 2
+uẩy,w ə j 3
+va,v aː 1
+vai,v aː j 1
+vam,v aː m 1
+van,v aː n 1
+vang,v aː ŋ 1
+vao,v aː w 1
+vay,v a j 1
+ve,v ɛ 1
+ven,v ɛ n 1
+veo,v ɛ w 1
+via,v iə 1
+vim,v i m 1
+vin,v i n 1
+viêng,v iə ŋ 1
+việc,v iə k 6
+viểm,v iə m 3
+viền,v iə n 2
+viển,v iə n 3
+viếng,v iə ŋ 5
+viềng,v iə ŋ 2
+vo,v ɔ 1
+voa,v w aː 1
+voan,v w aː n 1
+voi,v ɔ j 1
+vom,v ɔ m 1
+von,v ɔ n 1
+vua,v uə 1
+vui,v u j 1
+vun,v u n 1
+vung,v u ŋ 1
+vuông,v uə ŋ 1
+vuốt,v uə t 5
+vuột,v uə t 6
+và,v aː 2
+vài,v aː j 2
+vàm,v aː m 2
+vàn,v aː n 2
+vàng,v aː ŋ 2
+vành,v ɛ ŋ 2
+vào,v aː w 2
+vày,v a j 2
+vá,v aː 5
+vác,v aː k 5
+vách,v ɛ k 5
+vái,v aː j 5
+ván,v aː n 5
+váng,v aː ŋ 5
+vánh,v ɛ ŋ 5
+váo,v aː w 5
+váp,v aː p 5
+vát,v aː t 5
+váy,v a j 5
+vâm,v ə m 1
+vâng,v ə ŋ 1
+vây,v ə j 1
+vã,v aː 4
+vãi,v aː j 4
+vãnh,v ɛ ŋ 4
+vè,v ɛ 2
+vèn,v ɛ n 2
+vèo,v ɛ w 2
+vé,v ɛ 5
+vén,v ɛ n 5
+véo,v ɛ w 5
+vét,v ɛ t 5
+vê,v e 1
+vên,v e n 1
+vênh,v e ŋ 1
+vêu,v e w 1
+vì,v i 2
+vình,v i ŋ 2
+ví,v i 5
+vía,v iə 5
+vích,v i k 5
+vính,v i ŋ 5
+vít,v i t 5
+víu,v i w 5
+vò,v ɔ 2
+vòi,v ɔ j 2
+vòm,v ɔ m 2
+vòn,v ɔ n 2
+vòng,v ɔ ŋ 2
+vó,v ɔ 5
+vóc,v ɔ k 5
+vói,v ɔ j 5
+vón,v ɔ n 5
+vóng,v ɔ ŋ 5
+vót,v ɔ t 5
+vôi,v o j 1
+vôn,v o n 1
+vông,v o ŋ 1
+võ,v ɔ 4
+vù,v u 2
+vùa,v uə 2
+vùi,v u j 2
+vùn,v u n 2
+vùng,v u ŋ 2
+vúc,v u k 5
+vút,v u t 5
+vơ,v əː 1
+vư,v ɨ 1
+vạ,v aː 6
+vả,v aː 3
+vẻ,v ɛ 3
+vẽ,v ɛ 4
+vế,v e 5
+về,v e 2
+vể,v e 3
+vọ,v ɔ 6
+vỏ,v ɔ 3
+vố,v o 5
+vồ,v o 2
+vổ,v o 3
+vỗ,v o 4
+vớ,v əː 5
+vờ,v əː 2
+vở,v əː 3
+vỡ,v əː 4
+vợ,v əː 6
+vủ,v u 3
+vừ,v ɨ 2
+vự,v ɨ 6
+vỉa,v iə 3
+vừa,v ɨə 2
+vửa,v ɨə 3
+vữa,v ɨə 4
+vựa,v ɨə 6
+vạc,v aː k 6
+vắc,v a k 5
+vặc,v a k 6
+vẹc,v ɛ k 6
+vọc,v ɔ k 6
+vốc,v o k 5
+vục,v u k 6
+vức,v ɨ k 5
+vếch,v e k 5
+vơi,v əː j 1
+vại,v aː j 6
+vải,v aː j 3
+vọi,v ɔ j 6
+vối,v o j 5
+vồi,v o j 2
+vội,v o j 6
+với,v əː j 5
+vời,v əː j 2
+vởi,v əː j 3
+vợi,v əː j 6
+vũm,v u m 4
+vạm,v aː m 6
+vậm,v ə m 6
+vằm,v a m 2
+vẹm,v ɛ m 6
+vịm,v i m 6
+vồm,v o m 2
+vơn,v əː n 1
+vần,v ə n 2
+vẩn,v ə n 3
+vắn,v a n 5
+vằn,v a n 2
+vẳn,v a n 3
+vẹn,v ɛ n 6
+vẻn,v ɛ n 3
+vền,v e n 2
+vện,v e n 6
+vịn,v i n 6
+vọn,v ɔ n 6
+vỏn,v ɔ n 3
+vốn,v o n 5
+vồn,v o n 2
+vờn,v əː n 2
+vởn,v əː n 3
+vụn,v u n 6
+vủn,v u n 3
+văng,v a ŋ 1
+vũng,v u ŋ 4
+vưng,v ɨ ŋ 1
+vạng,v aː ŋ 6
+vảng,v aː ŋ 3
+vầng,v ə ŋ 2
+vắng,v a ŋ 5
+vằng,v a ŋ 2
+vẳng,v a ŋ 3
+vỏng,v ɔ ŋ 3
+vống,v o ŋ 5
+vồng,v o ŋ 2
+vổng,v o ŋ 3
+vụng,v u ŋ 6
+vừng,v ɨ ŋ 2
+vửng,v ɨ ŋ 3
+vững,v ɨ ŋ 4
+vạnh,v ɛ ŋ 6
+vảnh,v ɛ ŋ 3
+vểnh,v e ŋ 3
+vệnh,v e ŋ 6
+vảo,v aː w 3
+vẹo,v ɛ w 6
+vẻo,v ɛ w 3
+vạp,v aː p 6
+vấp,v ə p 5
+vập,v ə p 6
+vắp,v a p 5
+vọp,v ɔ p 6
+vất,v ə t 5
+vắt,v a t 5
+vặt,v a t 6
+vẹt,v ɛ t 6
+vết,v e t 5
+vệt,v e t 6
+vịt,v i t 6
+vọt,v ɔ t 6
+vớt,v əː t 5
+vợt,v əː t 6
+vụt,v u t 6
+vứt,v ɨ t 5
+vấu,v ə w 5
+vầu,v ə w 2
+vẩu,v ə w 3
+vếu,v e w 5
+vều,v e w 2
+vạy,v a j 6
+vảy,v a j 3
+vấy,v ə j 5
+vầy,v ə j 2
+vẩy,v ə j 3
+vẫy,v ə j 4
+vậy,v ə j 6
+vược,v ɨə k 6
+vươn,v ɨə n 1
+vườn,v ɨə n 2
+vượn,v ɨə n 6
+vướng,v ɨə ŋ 5
+vường,v ɨə ŋ 2
+vưởng,v ɨə ŋ 3
+vượt,v ɨə t 6
+xai,s aː j 1
+xam,s aː m 1
+xang,s aː ŋ 1
+xay,s a j 1
+xe,s ɛ 1
+xem,s ɛ m 1
+xen,s ɛ n 1
+xeo,s ɛ w 1
+xia,s iə 1
+xim,s i m 1
+xin,s i n 1
+xing,s i ŋ 1
+xiu,s i w 1
+xiên,s iə n 1
+xiêng,s iə ŋ 1
+xiêu,s iə w 1
+xiếc,s iə k 5
+xiệc,s iə k 6
+xiểm,s iə m 3
+xiềng,s iə ŋ 2
+xiểng,s iə ŋ 3
+xiếu,s iə w 5
+xiều,s iə w 2
+xo,s ɔ 1
+xoai,s w aː j 1
+xoan,s w aː n 1
+xoanh,s w ɛ ŋ 1
+xoay,s w a j 1
+xoe,s w ɛ 1
+xoen,s w ɛ n 1
+xoi,s ɔ j 1
+xom,s ɔ m 1
+xon,s ɔ n 1
+xong,s ɔ ŋ 1
+xoà,s w aː 2
+xoài,s w aː j 2
+xoàm,s w aː m 2
+xoàn,s w aː n 2
+xoàng,s w aː ŋ 2
+xoành,s w ɛ ŋ 2
+xoác,s w aː k 5
+xoát,s w aː t 5
+xoáy,s w a j 5
+xoã,s w aː 4
+xoè,s w ɛ 2
+xoèn,s w ɛ n 2
+xoét,s w ɛ t 5
+xoả,s w aː 3
+xoẹ,s w ɛ 6
+xoạc,s w aː k 6
+xoạch,s w ɛ k 6
+xoải,s w aː j 3
+xoăn,s w a n 1
+xoắn,s w a n 5
+xoẳn,s w a n 3
+xoạng,s w aː ŋ 6
+xoảng,s w aː ŋ 3
+xoẻng,s w ɛ ŋ 3
+xoạt,s w aː t 6
+xoẹt,s w ɛ t 6
+xua,s uə 1
+xui,s u j 1
+xum,s u m 1
+xun,s u n 1
+xuya,s w iə 1
+xuynh,s w i ŋ 1
+xuyền,s w iə n 2
+xuyệt,s w iə t 6
+xuây,s w ə j 1
+xuê,s w e 1
+xuôi,s uə j 1
+xuông,s uə ŋ 1
+xuý,s w i 5
+xuýt,s w i t 5
+xuề,s w e 2
+xuể,s w e 3
+xuỳ,s w i 2
+xuệch,s w e k 6
+xuộm,s uə m 6
+xuấn,s w ə n 5
+xuống,s uə ŋ 5
+xuồng,s uə ŋ 2
+xuổng,s uə ŋ 3
+xuềnh,s w e ŋ 2
+xuốt,s uə t 5
+xuỵt,s w i t 6
+xài,s aː j 2
+xàm,s aː m 2
+xàng,s aː ŋ 2
+xành,s ɛ ŋ 2
+xào,s aː w 2
+xàu,s a w 2
+xách,s ɛ k 5
+xám,s aː m 5
+xáng,s aː ŋ 5
+xáo,s aː w 5
+xáp,s aː p 5
+xát,s aː t 5
+xáu,s a w 5
+xáy,s a j 5
+xân,s ə n 1
+xây,s ə j 1
+xè,s ɛ 2
+xèn,s ɛ n 2
+xèo,s ɛ w 2
+xé,s ɛ 5
+xém,s ɛ m 5
+xén,s ɛ n 5
+xéo,s ɛ w 5
+xép,s ɛ p 5
+xét,s ɛ t 5
+xê,s e 1
+xêm,s e m 1
+xên,s e n 1
+xênh,s e ŋ 1
+xêu,s e w 1
+xì,s i 2
+xìa,s iə 2
+xìn,s i n 2
+xình,s i ŋ 2
+xìu,s i w 2
+xía,s iə 5
+xín,s i n 5
+xính,s i ŋ 5
+xít,s i t 5
+xíu,s i w 5
+xòm,s ɔ m 2
+xòng,s ɔ ŋ 2
+xó,s ɔ 5
+xóc,s ɔ k 5
+xói,s ɔ j 5
+xóm,s ɔ m 5
+xón,s ɔ n 5
+xóng,s ɔ ŋ 5
+xóp,s ɔ p 5
+xót,s ɔ t 5
+xô,s o 1
+xôi,s o j 1
+xôm,s o m 1
+xôn,s o n 1
+xông,s o ŋ 1
+xõm,s ɔ m 4
+xõng,s ɔ ŋ 4
+xù,s u 2
+xùa,s uə 2
+xùi,s u j 2
+xùm,s u m 2
+xùng,s u ŋ 2
+xúa,s uə 5
+xúm,s u m 5
+xúng,s u ŋ 5
+xúp,s u p 5
+xút,s u t 5
+xũ,s u 4
+xơ,s əː 1
+xư,s ɨ 1
+xẹ,s ɛ 6
+xẻ,s ɛ 3
+xề,s e 2
+xể,s e 3
+xệ,s e 6
+xị,s i 6
+xọ,s ɔ 6
+xỏ,s ɔ 3
+xố,s o 5
+xồ,s o 2
+xổ,s o 3
+xộ,s o 6
+xớ,s əː 5
+xờ,s əː 2
+xở,s əː 3
+xỡ,s əː 4
+xụ,s u 6
+xủ,s u 3
+xừ,s ɨ 2
+xự,s ɨ 6
+xưa,s ɨə 1
+xỉa,s iə 3
+xửa,s ɨə 3
+xạc,s aː k 6
+xấc,s ə k 5
+xắc,s a k 5
+xẹc,s ɛ k 6
+xọc,s ɔ k 6
+xốc,s o k 5
+xộc,s o k 6
+xục,s u k 6
+xức,s ɨ k 5
+xực,s ɨ k 6
+xếch,s e k 5
+xệch,s e k 6
+xịch,s i k 6
+xơi,s əː j 1
+xải,s aː j 3
+xối,s o j 5
+xổi,s o j 3
+xới,s əː j 5
+xởi,s əː j 3
+xụi,s u j 6
+xăm,s a m 1
+xơm,s əː m 1
+xạm,s aː m 6
+xảm,s aː m 3
+xầm,s ə m 2
+xẩm,s ə m 3
+xậm,s ə m 6
+xắm,s a m 5
+xềm,s e m 2
+xốm,s o m 5
+xồm,s o m 2
+xổm,s o m 3
+xờm,s əː m 2
+xăn,s a n 1
+xơn,s əː n 1
+xản,s aː n 3
+xẩn,s ə n 3
+xắn,s a n 5
+xẻn,s ɛ n 3
+xện,s e n 6
+xỉn,s i n 3
+xịn,s i n 6
+xỏn,s ɔ n 3
+xốn,s o n 5
+xồn,s o n 2
+xổn,s o n 3
+xộn,s o n 6
+xớn,s əː n 5
+xởn,s əː n 3
+xủn,s u n 3
+xăng,s a ŋ 1
+xắng,s a ŋ 5
+xằng,s a ŋ 2
+xẵng,s a ŋ 4
+xẻng,s ɛ ŋ 3
+xỏng,s ɔ ŋ 3
+xống,s o ŋ 5
+xồng,s o ŋ 2
+xổng,s o ŋ 3
+xụng,s u ŋ 6
+xủng,s u ŋ 3
+xừng,s ɨ ŋ 2
+xửng,s ɨ ŋ 3
+xững,s ɨ ŋ 4
+xựng,s ɨ ŋ 6
+xĩnh,s i ŋ 4
+xếnh,s e ŋ 5
+xềnh,s e ŋ 2
+xểnh,s e ŋ 3
+xỉnh,s i ŋ 3
+xạo,s aː w 6
+xẹo,s ɛ w 6
+xẻo,s ɛ w 3
+xẽo,s ɛ w 4
+xạp,s aː p 6
+xấp,s ə p 5
+xập,s ə p 6
+xắp,s a p 5
+xẹp,s ɛ p 6
+xếp,s e p 5
+xệp,s e p 6
+xọp,s ɔ p 6
+xốp,s o p 5
+xộp,s o p 6
+xớp,s əː p 5
+xợp,s əː p 6
+xụp,s u p 6
+xắt,s a t 5
+xẹt,s ɛ t 6
+xệt,s e t 6
+xịt,s i t 6
+xốt,s o t 5
+xớt,s əː t 5
+xợt,s əː t 6
+xụt,s u t 6
+xạu,s a w 6
+xảu,s a w 3
+xấu,s ə w 5
+xầu,s ə w 2
+xẩu,s ə w 3
+xều,s e w 2
+xệu,s e w 6
+xỉu,s i w 3
+xịu,s i w 6
+xảy,s a j 3
+xẩy,s ə j 3
+xậy,s ə j 6
+xược,s ɨə k 6
+xười,s ɨə j 2
+xượi,s ɨə j 6
+xườn,s ɨə n 2
+xường,s ɨə ŋ 2
+xướt,s ɨə t 5
+xượt,s ɨə t 6
+yêng,ʔ iə ŋ 1
+yểng,ʔ iə ŋ 3
+yều,ʔ iə w 2
+à,ʔ aː 2
+àm,ʔ aː m 2
+àn,ʔ aː n 2
+àng,ʔ aː ŋ 2
+ành,ʔ ɛ ŋ 2
+ào,ʔ aː w 2
+áy,ʔ a j 5
+â,ʔ ə 1
+âng,ʔ ə ŋ 1
+ây,ʔ ə j 1
+ã,ʔ aː 4
+è,ʔ ɛ 2
+èo,ʔ ɛ w 2
+é,ʔ ɛ 5
+ém,ʔ ɛ m 5
+én,ʔ ɛ n 5
+éo,ʔ ɛ w 5
+ép,ʔ ɛ p 5
+ét,ʔ ɛ t 5
+êm,ʔ e m 1
+ên,ʔ e n 1
+êu,ʔ e w 1
+ì,ʔ i 2
+ìn,ʔ i n 2
+ình,ʔ i ŋ 2
+ía,ʔ iə 5
+ín,ʔ i n 5
+ít,ʔ i t 5
+ò,ʔ ɔ 2
+òi,ʔ ɔ j 2
+òm,ʔ ɔ m 2
+òn,ʔ ɔ n 2
+òng,ʔ ɔ ŋ 2
+ó,ʔ ɔ 5
+óc,ʔ ɔ k 5
+ói,ʔ ɔ j 5
+ón,ʔ ɔ n 5
+óng,ʔ ɔ ŋ 5
+óp,ʔ ɔ p 5
+ót,ʔ ɔ t 5
+ôm,ʔ o m 1
+õn,ʔ ɔ n 4
+õng,ʔ ɔ ŋ 4
+ù,ʔ u 2
+ùa,ʔ uə 2
+ùm,ʔ u m 2
+ùn,ʔ u n 2
+ùng,ʔ u ŋ 2
+ú,ʔ u 5
+úa,ʔ uə 5
+ún,ʔ u n 5
+úp,ʔ u p 5
+út,ʔ u t 5
+ă,ʔ a 1
+ĩ,ʔ i 4
+ơ,ʔ əː 1
+ạ,ʔ aː 6
+ả,ʔ aː 3
+ẹ,ʔ ɛ 6
+ề,ʔ e 2
+ệ,ʔ e 6
+ị,ʔ i 6
+ọ,ʔ ɔ 6
+ỏ,ʔ ɔ 3
+ồ,ʔ o 2
+ộ,ʔ o 6
+ớ,ʔ əː 5
+ờ,ʔ əː 2
+ở,ʔ əː 3
+ợ,ʔ əː 6
+ụ,ʔ u 6
+ừ,ʔ ɨ 2
+ử,ʔ ɨ 3
+ự,ʔ ɨ 6
+ưa,ʔ ɨə 1
+ỉa,ʔ iə 3
+ụa,ʔ uə 6
+ứa,ʔ ɨə 5
+ừa,ʔ ɨə 2
+ựa,ʔ ɨə 6
+đai,ɗ aː j 1
+đanh,ɗ ɛ ŋ 1
+đau,ɗ a w 1
+đay,ɗ a j 1
+ậc,ʔ ə k 6
+ắc,ʔ a k 5
+ặc,ʔ a k 6
+ẹc,ʔ ɛ k 6
+ọc,ʔ ɔ k 6
+ộc,ʔ o k 6
+ục,ʔ u k 6
+ực,ʔ ɨ k 6
+ếch,ʔ e k 5
+ệch,ʔ e k 6
+ịch,ʔ i k 6
+đe,ɗ ɛ 1
+đem,ɗ ɛ m 1
+đen,ɗ ɛ n 1
+đeo,ɗ ɛ w 1
+đi,ɗ i 1
+ơi,ʔ əː j 1
+ại,ʔ aː j 6
+ọi,ʔ ɔ j 6
+ỏi,ʔ ɔ j 3
+ối,ʔ o j 5
+ồi,ʔ o j 2
+ới,ʔ əː j 5
+ời,ʔ əː j 2
+ợi,ʔ əː j 6
+đia,ɗ iə 1
+đin,ɗ i n 1
+điu,ɗ i w 1
+điêng,ɗ iə ŋ 1
+điếc,ɗ iə k 5
+điếng,ɗ iə ŋ 5
+điếp,ɗ iə p 5
+ăm,ʔ a m 1
+ơm,ʔ əː m 1
+ầm,ʔ ə m 2
+ẫm,ʔ ə m 4
+ậm,ʔ ə m 6
+ẵm,ʔ a m 4
+ẻm,ʔ ɛ m 3
+ếm,ʔ e m 5
+ỉm,ʔ i m 3
+ỏm,ʔ ɔ m 3
+ốm,ʔ o m 5
+ồm,ʔ o m 2
+ổm,ʔ o m 3
+ớm,ʔ əː m 5
+ỡm,ʔ əː m 4
+ăn,ʔ a n 1
+ơn,ʔ əː n 1
+ản,ʔ aː n 3
+ần,ʔ ə n 2
+ẻn,ʔ ɛ n 3
+ển,ʔ e n 3
+ện,ʔ e n 6
+ỉn,ʔ i n 3
+ịn,ʔ i n 6
+ỏn,ʔ ɔ n 3
+ồn,ʔ o n 2
+ộn,ʔ o n 6
+ớn,ʔ əː n 5
+ờn,ʔ əː n 2
+ởn,ʔ əː n 3
+ủn,ʔ u n 3
+ăng,ʔ a ŋ 1
+ảng,ʔ aː ŋ 3
+ầng,ʔ ə ŋ 2
+ẩng,ʔ ə ŋ 3
+ắng,ʔ a ŋ 5
+ằng,ʔ a ŋ 2
+ẳng,ʔ a ŋ 3
+ễng,ʔ e ŋ 4
+ỏng,ʔ ɔ ŋ 3
+ồng,ʔ o ŋ 2
+ừng,ʔ ɨ ŋ 2
+ửng,ʔ ɨ ŋ 3
+ĩnh,ʔ i ŋ 4
+ạnh,ʔ ɛ ŋ 6
+ềnh,ʔ e ŋ 2
+ệnh,ʔ e ŋ 6
+đo,ɗ ɔ 1
+ạo,ʔ aː w 6
+ẹo,ʔ ɛ w 6
+ẻo,ʔ ɛ w 3
+ẽo,ʔ ɛ w 4
+đoa,ɗ w aː 1
+đoan,ɗ w aː n 1
+đoanh,ɗ w ɛ ŋ 1
+đoi,ɗ ɔ j 1
+đom,ɗ ɔ m 1
+đon,ɗ ɔ n 1
+đong,ɗ ɔ ŋ 1
+đoà,ɗ w aː 2
+đoàng,ɗ w aː ŋ 2
+đoành,ɗ w ɛ ŋ 2
+đoác,ɗ w aː k 5
+đoái,ɗ w aː j 5
+đoãng,ɗ w aː ŋ 4
+đoảng,ɗ w aː ŋ 3
+ập,ʔ ə p 6
+ắp,ʔ a p 5
+ặp,ʔ a p 6
+ẹp,ʔ ɛ p 6
+ếp,ʔ e p 5
+ệp,ʔ e p 6
+ọp,ʔ ɔ p 6
+ốp,ʔ o p 5
+ộp,ʔ o p 6
+ụp,ʔ u p 6
+ạt,ʔ aː t 6
+ắt,ʔ a t 5
+ẹt,ʔ ɛ t 6
+ết,ʔ e t 5
+ệt,ʔ e t 6
+ịt,ʔ i t 6
+ọt,ʔ ɔ t 6
+ớt,ʔ əː t 5
+ợt,ʔ əː t 6
+ụt,ʔ u t 6
+đu,ɗ u 1
+ầu,ʔ ə w 2
+ậu,ʔ ə w 6
+ỉu,ʔ i w 3
+đua,ɗ uə 1
+đui,ɗ u j 1
+đum,ɗ u m 1
+đun,ɗ u n 1
+đung,ɗ u ŋ 1
+đuôi,ɗ uə j 1
+đuôn,ɗ uə n 1
+đuông,ɗ uə ŋ 1
+đuề,ɗ w e 2
+đuốc,ɗ uə k 5
+đuối,ɗ uə j 5
+đuổi,ɗ uə j 3
+đuồn,ɗ uə n 2
+đuỗn,ɗ uə n 4
+đuống,ɗ uə ŋ 5
+đuờng,ɗ uə ŋ 2
+đuềnh,ɗ w e ŋ 2
+đuểnh,ɗ w e ŋ 3
+đuễnh,ɗ w e ŋ 4
+đuột,ɗ uə t 6
+ấy,ʔ ə j 5
+ầy,ʔ ə j 2
+ẩy,ʔ ə j 3
+đàng,ɗ aː ŋ 2
+đành,ɗ ɛ ŋ 2
+đàu,ɗ a w 2
+đày,ɗ a j 2
+đác,ɗ aː k 5
+đách,ɗ ɛ k 5
+đám,ɗ aː m 5
+đánh,ɗ ɛ ŋ 5
+đáu,ɗ a w 5
+đáy,ɗ a j 5
+đâm,ɗ ə m 1
+đân,ɗ ə n 1
+đây,ɗ ə j 1
+đã,ɗ aː 4
+đãy,ɗ a j 4
+đè,ɗ ɛ 2
+đèm,ɗ ɛ m 2
+đèn,ɗ ɛ n 2
+đèo,ɗ ɛ w 2
+đé,ɗ ɛ 5
+đém,ɗ ɛ m 5
+đén,ɗ ɛ n 5
+đéo,ɗ ɛ w 5
+đét,ɗ ɛ t 5
+đêm,ɗ e m 1
+đên,ɗ e n 1
+đênh,ɗ e ŋ 1
+đêu,ɗ e w 1
+đì,ɗ i 2
+đìa,ɗ iə 2
+đìn,ɗ i n 2
+đìu,ɗ i w 2
+đí,ɗ i 5
+đía,ɗ iə 5
+đíp,ɗ i p 5
+đít,ɗ i t 5
+đò,ɗ ɔ 2
+đòi,ɗ ɔ j 2
+đòm,ɗ ɔ m 2
+đòn,ɗ ɔ n 2
+đòng,ɗ ɔ ŋ 2
+đó,ɗ ɔ 5
+đóc,ɗ ɔ k 5
+đói,ɗ ɔ j 5
+đóm,ɗ ɔ m 5
+đón,ɗ ɔ n 5
+đóng,ɗ ɔ ŋ 5
+đóp,ɗ ɔ p 5
+đót,ɗ ɔ t 5
+đôm,ɗ o m 1
+đõ,ɗ ɔ 4
+đù,ɗ u 2
+đùa,ɗ uə 2
+đùi,ɗ u j 2
+đùm,ɗ u m 2
+đùn,ɗ u n 2
+đùng,ɗ u ŋ 2
+đú,ɗ u 5
+đúa,ɗ uə 5
+đúc,ɗ u k 5
+đúm,ɗ u m 5
+đún,ɗ u n 5
+đúng,ɗ u ŋ 5
+đúp,ɗ u p 5
+đút,ɗ u t 5
+đĩ,ɗ i 4
+đơ,ɗ əː 1
+đư,ɗ ɨ 1
+đẻ,ɗ ɛ 3
+đẽ,ɗ ɛ 4
+đị,ɗ i 6
+đọ,ɗ ɔ 6
+đỏ,ɗ ɔ 3
+đớ,ɗ əː 5
+đờ,ɗ əː 2
+đở,ɗ əː 3
+đỡ,ɗ əː 4
+đợ,ɗ əː 6
+đụ,ɗ u 6
+đủ,ɗ u 3
+đứ,ɗ ɨ 5
+đừ,ɗ ɨ 2
+đử,ɗ ɨ 3
+đự,ɗ ɨ 6
+đĩa,ɗ iə 4
+đũa,ɗ uə 4
+đưa,ɗ ɨə 1
+đỉa,ɗ iə 3
+đứa,ɗ ɨə 5
+đừa,ɗ ɨə 2
+đựa,ɗ ɨə 6
+đọc,ɗ ɔ k 6
+đục,ɗ u k 6
+đực,ɗ ɨ k 6
+ược,ʔ ɨə k 6
+đạch,ɗ ɛ k 6
+đếch,ɗ e k 5
+đũi,ɗ u j 4
+đọi,ɗ ɔ j 6
+đỏi,ɗ ɔ j 3
+đổi,ɗ o j 3
+đới,ɗ əː j 5
+đời,ɗ əː j 2
+đợi,ɗ əː j 6
+đụi,ɗ u j 6
+đủi,ɗ u j 3
+ươi,ʔ ɨə j 1
+ười,ʔ ɨə j 2
+đăm,ɗ a m 1
+đơm,ɗ əː m 1
+đấm,ɗ ə m 5
+đầm,ɗ ə m 2
+đẩm,ɗ ə m 3
+đẫm,ɗ ə m 4
+đậm,ɗ ə m 6
+đắm,ɗ a m 5
+đằm,ɗ a m 2
+đẵm,ɗ a m 4
+đặm,ɗ a m 6
+đếm,ɗ e m 5
+đềm,ɗ e m 2
+đểm,ɗ e m 3
+đệm,ɗ e m 6
+đỏm,ɗ ɔ m 3
+đốm,ɗ o m 5
+đồm,ɗ o m 2
+đổm,ɗ o m 3
+đờm,ɗ əː m 2
+đởm,ɗ əː m 3
+ươm,ʔ ɨə m 1
+ướm,ʔ ɨə m 5
+đơn,ɗ əː n 1
+đần,ɗ ə n 2
+đẫn,ɗ ə n 4
+đận,ɗ ə n 6
+đắn,ɗ a n 5
+đằn,ɗ a n 2
+đẵn,ɗ a n 4
+đặn,ɗ a n 6
+đẹn,ɗ ɛ n 6
+đẻn,ɗ ɛ n 3
+đến,ɗ e n 5
+đền,ɗ e n 2
+đển,ɗ e n 3
+đễn,ɗ e n 4
+đọn,ɗ ɔ n 6
+đớn,ɗ əː n 5
+đờn,ɗ əː n 2
+đởn,ɗ əː n 3
+đợn,ɗ əː n 6
+đụn,ɗ u n 6
+ươn,ʔ ɨə n 1
+ườn,ʔ ɨə n 2
+ưỡn,ʔ ɨə n 4
+đũng,ɗ u ŋ 4
+đưng,ɗ ɨ ŋ 1
+đạng,ɗ aː ŋ 6
+đấng,ɗ ə ŋ 5
+đẵng,ɗ a ŋ 4
+đọng,ɗ ɔ ŋ 6
+đỏng,ɗ ɔ ŋ 3
+đụng,ɗ u ŋ 6
+đủng,ɗ u ŋ 3
+đứng,ɗ ɨ ŋ 5
+đừng,ɗ ɨ ŋ 2
+đựng,ɗ ɨ ŋ 6
+ướng,ʔ ɨə ŋ 5
+ường,ʔ ɨə ŋ 2
+ượng,ʔ ɨə ŋ 6
+đảnh,ɗ ɛ ŋ 3
+đềnh,ɗ e ŋ 2
+đểnh,ɗ e ŋ 3
+đễnh,ɗ e ŋ 4
+đẽo,ɗ ɛ w 4
+đập,ɗ ə p 6
+đắp,ɗ a p 5
+đặp,ɗ a p 6
+đẹp,ɗ ɛ p 6
+đệp,ɗ e p 6
+đọp,ɗ ɔ p 6
+đốp,ɗ o p 5
+độp,ɗ o p 6
+đớp,ɗ əː p 5
+đợp,ɗ əː p 6
+đụp,ɗ u p 6
+ướp,ʔ ɨə p 5
+đất,ɗ ə t 5
+đật,ɗ ə t 6
+đắt,ɗ a t 5
+đặt,ɗ a t 6
+đẹt,ɗ ɛ t 6
+đết,ɗ e t 5
+địt,ɗ i t 6
+đọt,ɗ ɔ t 6
+đớt,ɗ əː t 5
+đợt,ɗ əː t 6
+đụt,ɗ u t 6
+đứt,ɗ ɨ t 5
+ướt,ʔ ɨə t 5
+đếu,ɗ e w 5
+đều,ɗ e w 2
+đểu,ɗ e w 3
+địu,ɗ i w 6
+đảy,ɗ a j 3
+đấy,ɗ ə j 5
+đầy,ɗ ə j 2
+đẩy,ɗ ə j 3
+đẫy,ɗ ə j 4
+đậy,ɗ ə j 6
+đước,ɗ ɨə k 5
+được,ɗ ɨə k 6
+đươi,ɗ ɨə j 1
+đưới,ɗ ɨə j 5
+đười,ɗ ɨə j 2
+đượi,ɗ ɨə j 6
+đượm,ɗ ɨə m 6
+đườn,ɗ ɨə n 2
+đưỡn,ɗ ɨə n 4
+đướng,ɗ ɨə ŋ 5
+đưỡng,ɗ ɨə ŋ 4
+đượng,ɗ ɨə ŋ 6
+đướu,ɗ ɨə w 5
