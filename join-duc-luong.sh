@@ -7,13 +7,12 @@
 sort common-vietnamese-syllables.txt > luong-sorted.txt
 
 # create a list of unique syllables from the filtered Đức 74k list
-# not very specific: we 
 cat Viet74K.txt | tr ' ' '\n' | tr '[:upper:]' '[:lower:]' | grep -v "[[:punct:]]" | grep -v ".*[aieuoăươ]k$" | sort | uniq | sed '/^$/d' > tmp.txt
 
-# next we want the line numbers from this that we want to delete, which we can get using vPhon and grep
+# next we want to find the line numbers that we want to delete, which we can get using vPhon and grep
 # vPhon puts [ ] around anything that it can’t produce IPA for (i.e. which it judges to be not phonotactically permissible)
 # so by grepping for non-alphanumeric characters we can easily find the line numbers of interest
-# change to location of vPhon on your system 
+# change path to location of vPhon on your system 
 python ~/Projects/vPhon/vPhon.py < tmp.txt | grep -n '[[:punct:]]' | cut -d: -f1 > to-delete.txt
 
 # how many lines are being deleted?
@@ -31,4 +30,3 @@ awk 'a[$0]++' duc-filtered.txt common-vietnamese-syllables.txt | wc -l
 # 6321 items common to both, meaning there are c. 1300 items in Đức that are not in Lương’s list
 # join them on the unique items:
 cat duc-filtered.txt luong-sorted.txt | sort -u > join-duc-luong.txt
-
