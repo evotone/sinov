@@ -18,8 +18,8 @@ You want [stats-plots.html](stats-plots.html). You can download it and view it i
 |`luong-sorted.txt`|[Hieu-Thi Luong's GitHub List](https://gist.github.com/hieuthi/1f5d80fca871f3642f61f7e3de883f3a) run through `sort(1)`|
 |`no-known-sv-syllables.csv`| The NSV list in `o,m,n,c,t` format|
 |`no-known-sv-syllables.txt`| The NSV list in `orthography,I P A` format|
-|`print-syllable-shape-counts.py`|Python helper script that takes calculates the number of possible syllables|
-|`sino-vietnamese-readings.csv`|A CSV version of Chia-Lu Chiang's list with one duplicate entry manually removed (8090 lines)
+|`print-syllable-shape-counts.py`|Python helper script that calculates the number of possible syllables|
+|`sino-vietnamese-readings.csv`|An edited CSV version of Chiang list with one duplicate entry manually removed (8090 lines)
 |`sino-vietnamese-syllables.csv`|The SV list in `o,m,n,c,t` format|
 |`sino-vietnamese-syllables.txt`|The SV list in `orthography,I P A` format|
 |`slot-format.py`|Python helper script that takes the IPA from the `*.txt` files and produces comma-delimited (`ons,med,nuc,cod,ton`) output|
