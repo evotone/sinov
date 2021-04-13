@@ -1,7 +1,7 @@
 
 ---
-title: "Exploring statistical regularities in the Vietnamese syllable canon"
-author: "James Kirby"
+title: "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanword phonology (Supplementary materials)"
+author: "James Kirby & Mark Alves"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
   html_document:
@@ -135,8 +135,9 @@ fmt_uni(uni_dead, 3)
 
 ```{r biprep, echo = FALSE, messages = FALSE, warning = FALSE}
 
-nuc_levels <- c('a', 'aː', 'e', 'ə', 'əː', 'ɛ', 'ɨ', 'i', 'ɔ', 'o', 'u', 'iə', 'ɨə', 'uə')
-coda_levels <- c('', 'p', 't', 'k', 'm', 'n', 'ŋ', 'j', 'w')
+ons_levels <- c('p', 'ɓ', 't', 'tʰ', 'ɗ', 'ʈ', 'c', 'k', 'f', 'v', 's', 'z', 'ʂ', 'ʑ', 'x', 'ɣ', 'h', 'l', 'r', 'm', 'n', 'ɲ', 'ŋ', 'j', 'w', 'ʔ')
+nuc_levels <- c('a', 'aː', 'e', 'ə', 'əː', 'ɛ', 'i', 'iə', 'ɨ', 'ɨə', 'o', 'ɔ', 'u', 'uə')
+coda_levels <- c('None', 'p', 't', 'k', 'm', 'n', 'ŋ', 'j', 'w')
 tone_levels <- c('ngang', 'huyền', 'hỏi', 'ngã', 'sắc', 'nặng')
 
 bi_prep <- function(df, pos1, pos2) {
@@ -151,15 +152,16 @@ bi_prep <- function(df, pos1, pos2) {
     mutate(PMI = signif(log(n/sum(n), 2) - log(seg1n/sum(n), 2) - log(seg2n/sum(n), 2),2)) %>%
     select(-c(seg1n, seg2n)) %>%
     pivot_wider(names_from = lex, values_from = c(n, PMI)) %>%
+    replace_na(list(n_SV = 0, n_NSV = 0)) %>%
     mutate(SV_ratio = round(n_SV/(n_SV + n_NSV) * 100, 2))    
 }
 
 on <- bi_prep(sl, ons, nuc)
-om <- bi_prep(sl, ons, med)
-oc <- bi_prep(sl, ons, cod)
+om <- bi_prep(sl, ons, med) %>% mutate(med = replace_na(med, "None")) 
+oc <- bi_prep(sl, ons, cod) %>% mutate(cod = replace_na(cod, "None"))   
 ot <- bi_prep(sl, ons, ton)
-nc <- bi_prep(sl, nuc, cod)
-ct <- bi_prep(sl, cod, ton)
+nc <- bi_prep(sl, nuc, cod) %>% mutate(cod = replace_na(cod, "None"))   
+ct <- bi_prep(sl, cod, ton) %>% mutate(cod = replace_na(cod, "None"))   
 
 # example, retained for posterity
 #oc <- counts %>% 
@@ -192,8 +194,11 @@ fmt_table <- function(df, col) {
               rownames = FALSE, 
               options = list(order = list(list({{col}}, 'desc')))
               ) %>% 
-   
     formatStyle('n_SV', 
+                color = styleInterval(
+                  c(0), 
+                  c('red', 'black'))) %>%
+    formatStyle('n_NSV', 
                 color = styleInterval(
                   c(0), 
                   c('red', 'black'))) %>%
@@ -217,26 +222,30 @@ fmt_table <- function(df, col) {
 on %>% fmt_table(6) 
 ```
 
-```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
+```{r, echo=FALSE, out.width = "100%", fig.height = 4.5}
 
 onsv <- on %>%
-          filter(n_SV > 1) %>%
+          mutate(n_SV = replace(n_SV, n_SV<2, NA)) %>%
           mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", n_SV, "\n")) %>%
-          ggplot(aes(x = ons, y = factor(nuc, levels = rev(nuc_levels)), fill = n_SV, text = text)) +
+          ggplot(aes(x = factor(ons, levels = ons_levels),
+                     y = factor(nuc, levels = rev(nuc_levels)), 
+                     fill = n_SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "nucleus") +
+          labs(x = "onset", y = "nucleus") +
           ggtitle("Onset-nucleus co-occurrences, SV")
 ggplotly(onsv, tooltip = "text")
 
 onnv <- on %>%
-          filter(n_NSV > 1) %>%
+          mutate(n_NSV = replace(n_NSV, n_NSV<2, NA)) %>%
           mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", n_NSV, "\n")) %>%
-          ggplot(aes(x = ons, y = factor(nuc, levels = rev(nuc_levels)), fill = n_NSV, text = text)) +
+          ggplot(aes(x = factor(ons, levels = ons_levels),
+                     y = factor(nuc, levels = rev(nuc_levels)), 
+                     fill = n_NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "nucleus") +
-          ggtitle("Onset-nucleus co-occurrences, NSV")
+          labs(x = "onset", y = "nucleus") +
+          ggtitle("Onset-nucleus co-occurrences, NSV") 
 ggplotly(onnv, tooltip = "text")
 ```
 
@@ -249,25 +258,36 @@ om %>% fmt_table(6)
 ```{r, echo=FALSE}
 oc %>% fmt_table(6)
 ```
-```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
+
+```{r, echo=FALSE, out.width = "100%", fig.height = 4}
 
 ocsv <- oc %>%
-          filter(n_SV > 1) %>%
-          mutate(text = paste0("onset: ", ons, "\n", "coda: ", cod, "\n", "count: ", n_SV, "\n")) %>%
-          ggplot(aes(x = ons, y = factor(cod, level = rev(coda_levels)), fill = n_SV, text = text)) +
+          mutate(n_SV = replace(n_SV, n_SV<2, NA),
+                 text = paste0("onset: ", ons, "\n", 
+                               "coda: ", cod, "\n", 
+                               "count: ", n_SV, "\n")) %>%
+          ggplot(aes(x = factor(ons, level = ons_levels),
+                     y = factor(cod, level = rev(coda_levels)), 
+                     fill = n_SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "coda") +
+          labs(x = "onset", 
+               y = "coda") +
           ggtitle("Onset-coda co-occurrences, SV")
 ggplotly(ocsv, tooltip = "text")
 
 ocnv <- oc %>%
-          filter(n_NSV > 1) %>%
-          mutate(text = paste0("onset: ", ons, "\n", "coda: ", cod, "\n", "count: ", n_NSV, "\n")) %>%
-          ggplot(aes(x = ons, y = factor(cod, level = rev(coda_levels)), fill = n_NSV, text = text)) +
+          mutate(n_NSV = replace(n_NSV, n_NSV<2, NA),
+                 text = paste0("onset: ", ons, "\n", 
+                               "coda: ", cod, "\n", 
+                               "count: ", n_NSV, "\n")) %>%
+          ggplot(aes(x = factor(ons, level = ons_levels),
+                     y = factor(cod, level = rev(coda_levels)), 
+          fill = n_NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "coda") +
+          labs(x = "onset",
+               y = "coda") +
           ggtitle("Onset-coda co-occurrences, NSV")
 ggplotly(ocnv, tooltip = "text")
 ```
@@ -280,21 +300,27 @@ ot %>% fmt_table(6)
 
 otsv <- ot %>%
           filter(n_SV > 1) %>%
-          mutate(text = paste0("onset: ", ons, "\n", "tone: ", ton, "\n", "count: ", n_SV, "\n")) %>%
+          mutate(text = paste0("onset: ", ons, "\n", 
+                               "tone: ", ton, "\n", 
+                               "count: ", n_SV, "\n")) %>%
           ggplot(aes(x = ons, y = factor(ton, level = rev(tone_levels)), fill = n_SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "tone") +
+          labs(x = "onset",
+               y = "tone") +
           ggtitle("Onset-tone co-occurrences, SV")
 ggplotly(otsv, tooltip = "text")
 
 otnv <- ot %>%
           filter(n_NSV > 1) %>%
-          mutate(text = paste0("onset: ", ons, "\n", "tone: ", ton, "\n", "count: ", n_NSV, "\n")) %>%
+          mutate(text = paste0("onset: ", ons, "\n", 
+                               "tone: ", ton, "\n", 
+                               "count: ", n_NSV, "\n")) %>%
           ggplot(aes(x = ons, y = factor(ton, level = rev(tone_levels)), fill = n_NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "tone") +
+          labs(x = "onset",
+               y = "tone") +
           ggtitle("Onset-tone co-occurrences, NSV")
 ggplotly(otnv, tooltip = "text")
 ```
@@ -304,7 +330,7 @@ ggplotly(otnv, tooltip = "text")
 nc %>% fmt_table(6)
 ```
 
-```{r, echo=FALSE, out.width = "50%", fig.height = 3.5}
+```{r, echo=FALSE, out.width = "60%", fig.height = 3.5}
 
 ncsv <- nc %>%
           filter(n_SV > 1) %>%
@@ -312,7 +338,8 @@ ncsv <- nc %>%
           ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = n_SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "coda") +
+          labs(x = "nucleus",
+               y = "coda") +
           ggtitle("Nucleus-coda co-occurrences, SV")
 ggplotly(ncsv, tooltip = "text")
 
@@ -322,7 +349,8 @@ ncnv <- nc %>%
           ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = n_NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(y = "coda") +
+          labs(x = "nucleus",
+               y = "coda") +
           ggtitle("Nucleus-coda co-occurrences, NSV")
 ggplotly(ncnv, tooltip = "text")
 ```
@@ -380,24 +408,41 @@ tri_prep <- function(df, pos1, pos2, pos3) {
                           log(seg3n/sum(n)),2)) %>%
     select(-c(seg1n, seg2n, seg3n)) %>%
     pivot_wider(names_from = lex, values_from = c(n, PMI)) %>%
+    replace_na(list(n_SV = 0, n_NSV = 0)) %>%
     mutate(SV_ratio = round(n_SV/(n_SV + n_NSV) * 100, 2))    
 }
 ```
 
 ## Onset, medial, nucleus
 ```{r, echo = FALSE}
-tri_prep(sl, ons, med, nuc) %>% fmt_table(7)
+tri_prep(sl, ons, med, nuc) %>% 
+  mutate(med = replace_na(med, "None")) %>% 
+  fmt_table(7)
 ```
 
 ## Onset, medial, coda
 ```{r, echo = FALSE}
-tri_prep(sl, ons, med, cod) %>% fmt_table(7)
+tri_prep(sl, ons, med, cod) %>% 
+  mutate(med = replace_na(med, "None"), 
+         cod = replace_na(cod, "None")) %>% 
+  fmt_table(7)
 ```
 
 ## Medial, nucleus, coda
 ```{r, echo = FALSE}
-tri_prep(sl, med, nuc, cod) %>% fmt_table(7)
+tri_prep(sl, med, nuc, cod) %>% 
+  mutate(med = replace_na(med, "None"), 
+         cod = replace_na(cod, "None")) %>% 
+  fmt_table(7)
 ```
+
+## Nucleus, coda, tone
+```{r, echo = FALSE}
+tri_prep(sl, nuc, cod, ton) %>% 
+  mutate(cod = replace_na(cod, "None")) %>% 
+  fmt_table(7)
+```
+
 
 # Syllable structure
 
