@@ -28,3 +28,12 @@ You want [stats-plots.html](stats-plots.html). You can download it and view it i
 |`syllable-shape-counts.csv`|Output of `print-syllable-shape-counts.py`|
 |`unique-sino-vietnamese-syllables.txt`|Just the unique Vietnamese syllables from `sino-vietnamese-readings.csv`(1940 lines)|
 
+## A note on the Sino-Vietnamese word list
+
+The `sino-vietnamese-readings.csv` file is based on the dissertation of Chia-lu Chiang:
+
+江佳路 [Chiang, Chia-lu]. 2011. 越南漢子音的歷史層次研究 [The study on phonological strata of Sino-Vietnamese]. Unpublished dissertation. 國立台灣師範大學 [National Taiwan Normal University].
+
+We do not use Chiang's phonetic representations directly, although our representations should be broadly equivalent. More importantly, we have **not** verified the accuracy of this list ourselves, so *cave usor*.
+
+This is also not a unique list; other Sino-Vietnamese word lists and dictionaries can easily be found by searching the Web.
