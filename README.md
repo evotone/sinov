@@ -34,6 +34,6 @@ The `sino-vietnamese-readings.csv` file is based on the dissertation of Chia-lu 
 
 江佳路 [Chiang, Chia-lu]. 2011. 越南漢子音的歷史層次研究 [The study on phonological strata of Sino-Vietnamese]. Unpublished dissertation. 國立台灣師範大學 [National Taiwan Normal University].
 
-We do not use Chiang's phonetic representations directly, although our representations should be broadly equivalent. More importantly, we have **not** verified the accuracy of this list ourselves, so *cave usor*.
+We do not use Chiang's phonetic representations directly, although our representations should be broadly equivalent. More importantly, we have **not** verified the accuracy of this list ourselves, so *cave usor*. For example, there may be alternative pronunciations for some characters that are not in this list, and/or pronunciations that have been "normalized" somewhere along the line. *Further research is needed.*
 
 This is also not a unique list; other Sino-Vietnamese word lists and dictionaries can easily be found by searching the Web.
