@@ -1,6 +1,6 @@
 
 ---
-title: "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanword phonology (Supplementary materials)"
+title: "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanmorph phonology (Supplementary materials)"
 author: "James Kirby & Mark Alves"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
@@ -299,11 +299,13 @@ ot %>% fmt_table(6)
 ```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
 
 otsv <- ot %>%
-          filter(n_SV > 1) %>%
-          mutate(text = paste0("onset: ", ons, "\n", 
+          mutate(n_SV = replace(n_SV, n_SV<2, NA),
+                 text = paste0("onset: ", ons, "\n", 
                                "tone: ", ton, "\n", 
                                "count: ", n_SV, "\n")) %>%
-          ggplot(aes(x = ons, y = factor(ton, level = rev(tone_levels)), fill = n_SV, text = text)) +
+          ggplot(aes(x = factor(ons, level = ons_levels),
+                     y = factor(ton, level = rev(tone_levels)), 
+                     fill = n_SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "onset",
@@ -316,7 +318,9 @@ otnv <- ot %>%
           mutate(text = paste0("onset: ", ons, "\n", 
                                "tone: ", ton, "\n", 
                                "count: ", n_NSV, "\n")) %>%
-          ggplot(aes(x = ons, y = factor(ton, level = rev(tone_levels)), fill = n_NSV, text = text)) +
+          ggplot(aes(x = factor(ons, level = ons_levels), 
+                     y = factor(ton, level = rev(tone_levels)), 
+                     fill = n_NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "onset",
