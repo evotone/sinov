@@ -1,5 +1,5 @@
 # sinov
-Data and code accompanying Kirby & Alves (2021), "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanword phonology"
+Data and code accompanying Kirby & Alves (2021), "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanmorph phonology"
 
 ## I just want to see the tables
 
