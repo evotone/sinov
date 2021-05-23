@@ -1,6 +1,6 @@
 
 ---
-title: "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanmorph phonology (Supplementary materials)"
+title: "Exploring statistical regularities in the syllable canon of Sino-Vietnamese loanmorph phonology (supplementary materials)"
 author: "James Kirby & Mark Alves"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
@@ -17,7 +17,7 @@ output:
 </style>
 
 ```{r setup, warning=FALSE, message=FALSE, echo=FALSE}
-knitr::opts_chunk$set(layout="l-screen-inset")
+knitr::opts_chunk$set(layout="l-screen-inset", echo=FALSE, warning=FALSE)
 library(tidyverse)
 library(DT)
 library(knitr)
@@ -27,9 +27,7 @@ library(viridis)
 
 theme_set(theme_minimal())
 
-###
 ## load and prepare data
-###
 setwd('/Users/jkirby/Projects/vietnam/sinov/')
 
 syl = read.csv('syllable-shape-counts.csv', 
@@ -57,10 +55,30 @@ sl$ton <- recode(sl$ton,
 
 ```
 
+# Overview
+
+These are toplots and searchable, sortable `datatables` to accompany the main text. They are divided into unigram, bigram, and trigram sections. The unigrams section considers the occurrences of segments by syllabic position. The bigram and trigram sections consider (not necessarily sequential) co-occurrences of two or three segments, respectively.
+
+For some n-grams, data are plotted as histograms or heatmaps. These are hidden by default, but can be revealed (and hidden again) by clicking the appropriate button.
+
+In all tables, the data can be copied to the clipboard or saved as a CSV file. There are also additional columns that are hidden by default; these can be revealed using the `Show all` button, or individuals columns can be selected using the `Column visibility` button. All columns can also be reordered just by clicking and dragging. The datatables can be sorted by individual columns; the default is descending order by O/E ratio.
+
+Most columns in the unigram, bigram, and trigram sections have the same interpretation:
+
+- the **SV** and **NSV** columns give the number of occurrences (counts) of an n-gram in a given layer.
+- the **SV/total** column shows the percentage (out of 100) of the n-grams that occur in the SV layer.
+- the **O/E** column gives the *observed/expected ratio* for this n-gram, where the expectation is based on frequencies of occurrence in the two layers:
+
+$$\frac{\text{Count in SV list}}{\text{Count in both lists}} \times \frac{\text{Length of lexicon}}{\text{Length of SV list}}$$
+Since the lengths of the lexicon and the SV list are both constant, this means that O/E is linearly proportional to the percentage of occurrences in the SV layer (here, **SV/total** $\times$ 4.234141). 
+
+The advantage of the O/E ratio lies in its intepretability: when O/E $\approx$ 1, then the n-gram occurs in the SV list about as often as expected, i.e. about 24% of the time (**SV/total** $\approx$ 0.24); when O/E < 1, the n-gram occurs less often than expected; and when O/E > 1, it occurs more often than expected.
+
 # Unigrams
 
-- The columns **SV_ppb** and **NSV_ppb** are the list-specific frequencies of the unigrams (so the sum of each column should be 100).
-- For a given row, **SV_ratio** is **SV** / (**SV** + **NSV**).
+- The unigram tables contain two hidden columns **%SV** and **%NSV**, which are the *list-specific positional frequencies* of each segment. They are not true unigram frequencies. For example, in the **Onsets** table, `k` has a **%SV** of 8.72%; this means that 8.72% of syllables in the SV list begin with `k`. We treat the onset as obligatory, e.g. *oan* is treated as having the onset `ʔ`. The **%SV** and **%NSV** columns are hidden by default; use the `Show all` or `Column visibility` buttons to reveal them.
+
+- The histograms plot each segment's percentage of the total segments *of that type* in each layer, ordered by **%SV**. The histograms are also hidden by default.
 
 ```{r, echo=FALSE}
 uni_prep <- function(df, pos) {
@@ -70,9 +88,15 @@ uni_prep <- function(df, pos) {
     distinct %>%
     group_by(lex) %>%
     pivot_wider(names_from = lex, values_from = n) %>% 
-    mutate(SV_ppb = round(SV/sum(SV, na.rm = TRUE) * 100, 2)) %>%
-    mutate(NSV_ppb = round(NSV/sum(NSV, na.rm=TRUE) * 100, 2)) %>%
-    mutate(SV_ratio = round(SV/(SV + NSV) * 100, 2))
+    mutate(`%SV` = round(SV/sum(SV, na.rm = TRUE) * 100, 2),
+           `%NSV` = round(NSV/sum(NSV, na.rm=TRUE) * 100, 2),
+           `SV/total` = round(SV/(SV + NSV) * 100, 2), 
+           `O/E` = (SV * sum(SV, NSV, na.rm = TRUE)) / 
+             ((SV + NSV) * sum(SV, na.rm = TRUE))) %>%
+           #`O/E`= (SV/sum(SV, NSV, na.rm = TRUE)) /
+           #  (((SV+NSV)/sum(SV, NSV, na.rm = TRUE)) * 
+           #  (sum(SV, na.rm = TRUE)/sum(SV, NSV, na.rm = TRUE)))) %>%
+    mutate(`O/E` = round(`O/E`, 2))
 }
 
 uni_ons <- uni_prep(sl, ons) %>% replace(is.na(.), 0) 
@@ -91,45 +115,162 @@ fmt_uni <- function(df, col) {
             formatStyle('SV', 
             color = styleInterval(c(0), 
                                   c('red', 'black'))) %>%
-            formatStyle('SV_ppb', 
-            color = styleInterval(c(0), 
-                                  c('red', 'black'))) %>%
-            formatStyle('SV_ratio', 
+            formatStyle('%SV', 
             color = styleInterval(c(0), 
                                   c('red', 'black')))
 }
 ```
 
-## Onsets
-```{r, echo=FALSE}
-fmt_uni(uni_ons, 3)
+```{r fmtfunc, echo=FALSE}
+fmt_table <- function(df, col, px=310) {
+  df %>% 
+    datatable(
+      class = "compact stripe",
+      rownames = FALSE, 
+      # NB: to load multiple extensions, use c(), not list()!!
+      extensions = c('Scroller', 'Buttons', 'ColReorder'),
+      options = list(
+        order = list(list({{col}}, 'desc')),
+        deferRender = TRUE,
+        colReorder = TRUE,
+        scrollY = px,
+        scroller = TRUE,
+        dom = 'Bfrti',
+        buttons = list('copy', 'csv', list(
+          extend = 'colvis', 
+          columns = c(0:ncol(df)-1)),
+          list(
+            extend = "colvisGroup", 
+            text = "Show all", 
+            show = ":hidden")),
+        # hides PMI columns by default
+        columnDefs = list(list(visible = FALSE, targets=c(ncol(df)-4,ncol(df)-3)))
+        )
+      ) %>%
+    formatStyle(c('SV', 'NSV', 'SV/total', 'O/E'),
+                color = styleInterval(
+                  c(0), 
+                  c('red', 'black'))) 
+}
 ```
+
+## Onsets
+```{r, echo=FALSE, warning=FALSE}
+fmt_table(uni_ons, 6)
+```
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#Onsets">Show/hide histogram</button>
+<div id="Onsets" class="collapse"> 
+
+```{r, fig.height=4, fig.width=8}
+## as histogram
+uni_ons %>% 
+  select(ons, `%SV`, `%NSV`) %>% 
+  rename(SV = `%SV`, NSV = `%NSV`) %>%
+  mutate(ons = fct_reorder(ons, desc(SV))) %>%
+  pivot_longer(c(SV, NSV), names_to = "layer", values_to = "pct") %>% 
+  ggplot(aes(ons, pct, fill = layer)) + 
+  geom_histogram(stat = "identity", position = "dodge") + 
+  labs(x = "onset", y = "% of syllables in layer") +
+  theme(legend.position = "top") + 
+  scale_fill_grey()
+```
+</div>
 
 ## Medials
 ```{r, echo=FALSE}
-fmt_uni(uni_med, 3)
+fmt_table(uni_med, 6, 65)
 ```
 
 ## Nuclei
-```{r, echo=FALSE}
-fmt_uni(uni_nuc, 3)
+```{r, echo=FALSE, warning=FALSE}
+fmt_table(uni_nuc, 6)
 ```
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#Nuclei">Show/hide histogram</button>
+<div id="Nuclei" class="collapse"> 
+
+```{r, fig.height=4}
+## as histogram
+uni_nuc %>% 
+  select(nuc, `%SV`, `%NSV`) %>% 
+  rename(SV = `%SV`, NSV = `%NSV`) %>%
+  #mutate(nuc = fct_relevel(nuc, c('a', 'aː', 'e', 'ə', 'əː', 'ɛ', 'i', 'ɨ', 'o', 'ɔ', 'u',  'iə', 'ɨə', 'uə'))) %>%
+  mutate(nuc = fct_reorder(nuc, desc(SV))) %>%
+  pivot_longer(c(SV, NSV), names_to = "layer", values_to = "pct") %>% 
+  ggplot(aes(nuc, pct, fill = layer)) + 
+  geom_histogram(stat = "identity", position = "dodge") + 
+  labs(x = "nucleus", y = "% of syllables in layer") +
+  theme(legend.position = "top") + 
+  scale_fill_grey()
+```
+</div>
 
 ## Codas
 ```{r, echo=FALSE}
-fmt_uni(uni_cod, 3)
+fmt_table(uni_cod, 6, 280)
 ```
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#Codas">Show/hide histogram</button>
+<div id="Codas" class="collapse"> 
+
+```{r, fig.height=4}
+uni_cod %>% 
+  select(cod, `%SV`, `%NSV`) %>% 
+  rename(SV = `%SV`, NSV = `%NSV`) %>%
+  mutate(cod = fct_reorder(cod, desc(SV))) %>%
+  pivot_longer(c(SV, NSV), names_to = "layer", values_to = "pct") %>% 
+  ggplot(aes(cod, pct, fill = layer)) + 
+  geom_histogram(stat = "identity", position = "dodge") + 
+  labs(x = "coda", y = "% of syllables in layer") +
+  theme(legend.position = "top") + 
+  scale_fill_grey()
+```
+</div>
 
 ## Tones, live syllables
 ```{r, echo=FALSE}
-fmt_uni(uni_live, 3)
+fmt_table(uni_live, 6, 190)
 ```
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#Live">Show/hide histogram</button>
+<div id="Live" class="collapse"> 
+
+```{r, fig.height=3, fig.width=5}
+uni_live %>% 
+  select(ton, `%SV`, `%NSV`) %>% 
+  rename(SV = `%SV`, NSV = `%NSV`) %>%
+  mutate(ton = fct_reorder(ton, desc(SV))) %>%
+  pivot_longer(c(SV, NSV), names_to = "layer", values_to = "pct") %>% 
+  ggplot(aes(ton, pct, fill = layer)) + 
+  geom_histogram(stat = "identity", position = "dodge") + 
+  labs(x = "tone", y = "% of syllables in layer") +
+  theme(legend.position = "top") + 
+  scale_fill_grey()
+```
+</div>
 
 ## Tones, dead syllables
 ```{r, echo=FALSE}
-fmt_uni(uni_dead, 3)
+fmt_table(uni_dead, 6, 65)
 ```
 
+<button class="btn btn-primary" data-toggle="collapse" data-target="#Dead">Show/hide histogram</button>
+<div id="Dead" class="collapse"> 
+
+```{r, fig.height=3, fig.width=3}
+uni_dead%>% 
+  select(ton, `%SV`, `%NSV`) %>% 
+  rename(SV = `%SV`, NSV = `%NSV`) %>%
+  mutate(ton = fct_reorder(ton, desc(SV))) %>%
+  pivot_longer(c(SV, NSV), names_to = "layer", values_to = "pct") %>% 
+  ggplot(aes(ton, pct, fill = layer)) + 
+  geom_histogram(stat = "identity", position = "dodge") + 
+  labs(x = "tone", y = "% of syllables in layer") +
+  theme(legend.position = "top") + 
+  scale_fill_grey()
+```
+</div>
 
 # Bigrams
 
@@ -148,12 +289,16 @@ bi_prep <- function(df, pos1, pos2) {
     group_by(lex, {{pos1}}, {{pos2}}) %>% add_tally() %>% ungroup() %>%
     distinct %>%
     group_by(lex) %>%
-#    mutate(OE = signif(n/((seg1n*seg2n)/sum(n)),2),
     mutate(PMI = signif(log(n/sum(n), 2) - log(seg1n/sum(n), 2) - log(seg2n/sum(n), 2),2)) %>%
     select(-c(seg1n, seg2n)) %>%
     pivot_wider(names_from = lex, values_from = c(n, PMI)) %>%
     replace_na(list(n_SV = 0, n_NSV = 0)) %>%
-    mutate(SV_ratio = round(n_SV/(n_SV + n_NSV) * 100, 2))    
+    mutate(`SV/total` = round(n_SV/(n_SV + n_NSV) * 100, 2)) %>%
+    mutate(`O/E` = (n_SV/sum(n_SV, n_NSV, na.rm = TRUE)) /
+             (((n_SV+n_NSV)/sum(n_SV, n_NSV, na.rm = TRUE)) * 
+             (sum(n_SV, na.rm = TRUE)/sum(n_SV, n_NSV, na.rm = TRUE)))) %>%
+    mutate(`O/E` = round(`O/E`, 2)) %>%
+    rename(SV = n_SV, NSV = n_NSV)
 }
 
 on <- bi_prep(sl, ons, nuc)
@@ -162,237 +307,269 @@ oc <- bi_prep(sl, ons, cod) %>% mutate(cod = replace_na(cod, "None"))
 ot <- bi_prep(sl, ons, ton)
 nc <- bi_prep(sl, nuc, cod) %>% mutate(cod = replace_na(cod, "None"))   
 ct <- bi_prep(sl, cod, ton) %>% mutate(cod = replace_na(cod, "None"))   
-
-# example, retained for posterity
-#oc <- counts %>% 
-#      filter(pos1 == "ons" & pos2 == "cod") %>%  
-#      group_by(lex) %>%
-#      mutate(OE = signif(n/((seg1n*seg2n)/sum(n)),2)) %>%
-#      select(-c(pos1, pos2, seg1n, seg2n)) %>%
-#      pivot_wider(names_from = lex, values_from = c(n, OE)) %>%
-#      rename(onset = seg1) %>%
-#      rename(coda = seg2) %>%
-#      add_pcts2()
 ```
 
-**Notes** 
+- The bigram tables contain two columns **PMI_SV** and **PMI_NSV**, which give the *pointwise mutual information* (PMI) scores for the segment pair in the relevant list. PMI describes the increase or decrease in the cost of describing a segment in a particular environment. Positive PMI for a sequence *AB* in list *L* means that when we observe segment *A*, we are unsurprised to find that segment *B* occurs after it, whereas negative PMI means that we are more surprised to see *B*, given that we've seen *A*. PMI is colored <span style="color:green;">green</span> when it exceeds 0.25 and <span style="color:red;">red</span> when it is less than -0.25, but there is nothing inherently special about these values. These columns are hidden by default; use the `Show all` or `Column visibility` buttons to reveal them.
 
-* All segments are treated as "positionally specific". That is, final `-k` and onset `k` are not the same `k` for purposes of determining unigram frequencies (and therefore pointwise mutual information). This is partly because what we are interested in is the *positional* stickiness, and partially because they are arguably different (phonetic) segments.
-* Hover over a cell in the heatmaps to see the exact count of bigrams for that cell. 
-* In the *heatmaps only*, bigrams with *n=1* are not shown.
+- Again, all segments are treated as "positionally specific". That is, final `-k` and onset `k` are not the same `k` for purposes of determining frequencies (and therefore pointwise mutual information). This is partly because what we are interested in is the *positional* stickiness, and partially because they are arguably different (phonetic) segments.
 
-**Key to tables**
+- The heatmaps indicate the number of occurrences of a bigram in a given layer. Hover over a cell in the heatmaps to see the exact count of bigrams for that cell. In the *heatmaps only*, bigrams with *n=1* are not shown.
 
-* **n_SV** and **n_NSV** are the raw counts of this bigram pair in the relevant list
-* **PMI_SV** and **PMI_NSV** are the pointwise mutual information scores for the pair in the relevant list. PMI describes the increase or decrease in the cost of describing a segment in a particular environment (here, under a bigram model). Positive PMI for a sequence *AB* in list *L* means that when we observe segment *A*, we expect that segment *B* will follow, whereas negative PMI means that we are more surprised to see *B*, given that we've seen *A*. PMI is <span style="color:green;">green</span> when it exceeds 0.25 and <span style="color:red;">red</span> when it is less than -0.25. 
-* **SV_ratio** is **n_SV** / (**n_SV** + **n_NSV**).
-
-```{r fmtfunc, echo=FALSE}
-fmt_table <- function(df, col) {
-  df %>% 
-    datatable(class = "compact stripe", 
-              rownames = FALSE, 
-              options = list(order = list(list({{col}}, 'desc')))
-              ) %>% 
-    formatStyle('n_SV', 
-                color = styleInterval(
-                  c(0), 
-                  c('red', 'black'))) %>%
-    formatStyle('n_NSV', 
-                color = styleInterval(
-                  c(0), 
-                  c('red', 'black'))) %>%
-    formatStyle('SV_ratio', 
-                 color = styleInterval(
-                   c(0), 
-                   c('red', 'black'))) %>%
-    formatStyle('PMI_SV', 
-                color = styleInterval(
-                  c(-0.25, 0.25), 
-                  c('red', 'black', 'green'))) %>%
-    formatStyle('PMI_NSV', 
-                color = styleInterval(
-                  c(-0.25, 0.25), 
-                  c('red', 'black', 'green'))) 
-}
-```
-  
 ## Onset-nucleus
 ```{r, echo=FALSE}
-on %>% fmt_table(6) 
+on %>% fmt_table(7) %>% 
+  formatStyle(c('PMI_SV', 'PMI_NSV'),
+              color = styleInterval(
+                c(-0.25, 0.25), 
+                c('red', 'black', 'green')))
 ```
 
-```{r, echo=FALSE, out.width = "100%", fig.height = 4.5}
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#ON">Show/hide heatmaps</button>
+<div id="ON" class="collapse"> 
+```{r, echo=FALSE, fig.height = 4}
 
 onsv <- on %>%
-          mutate(n_SV = replace(n_SV, n_SV<2, NA)) %>%
-          mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", n_SV, "\n")) %>%
+          mutate(SV = replace(SV, SV<2, NA)) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", SV, "\n")) %>%
           ggplot(aes(x = factor(ons, levels = ons_levels),
                      y = factor(nuc, levels = rev(nuc_levels)), 
-                     fill = n_SV, text = text)) +
+                     fill = SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(x = "onset", y = "nucleus") +
+          labs(x = "onset", y = "nucleus", fill = "Count") +
           ggtitle("Onset-nucleus co-occurrences, SV")
 ggplotly(onsv, tooltip = "text")
 
 onnv <- on %>%
-          mutate(n_NSV = replace(n_NSV, n_NSV<2, NA)) %>%
-          mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", n_NSV, "\n")) %>%
+          mutate(NSV = replace(NSV, NSV<2, NA)) %>%
+          mutate(text = paste0("onset: ", ons, "\n", "nucleus: ", nuc, "\n", "count: ", NSV, "\n")) %>%
           ggplot(aes(x = factor(ons, levels = ons_levels),
                      y = factor(nuc, levels = rev(nuc_levels)), 
-                     fill = n_NSV, text = text)) +
+                     fill = NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(x = "onset", y = "nucleus") +
+          labs(x = "onset", y = "nucleus", fill = "Count") +
           ggtitle("Onset-nucleus co-occurrences, NSV") 
 ggplotly(onnv, tooltip = "text")
 ```
+</div>
 
 ## Onset-medial
 ```{r, echo=FALSE}
-om %>% fmt_table(6)
+om %>% fmt_table(7) %>%
+  formatStyle(c('PMI_SV', 'PMI_NSV'),
+              color = styleInterval(
+                c(-0.25, 0.25), 
+                c('red', 'black', 'green')))
 ```
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#OM">Show/hide heatmaps</button>
+<div id="OM" class="collapse"> 
+```{r, echo=FALSE, fig.height = 3, out.width = "100%"}
+omsv <- om %>%
+          mutate(SV = replace(SV, SV<2, NA),
+                 text = paste0("onset: ", ons, "\n", 
+                               "medial: ", med, "\n", 
+                               "count: ", SV, "\n")) %>%
+          ggplot(aes(x = factor(ons, level = ons_levels),
+                     y = factor(med),
+                     fill = SV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(x = "onset",
+               y = "medial",
+               fill = "Count") +
+          ggtitle("Onset-medial co-occurrences, SV")
+ggplotly(omsv, tooltip = "text")
+
+omnv <- om %>%
+          filter(NSV > 1) %>%
+          mutate(text = paste0("onset: ", ons, "\n", 
+                               "medial: ", med, "\n", 
+                               "count: ", NSV, "\n")) %>%
+          ggplot(aes(x = factor(ons, level = ons_levels), 
+                     y = factor(med),
+                     fill = NSV, text = text)) +
+          geom_tile() +
+          scale_fill_viridis(discrete=FALSE) +
+          labs(x = "onset",
+               y = "medial",
+               fill = "Count") +
+          ggtitle("Onset-medial co-occurrences, NSV")
+ggplotly(omnv, tooltip = "text")
+```
+</div>
 
 ## Onset-coda
 ```{r, echo=FALSE}
-oc %>% fmt_table(6)
+oc %>% fmt_table(7) %>%
+  formatStyle(c('PMI_SV', 'PMI_NSV'),
+              color = styleInterval(
+                c(-0.25, 0.25), 
+                c('red', 'black', 'green')))
+  
 ```
 
+<button class="btn btn-primary" data-toggle="collapse" data-target="#OC">Show/hide heatmaps</button>
+<div id="OC" class="collapse"> 
 ```{r, echo=FALSE, out.width = "100%", fig.height = 4}
-
 ocsv <- oc %>%
-          mutate(n_SV = replace(n_SV, n_SV<2, NA),
+          mutate(SV = replace(SV, SV<2, NA),
                  text = paste0("onset: ", ons, "\n", 
                                "coda: ", cod, "\n", 
-                               "count: ", n_SV, "\n")) %>%
+                               "count: ", SV, "\n")) %>%
           ggplot(aes(x = factor(ons, level = ons_levels),
                      y = factor(cod, level = rev(coda_levels)), 
-                     fill = n_SV, text = text)) +
+                     fill = SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "onset", 
-               y = "coda") +
+               y = "coda",
+               fill = "Count") +
           ggtitle("Onset-coda co-occurrences, SV")
 ggplotly(ocsv, tooltip = "text")
 
 ocnv <- oc %>%
-          mutate(n_NSV = replace(n_NSV, n_NSV<2, NA),
+          mutate(NSV = replace(NSV, NSV<2, NA),
                  text = paste0("onset: ", ons, "\n", 
                                "coda: ", cod, "\n", 
-                               "count: ", n_NSV, "\n")) %>%
+                               "count: ", NSV, "\n")) %>%
           ggplot(aes(x = factor(ons, level = ons_levels),
                      y = factor(cod, level = rev(coda_levels)), 
-          fill = n_NSV, text = text)) +
+          fill = NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "onset",
-               y = "coda") +
+               y = "coda", 
+               fill = "Count") +
           ggtitle("Onset-coda co-occurrences, NSV")
 ggplotly(ocnv, tooltip = "text")
 ```
+</div>
 
 ## Onset-tone 
 ```{r, echo=FALSE}
-ot %>% fmt_table(6)
+ot %>% fmt_table(7) %>%
+  formatStyle(c('PMI_SV', 'PMI_NSV'),
+              color = styleInterval(
+                c(-0.25, 0.25), 
+                c('red', 'black', 'green')))
 ```
+
+<button class="btn btn-primary" data-toggle="collapse" data-target="#OT">Show/hide heatmaps</button>
+<div id="OT" class="collapse"> 
 ```{r, echo=FALSE, out.width = "100%", fig.height = 3.5}
 
 otsv <- ot %>%
-          mutate(n_SV = replace(n_SV, n_SV<2, NA),
+          mutate(SV = replace(SV, SV<2, NA),
                  text = paste0("onset: ", ons, "\n", 
                                "tone: ", ton, "\n", 
-                               "count: ", n_SV, "\n")) %>%
+                               "count: ", SV, "\n")) %>%
           ggplot(aes(x = factor(ons, level = ons_levels),
                      y = factor(ton, level = rev(tone_levels)), 
-                     fill = n_SV, text = text)) +
+                     fill = SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "onset",
-               y = "tone") +
+               y = "tone",
+               fill = "Count") +
           ggtitle("Onset-tone co-occurrences, SV")
 ggplotly(otsv, tooltip = "text")
 
 otnv <- ot %>%
-          filter(n_NSV > 1) %>%
+          filter(NSV > 1) %>%
           mutate(text = paste0("onset: ", ons, "\n", 
                                "tone: ", ton, "\n", 
-                               "count: ", n_NSV, "\n")) %>%
+                               "count: ", NSV, "\n")) %>%
           ggplot(aes(x = factor(ons, level = ons_levels), 
                      y = factor(ton, level = rev(tone_levels)), 
-                     fill = n_NSV, text = text)) +
+                     fill = NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "onset",
-               y = "tone") +
+               y = "tone",
+               fill = "Count") +
           ggtitle("Onset-tone co-occurrences, NSV")
 ggplotly(otnv, tooltip = "text")
 ```
+</div>
 
 ## Nucleus-coda
 ```{r, echo=FALSE}
-nc %>% fmt_table(6)
+nc %>% fmt_table(7) %>%
+  formatStyle(c('PMI_SV', 'PMI_NSV'),
+              color = styleInterval(
+                c(-0.25, 0.25), 
+                c('red', 'black', 'green')))
 ```
 
+<button class="btn btn-primary" data-toggle="collapse" data-target="#NC">Show/hide heatmaps</button>
+<div id="NC" class="collapse"> 
 ```{r, echo=FALSE, out.width = "60%", fig.height = 3.5}
 
 ncsv <- nc %>%
-          filter(n_SV > 1) %>%
-          mutate(text = paste0("nucleus: ", nuc, "\n", "coda: ", cod, "\n", "count: ", n_SV, "\n")) %>%
-          ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = n_SV, text = text)) +
+          filter(SV > 1) %>%
+          mutate(text = paste0("nucleus: ", nuc, "\n", "coda: ", cod, "\n", "count: ", SV, "\n")) %>%
+          ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "nucleus",
-               y = "coda") +
+               y = "coda",
+               fill = "Count") +
           ggtitle("Nucleus-coda co-occurrences, SV")
 ggplotly(ncsv, tooltip = "text")
 
 ncnv <- nc %>%
-          filter(n_NSV > 1) %>%
-          mutate(text = paste0("nucleus: ", nuc, "\n", "coda: ", cod, "\n", "count: ", n_NSV, "\n")) %>%
-          ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = n_NSV, text = text)) +
+          filter(NSV > 1) %>%
+          mutate(text = paste0("nucleus: ", nuc, "\n", "coda: ", cod, "\n", "count: ", NSV, "\n")) %>%
+          ggplot(aes(x = nuc, y = factor(cod, level = rev(coda_levels)), fill = NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
           labs(x = "nucleus",
-               y = "coda") +
+               y = "coda",
+               fill = "Count") +
           ggtitle("Nucleus-coda co-occurrences, NSV")
 ggplotly(ncnv, tooltip = "text")
 ```
+</div>
 
 ## Coda-tone
 ```{r, echo=FALSE}
-ct %>% fmt_table(6)
+ct %>% fmt_table(7)
 ```
 
-```{r, echo=FALSE, out.width = "50%", fig.height = 3.25, fig.show = "hold"}
+<button class="btn btn-primary" data-toggle="collapse" data-target="#CT">Show/hide heatmaps</button>
+<div id="CT" class="collapse"> 
 
+```{r, echo=FALSE, out.width = "50%", fig.height = 3.25, fig.show = "hold"}
 ctsv <- ct %>%
-          filter(n_SV > 1) %>%
-          mutate(text = paste0("coda: ", cod, "\n", "tone: ", ton, "\n", "count: ", n_SV, "\n")) %>%
+          filter(SV > 1) %>%
+          mutate(text = paste0("coda: ", cod, "\n", "tone: ", ton, "\n", "count: ", SV, "\n")) %>%
           ggplot(aes(x = factor(cod,
                                 level = coda_levels),
                      y = factor(ton,
-                                level = rev(tone_levels)), fill = n_SV, text = text)) +
+                                level = rev(tone_levels)), fill = SV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(x = "coda", y = "tone") +
+          labs(x = "coda", y = "tone", fill = "Count") +
           ggtitle("Coda-tone co-occurrences, SV")
 ggplotly(ctsv, tooltip = "text")
 
 ctnv <- ct %>%
-          filter(n_NSV > 1) %>%
-          mutate(text = paste0("coda: ", cod, "\n", "tone: ", ton, "\n", "count: ", n_NSV, "\n")) %>%
+          filter(NSV > 1) %>%
+          mutate(text = paste0("coda: ", cod, "\n", "tone: ", ton, "\n", "count: ", NSV, "\n")) %>%
           ggplot(aes(x = factor(cod,
                                 level = coda_levels),
                      y = factor(ton,
-                                level = rev(tone_levels)), fill = n_NSV, text = text)) +
+                                level = rev(tone_levels)), fill = NSV, text = text)) +
           geom_tile() +
           scale_fill_viridis(discrete=FALSE) +
-          labs(x = "coda", y = "tone") +
+          labs(x = "coda", y = "tone", fill = "Count") +
           ggtitle("Coda-tone co-occurrences, NSV")
 ggplotly(ctnv, tooltip = "text")
-
 ```
+</div>
 
 # Trigrams
 
@@ -413,7 +590,12 @@ tri_prep <- function(df, pos1, pos2, pos3) {
     select(-c(seg1n, seg2n, seg3n)) %>%
     pivot_wider(names_from = lex, values_from = c(n, PMI)) %>%
     replace_na(list(n_SV = 0, n_NSV = 0)) %>%
-    mutate(SV_ratio = round(n_SV/(n_SV + n_NSV) * 100, 2))    
+    mutate(`SV/total` = round(n_SV/(n_SV + n_NSV) * 100, 2)) %>% 
+    mutate(`O/E` = (n_SV/sum(n_SV, n_NSV, na.rm = TRUE)) /
+             (((n_SV+n_NSV)/sum(n_SV, n_NSV, na.rm = TRUE)) * 
+             (sum(n_SV, na.rm = TRUE)/sum(n_SV, n_NSV, na.rm = TRUE)))) %>%
+    mutate(`O/E` = round(`O/E`, 2)) %>%
+    rename(SV = n_SV, NSV = n_NSV)
 }
 ```
 
@@ -421,7 +603,7 @@ tri_prep <- function(df, pos1, pos2, pos3) {
 ```{r, echo = FALSE}
 tri_prep(sl, ons, med, nuc) %>% 
   mutate(med = replace_na(med, "None")) %>% 
-  fmt_table(7)
+  fmt_table(8)
 ```
 
 ## Onset, medial, coda
@@ -429,7 +611,7 @@ tri_prep(sl, ons, med, nuc) %>%
 tri_prep(sl, ons, med, cod) %>% 
   mutate(med = replace_na(med, "None"), 
          cod = replace_na(cod, "None")) %>% 
-  fmt_table(7)
+  fmt_table(8)
 ```
 
 ## Medial, nucleus, coda
@@ -437,27 +619,26 @@ tri_prep(sl, ons, med, cod) %>%
 tri_prep(sl, med, nuc, cod) %>% 
   mutate(med = replace_na(med, "None"), 
          cod = replace_na(cod, "None")) %>% 
-  fmt_table(7)
+  fmt_table(8)
 ```
 
 ## Nucleus, coda, tone
 ```{r, echo = FALSE}
 tri_prep(sl, nuc, cod, ton) %>% 
   mutate(cod = replace_na(cod, "None")) %>% 
-  fmt_table(7)
+  fmt_table(8)
 ```
 
 
 # Syllable structure
 
-## Possible and attested syllables
 
 - **possible** is the count of possible syllables of this **shape**. What counts as a "possible" syllable? Different ways to do it; here we assume:
 
   - 24 "plain" onsets (including `ʔ` but excluding `w`; we distinguish orthographic *d gi* in addition to *s x*)
   - 12 nuclei `[aː e əː ɛ i ɨ ɔ o u iə ɨə uə]` with unrestricted distribution following plain onsets
   - 2 nuclei `[a ə]` that cannot occur in open syllables
-  - 17 "labializable" onsets `[ɗw tw tʰw sw zw lw rw cw ʂw ɲw ʈw kw xw ɣw ŋw hw w]` (we treat `w` here like a labialized `ʔw` for co-occurrence reasons) which may not be followed by `[ɨ ɔ o u ɨə uə]` (ostensibly the single exception is *quốc* but it is typically pronounced `[kwək]`)
+  - 17 "labializable" onsets `[ɗ t tʰ s z l r c ʂ ɲ ʈ k x ɣ ŋ h ʔ]` (we treat onset `w` here like a labialized `ʔ` for co-occurrence reasons) which may not be followed by `[ɨ ɔ o u ɨə uə]` (ostensibly the single exception is *quốc* but it is typically pronounced `[kwək]`)
   - 3 nasal codas `[m n ŋ]` and 3 unreleased plosive codas `[p t k]`
   - 2 semivowels `[w j]` with restricted distribution: `[j]` cannot follow `[i iə e ɛ]` and `[w]` cannot follow `[əː ɔ o u uə]`
   - a "null" coda that can only occur with 12 of the 14 nuclei
@@ -465,33 +646,40 @@ tri_prep(sl, nuc, cod, ton) %>%
   - 2 tones that can occur with obstruent codas
 
 - **SV** and **NSV** are the counts of syllables of these shapes in the SV and NSV lists, respectively
-- **pct_SV_shape** and **pct_NSV_shape** are the percentages of the *possible* number of syllables *of this shape* that occur in the SV or NSV lists, respectively. 
- **pct_poss_shape** is simply the sum of **pct_SV_shape** and **pct_SV_shape**.
-- **pct_poss_total** is the sum of the **SV** and **NSV** counts *for this shape*, divided by the total sum the the **possible** *column* (17,526).
+- **%SV** and **%NSV** are the percentages of the *possible* number of syllables *of this shape* that occur in the SV or NSV lists, respectively. 
+ **%possible** is simply the sum of **%SV** and **%NSV**.
 
 <!--
+- **pct_poss_total** is the sum of the **SV** and **NSV** counts *for this shape*, divided by the total sum the the **possible** *column* (17,526).
 - Note that the totals for **\_shape** columns are meaningless.
 -->
+
+## Possible and attested syllables
 
 ```{r, echo=FALSE}
 
 syl %>%
   pivot_wider(names_from = lex, values_from = n) %>%
-    mutate(pct_SV_shape = round(SV/possible * 100, 2)) %>%
-    mutate(pct_NSV_shape = round(NSV/possible * 100, 2)) %>%
-    mutate(pct_poss_shape = round((SV+NSV)/possible * 100, 2)) %>%
-    mutate(pct_poss_total = round((SV+NSV)/sum(possible) * 100, 2)) %>%
+    mutate(`%SV` = round(SV/possible * 100, 2)) %>%
+    mutate(`%NSV` = round(NSV/possible * 100, 2)) %>%
+    mutate(`%possible`= round((SV+NSV)/possible * 100, 2)) %>%
+#    mutate(pct_poss_total = round((SV+NSV)/sum(possible) * 100, 2)) %>%
 #    bind_rows(summarise(.,
 #                      across(where(is.numeric), sum),
 #                      across(where(is.factor), ~"Total"))) %>%
-    datatable(class = "compact stripe",
-            caption = "Counts of possible and attested syllables",
-            options = list(pageLength = 25),
-                        rownames = FALSE) %>%
+      datatable(class = "compact stripe",
+              extensions = c('Buttons', 'ColReorder'),
+              caption = "Counts of possible and attested syllables",
+              options = list(
+                pageLength = 10,
+                dom = 'Bfrti',
+                colReorder = TRUE,
+                buttons = list('copy', 'csv')),
+              rownames = FALSE) %>%
     formatStyle('SV', 
                 color = styleInterval(c(0), 
                                       c('red', 'black')))  %>%
-    formatStyle('pct_SV_shape', 
+    formatStyle('%SV', 
                 color = styleInterval(c(0), 
                                       c('red', 'black'))) 
 
@@ -500,7 +688,7 @@ syl %>%
 Takeaways: 
 
 - Out of about 17,500 possible syllables, roughly half are attested, and of that half, about 25% are SV
-- **"Possible" syllables are extremely unevenly distributed**. Out of all possible CV sequences (including tones), nearly all are attested, while only about *half* of all possible CVN sequences are. 
+- **The distribution of attested syllables relative to possible syllables is extremely uneven**. For instance, out of all possible CV sequences (including tones), nearly 80% are attested, while only about *half* of all possible CVN sequences are. 
 - Only around **5%** of **attested** syllables have a Cw- onset, compared to **30%** of **possible** syllables (as calculated here). Thus, it may be more accurate to state that, generally speaking, Vietnamese makes use of almost the entirety of the space of possible CV syllables, but only about half the possible space of C(C)VC syllables.
 
 ```{r, echo=FALSE, eval=FALSE}
@@ -518,9 +706,13 @@ syl %>%
 #                      across(where(is.numeric), sum),
 #                      across(where(is.factor), ~"Total"))) %>%
     datatable(class = "compact stripe",
-            caption = "Counts of possible and attested syllables, ignoring labialized onsets",
-            options = list(pageLength = 25),
-            rownames = FALSE)
+              extensions = c('Buttons', 'ColReorder'),
+              caption = "Counts of possible and attested syllables, ignoring labialized onsets",
+              options = list(
+                pageLength = 10,
+                dom = 'Bfrti'),
+              buttons = list('copy', 'csv'),
+              rownames = FALSE)
 ```
 
 ## Canonical syllable shape
