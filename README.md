@@ -3,7 +3,7 @@ Data and code accompanying Kirby & Alves (2021), "Exploring statistical regulari
 
 ## I just want to see the tables
 
-You want [stats-plots.html](stats-plots.html). You can download it and view it in a web browser, or we've hosted a version [here](https://evotone.github.io/sinov-stats-plots-23-05-2021.html).
+You want [stats-plots.html](stats-plots.html). You can download it and view it in a web browser, or we've hosted a version [here](https://evotone.github.io/sinov-stats-plots.html).
 
 ## Contents
 
