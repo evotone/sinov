@@ -57,22 +57,24 @@ sl$ton <- recode(sl$ton,
 
 # Overview
 
-These are toplots and searchable, sortable `datatables` to accompany the main text. They are divided into unigram, bigram, and trigram sections. The unigrams section considers the occurrences of segments by syllabic position. The bigram and trigram sections consider (not necessarily sequential) co-occurrences of two or three segments, respectively.
+These plots and searchable, sortable <a href="https://datatables.net/">DataTables</a> are designed to accompany the main text. They are divided into unigram, bigram, and trigram sections. The unigrams section considers the occurrences of segments by syllabic position. The bigram and trigram sections consider (not necessarily sequential) co-occurrences of two or three segments, respectively.
 
 For some n-grams, data are plotted as histograms or heatmaps. These are hidden by default, but can be revealed (and hidden again) by clicking the appropriate button.
 
-In all tables, the data can be copied to the clipboard or saved as a CSV file. There are also additional columns that are hidden by default; these can be revealed using the `Show all` button, or individuals columns can be selected using the `Column visibility` button. All columns can also be reordered just by clicking and dragging. The datatables can be sorted by individual columns; the default is descending order by O/E ratio.
+In all tables, the data can be copied to the clipboard or saved as a CSV file using the buttons provided. There are also additional columns that are hidden by default; these can be revealed using the `Show all` button, or individuals columns can be selected using the `Column visibility` button. All columns can also be reordered just by clicking and dragging. The datatables can be sorted in ascending or descending order by clicking the individual column headers; the default is descending order by O/E ratio.
 
 Most columns in the unigram, bigram, and trigram sections have the same interpretation:
 
 - the **SV** and **NSV** columns give the number of occurrences (counts) of an n-gram in a given layer.
-- the **SV/total** column shows the percentage (out of 100) of the n-grams that occur in the SV layer.
+- the **SV/total** column shows the *relative frequency* (expressed as a percentage) of the n-grams that occur in the SV layer.
 - the **O/E** column gives the *observed/expected ratio* for this n-gram, where the expectation is based on frequencies of occurrence in the two layers:
 
 $$\frac{\text{Count in SV list}}{\text{Count in both lists}} \times \frac{\text{Length of lexicon}}{\text{Length of SV list}}$$
-Since the lengths of the lexicon and the SV list are both constant, this means that O/E is linearly proportional to the percentage of occurrences in the SV layer (here, **SV/total** $\times$ 4.234141). 
+Since the lengths of the lexicon and the SV list are both constant, this means that O/E is linearly proportional to the percentage of occurrences in the SV layer (here, **SV/total** $\times$ 0.04234). 
 
-The advantage of the O/E ratio lies in its intepretability: when O/E $\approx$ 1, then the n-gram occurs in the SV list about as often as expected, i.e. about 24% of the time (**SV/total** $\approx$ 0.24); when O/E < 1, the n-gram occurs less often than expected; and when O/E > 1, it occurs more often than expected.
+The advantage of the O/E ratio lies in its interpretability: when O/E $\approx$ 1, then the n-gram occurs in the SV list about as often as expected, i.e. about 24% of the time; when O/E < 1, the n-gram occurs less often than expected; and when O/E > 1, it occurs more often than expected.
+
+Information on columns specific to a particular section are provided below.
 
 # Unigrams
 
@@ -103,22 +105,11 @@ uni_ons <- uni_prep(sl, ons) %>% replace(is.na(.), 0)
 uni_med <- uni_prep(sl, med) %>% mutate(med = replace_na(med, "None")) 
 uni_nuc <- uni_prep(sl, nuc) %>% replace(is.na(.), 0) 
 uni_cod <- uni_prep(sl, cod) %>% mutate(cod = replace_na(cod, "None"))
-uni_live <- sl %>% filter(!(cod %in% c('p', 't', 'k'))) %>% uni_prep(ton)
-uni_dead <- sl %>% filter(cod %in% c('p', 't', 'k')) %>% uni_prep(ton) 
-
-fmt_uni <- function(df, col) {
-  df %>% 
-    datatable(class = "compact stripe", 
-              rownames = FALSE, 
-              options = list(order = list(list({{col}}, 'desc')))
-    ) %>% 
-            formatStyle('SV', 
-            color = styleInterval(c(0), 
-                                  c('red', 'black'))) %>%
-            formatStyle('%SV', 
-            color = styleInterval(c(0), 
-                                  c('red', 'black')))
-}
+uni_live <- sl %>% filter(!(cod %in% c('p', 't', 'k')))
+uni_dead <- sl %>% filter(cod %in% c('p', 't', 'k'))  
+uni_live$ton <- recode(uni_live$ton, "sắc" = "sắc (open)", "nặng" = "nặng (open)")
+uni_dead$ton <- recode(uni_dead$ton, "sắc" = "sắc (-p, -t, -k)", "nặng" = "nặng (-p, -t, -k)")
+uni_tone <- rbind(uni_live, uni_dead) %>% uni_prep(ton)
 ```
 
 ```{r fmtfunc, echo=FALSE}
@@ -228,38 +219,16 @@ uni_cod %>%
 ```
 </div>
 
-## Tones, live syllables
+## Tones
 ```{r, echo=FALSE}
-fmt_table(uni_live, 6, 190)
+fmt_table(uni_tone, 6, 250)
 ```
 
-<button class="btn btn-primary" data-toggle="collapse" data-target="#Live">Show/hide histogram</button>
-<div id="Live" class="collapse"> 
+<button class="btn btn-primary" data-toggle="collapse" data-target="#Tones">Show/hide histogram</button>
+<div id="Tones" class="collapse"> 
 
 ```{r, fig.height=3, fig.width=5}
-uni_live %>% 
-  select(ton, `%SV`, `%NSV`) %>% 
-  rename(SV = `%SV`, NSV = `%NSV`) %>%
-  mutate(ton = fct_reorder(ton, desc(SV))) %>%
-  pivot_longer(c(SV, NSV), names_to = "layer", values_to = "pct") %>% 
-  ggplot(aes(ton, pct, fill = layer)) + 
-  geom_histogram(stat = "identity", position = "dodge") + 
-  labs(x = "tone", y = "% of syllables in layer") +
-  theme(legend.position = "top") + 
-  scale_fill_grey()
-```
-</div>
-
-## Tones, dead syllables
-```{r, echo=FALSE}
-fmt_table(uni_dead, 6, 65)
-```
-
-<button class="btn btn-primary" data-toggle="collapse" data-target="#Dead">Show/hide histogram</button>
-<div id="Dead" class="collapse"> 
-
-```{r, fig.height=3, fig.width=3}
-uni_dead%>% 
+uni_tone %>% 
   select(ton, `%SV`, `%NSV`) %>% 
   rename(SV = `%SV`, NSV = `%NSV`) %>%
   mutate(ton = fct_reorder(ton, desc(SV))) %>%
@@ -309,11 +278,24 @@ nc <- bi_prep(sl, nuc, cod) %>% mutate(cod = replace_na(cod, "None"))
 ct <- bi_prep(sl, cod, ton) %>% mutate(cod = replace_na(cod, "None"))   
 ```
 
-- The bigram tables contain two columns **PMI_SV** and **PMI_NSV**, which give the *pointwise mutual information* (PMI) scores for the segment pair in the relevant list. PMI describes the increase or decrease in the cost of describing a segment in a particular environment. Positive PMI for a sequence *AB* in list *L* means that when we observe segment *A*, we are unsurprised to find that segment *B* occurs after it, whereas negative PMI means that we are more surprised to see *B*, given that we've seen *A*. PMI is colored <span style="color:green;">green</span> when it exceeds 0.25 and <span style="color:red;">red</span> when it is less than -0.25, but there is nothing inherently special about these values. These columns are hidden by default; use the `Show all` or `Column visibility` buttons to reveal them.
+<!--
+PMI describes the increase or decrease in the cost of describing a segment in a particular environment. Positive PMI for a sequence *xy* in list *L* means that when we observe segment *x*, we are unsurprised to find that segment *y* occurs after it, whereas negative PMI means that we are more surprised to see *y*, given that we've seen *x*.
+-->
 
-- Again, all segments are treated as "positionally specific". That is, final `-k` and onset `k` are not the same `k` for purposes of determining frequencies (and therefore pointwise mutual information). This is partly because what we are interested in is the *positional* stickiness, and partially because they are arguably different (phonetic) segments.
+- The bigram tables contain two columns **PMI_SV** and **PMI_NSV**, which give the *pointwise mutual information* (PMI) scores for the segment pair in the relevant list. This statistic tells us something about the status of a sequence of sounds within a given layer. PMI is a measure of how often two events co-occur, compared with how often we would expect them to occur independently:
 
-- The heatmaps indicate the number of occurrences of a bigram in a given layer. Hover over a cell in the heatmaps to see the exact count of bigrams for that cell. In the *heatmaps only*, bigrams with *n=1* are not shown.
+	$$\text{PMI}(x,y)=\log_2\frac{P(x,y)}{P(x)P(y)}$$
+These probabilities are estimated from counts, relative to a particular layer (SV or NSV). For example, if we are interested in the sequence where $x$ is the onset `/m/` and $y$ is the nucleus `/aː/`, then $P(x)$ is the number of occurrences of `/m/` divided by the total number of unigrams in the list (NSV or SV), $P(y)$ is the number of occurrences of `/aː/` divided by the number of unigrams in the list, and $P(x,y)$ is the number of occurrences of the sequence `/maː/` divided by the total number of bigram sequences that begin with `/m/`, e.g. `/mi/, /me/, /mə/`, etc.
+
+  PMI is defined only for pairs of events, not for single events. Intuitively, we may think of it as a measure of surprisal: if the onset is `m`, how surprised are we if an `a` follows it? If this sequence is common, then PMI will be positive, and our surprisal will be low; when PMI is negative, then the sequence is uncommon, and our surprisal will be higher. Sequences which are common in the SV list but uncommon in the NSV list should therefore have high (positive) PMI values when the SV layer is considered, and low (negative) values when the NSV list is considered. 
+  
+  PMI values range from negative to positive infinity, but negative values are especially unreliable when counts are small. For this reason, in many applications, only PMI values >= 0 are considered. However, when there are sufficient observations, negative PMI can still be a useful indicator that a particular segment sequence is uncommon. For more on PMI in a linguistic context, see [Goldsmith 2002](http://people.cs.uchicago.edu/~jagoldsm/Papers/Chiba.pdf); [Goldsmith & Riggle 2012](http://people.cs.uchicago.edu/~jagoldsm/Papers/boltzmann.pdf); [Hall et al. 2017](https://corpustools.readthedocs.io/en/master/mutual_information.html).
+  
+   In the tables, PMI is colored <span style="color:green;">green</span> when it exceeds 0.25 and <span style="color:red;">red</span> when it is less than -0.25, but there is nothing inherently special about these values. These columns are hidden by default; use the `Show all` or `Column visibility` buttons to reveal them.
+
+- Again, all segments are treated as "positionally specific". That is, final `-k` and onset `k-` are not the same `k` for purposes of determining frequencies (and therefore pointwise mutual information). This is partly because what we are interested in is the *positional* stickiness, and partially because they are arguably different (phonetic) segments.
+
+- The heatmaps indicate the number of occurrences of a bigram in a given layer. Hover over a cell in the heatmaps to see the exact count of bigrams for that cell. In the *heatmaps only*, bigrams with $n=1$ are not shown.
 
 ## Onset-nucleus
 ```{r, echo=FALSE}
@@ -635,12 +617,12 @@ tri_prep(sl, nuc, cod, ton) %>%
 
 - **possible** is the count of possible syllables of this **shape**. What counts as a "possible" syllable? Different ways to do it; here we assume:
 
-  - 24 "plain" onsets (including `ʔ` but excluding `w`; we distinguish orthographic *d gi* in addition to *s x*)
-  - 12 nuclei `[aː e əː ɛ i ɨ ɔ o u iə ɨə uə]` with unrestricted distribution following plain onsets
-  - 2 nuclei `[a ə]` that cannot occur in open syllables
-  - 17 "labializable" onsets `[ɗ t tʰ s z l r c ʂ ɲ ʈ k x ɣ ŋ h ʔ]` (we treat onset `w` here like a labialized `ʔ` for co-occurrence reasons) which may not be followed by `[ɨ ɔ o u ɨə uə]` (ostensibly the single exception is *quốc* but it is typically pronounced `[kwək]`)
-  - 3 nasal codas `[m n ŋ]` and 3 unreleased plosive codas `[p t k]`
-  - 2 semivowels `[w j]` with restricted distribution: `[j]` cannot follow `[i iə e ɛ]` and `[w]` cannot follow `[əː ɔ o u uə]`
+  - 24 "plain" onsets (including `/ʔ/` but excluding `/w/`; we distinguish orthographic *d gi* in addition to *s x*)
+  - 12 nuclei `/aː e əː ɛ i ɨ ɔ o u iə ɨə uə/` with unrestricted distribution following plain onsets
+  - 2 nuclei `/a ə/` that cannot occur in open syllables
+  - 17 "labializable" onsets `/ɗ t tʰ s z l r c ʂ ɲ ʈ k x ɣ ŋ h ʔ/` (we treat onset `w` here like a labialized `ʔ` for co-occurrence reasons) which may not be followed by `/ɨ ɔ o u ɨə uə/` (ostensibly the single exception is *quốc* but it is typically pronounced `/kwək/`)
+  - 3 nasal codas `/m n ŋ/` and 3 unreleased plosive codas `/p t k/`
+  - 2 semivowels `/w j/` with restricted distribution: `/j/` cannot follow `/i iə e ɛ/` and `/w/` cannot follow `/əː ɔ o u uə/`
   - a "null" coda that can only occur with 12 of the 14 nuclei
   - 6 tones that can occur with sonorant or null finals
   - 2 tones that can occur with obstruent codas
