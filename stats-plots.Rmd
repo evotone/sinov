@@ -78,7 +78,7 @@ Information on columns specific to a particular section are provided below.
 
 # Unigrams
 
-- The unigram tables contain two hidden columns **%SV** and **%NSV**, which are the *list-specific positional frequencies* of each segment. They are not true unigram frequencies. For example, in the **Onsets** table, `k` has a **%SV** of 8.72%; this means that 8.72% of syllables in the SV list begin with `k`. We treat the onset as obligatory, e.g. *oan* is treated as having the onset `ʔ`. The **%SV** and **%NSV** columns are hidden by default; use the `Show all` or `Column visibility` buttons to reveal them.
+- The unigram tables contain two hidden columns **%SV** and **%NSV**, which are the *list-specific positional frequencies* of each segment. They are not true unigram frequencies. For example, in the **Onsets** table, `/k/` has a **%SV** of 8.72%; this means that 8.72% of syllables in the SV list begin with `/k/`. We treat the onset as obligatory, e.g. *oan* is treated as having the onset `/ʔ/`. The **%SV** and **%NSV** columns are hidden by default; use the `Show all` or `Column visibility` buttons to reveal them.
 
 - The histograms plot each segment's percentage of the total segments *of that type* in each layer, ordered by **%SV**. The histograms are also hidden by default.
 
@@ -227,7 +227,7 @@ fmt_table(uni_tone, 6, 250)
 <button class="btn btn-primary" data-toggle="collapse" data-target="#Tones">Show/hide histogram</button>
 <div id="Tones" class="collapse"> 
 
-```{r, fig.height=3, fig.width=5}
+```{r, fig.height=4}
 uni_tone %>% 
   select(ton, `%SV`, `%NSV`) %>% 
   rename(SV = `%SV`, NSV = `%NSV`) %>%
@@ -285,7 +285,7 @@ PMI describes the increase or decrease in the cost of describing a segment in a 
 - The bigram tables contain two columns **PMI_SV** and **PMI_NSV**, which give the *pointwise mutual information* (PMI) scores for the segment pair in the relevant list. This statistic tells us something about the status of a sequence of sounds within a given layer. PMI is a measure of how often two events co-occur, compared with how often we would expect them to occur independently:
 
 	$$\text{PMI}(x,y)=\log_2\frac{P(x,y)}{P(x)P(y)}$$
-These probabilities are estimated from counts, relative to a particular layer (SV or NSV). For example, if we are interested in the sequence where $x$ is the onset `/m/` and $y$ is the nucleus `/aː/`, then $P(x)$ is the number of occurrences of `/m/` divided by the total number of unigrams in the list (NSV or SV), $P(y)$ is the number of occurrences of `/aː/` divided by the number of unigrams in the list, and $P(x,y)$ is the number of occurrences of the sequence `/maː/` divided by the total number of bigram sequences that begin with `/m/`, e.g. `/mi/, /me/, /mə/`, etc.
+These probabilities are estimated from counts, relative to a particular layer (SV or NSV). For example, if we are interested in the sequence where $x$ is the onset `/m/` and $y$ is the nucleus `/aː/`, then $P(x)$ is the number of occurrences of `/m/` divided by the total number of unigrams in the list (NSV or SV), $P(y)$ is the number of occurrences of `/aː/` divided by the number of unigrams in the list, and $P(x,y)$ is the number of occurrences of the sequence `/maː/` divided by the total number of bigram sequences that begin with `/m/`, e.g. `/mi/`, `/me/`, `/mə/`, etc.
 
   PMI is defined only for pairs of events, not for single events. Intuitively, we may think of it as a measure of surprisal: if the onset is `m`, how surprised are we if an `a` follows it? If this sequence is common, then PMI will be positive, and our surprisal will be low; when PMI is negative, then the sequence is uncommon, and our surprisal will be higher. Sequences which are common in the SV list but uncommon in the NSV list should therefore have high (positive) PMI values when the SV layer is considered, and low (negative) values when the NSV list is considered. 
   
@@ -614,22 +614,23 @@ tri_prep(sl, nuc, cod, ton) %>%
 
 # Syllable structure
 
-
 - **possible** is the count of possible syllables of this **shape**. What counts as a "possible" syllable? Different ways to do it; here we assume:
 
-  - 24 "plain" onsets (including `/ʔ/` but excluding `/w/`; we distinguish orthographic *d gi* in addition to *s x*)
-  - 12 nuclei `/aː e əː ɛ i ɨ ɔ o u iə ɨə uə/` with unrestricted distribution following plain onsets
+  - 24 onsets `/ɓ ɗ t tʰ ʈ c k f v s z ʂ ʑ x ɣ h l r m n ɲ ŋ j ʔ/` (we distinguish orthographic *d gi* in addition to *s x*)
+  - 12 nuclei `/aː e əː ɛ i ɨ ɔ o u iə ɨə uə/` with unrestricted distribution
   - 2 nuclei `/a ə/` that cannot occur in open syllables
-  - 17 "labializable" onsets `/ɗ t tʰ s z l r c ʂ ɲ ʈ k x ɣ ŋ h ʔ/` (we treat onset `w` here like a labialized `ʔ` for co-occurrence reasons) which may not be followed by `/ɨ ɔ o u ɨə uə/` (ostensibly the single exception is *quốc* but it is typically pronounced `/kwək/`)
-  - 3 nasal codas `/m n ŋ/` and 3 unreleased plosive codas `/p t k/`
-  - 2 semivowels `/w j/` with restricted distribution: `/j/` cannot follow `/i iə e ɛ/` and `/w/` cannot follow `/əː ɔ o u uə/`
-  - a "null" coda that can only occur with 12 of the 14 nuclei
-  - 6 tones that can occur with sonorant or null finals
+  - 1 glide `/w/` which may not be preceded by `/ɓ f v ʑ m n j/` or followed by `/ɨ ɔ o u ɨə uə/` (ostensibly the single exception is *quốc* but it is typically pronounced `/kwək/`)
+  - 3 nasal codas `/-m -n -ŋ/` and 3 unreleased plosive codas `/-p -t -k/`
+  - 2 semivowel codas `/-w -j/` with restricted distribution: `/-j/` cannot follow `/i iə e ɛ/` and `/-w/` cannot follow `/əː ɔ o u uə/`
+  - 1 "null" coda that can only follow the 12 nuclei with unrestricted distribution
+  - 6 tones that can occur with the sonorant or null codas
   - 2 tones that can occur with obstruent codas
 
 - **SV** and **NSV** are the counts of syllables of these shapes in the SV and NSV lists, respectively
-- **%SV** and **%NSV** are the percentages of the *possible* number of syllables *of this shape* that occur in the SV or NSV lists, respectively. 
- **%possible** is simply the sum of **%SV** and **%NSV**.
+- **%SV** and **%NSV** are the percentages of the possible number of syllables *of this shape* that occur in the SV or NSV lists, respectively. 
+- **%shape** is the sum of **%SV** and **%NSV** in a given row.
+- **%attested** is the sum of **%SV** and **%NSV** divided by the sums of the **SV** and **NSV** columns.
+- **%possible** is the sum of **%SV** and **%NSV** divided by the sum of the **possible** column (17,526).
 
 <!--
 - **pct_poss_total** is the sum of the **SV** and **NSV** counts *for this shape*, divided by the total sum the the **possible** *column* (17,526).
@@ -644,8 +645,9 @@ syl %>%
   pivot_wider(names_from = lex, values_from = n) %>%
     mutate(`%SV` = round(SV/possible * 100, 2)) %>%
     mutate(`%NSV` = round(NSV/possible * 100, 2)) %>%
-    mutate(`%possible`= round((SV+NSV)/possible * 100, 2)) %>%
-#    mutate(pct_poss_total = round((SV+NSV)/sum(possible) * 100, 2)) %>%
+    mutate(`%shape`= round((SV+NSV)/possible * 100, 2)) %>%
+    mutate(`%attested`= round((SV+NSV)/(sum(SV)+sum(NSV))* 100, 2)) %>%
+    mutate(`%possible` = round((SV+NSV)/sum(possible) * 100, 2)) %>%
 #    bind_rows(summarise(.,
 #                      across(where(is.numeric), sum),
 #                      across(where(is.factor), ~"Total"))) %>%
@@ -669,9 +671,12 @@ syl %>%
 
 Takeaways: 
 
-- Out of about 17,500 possible syllables, roughly half are attested, and of that half, about 25% are SV
-- **The distribution of attested syllables relative to possible syllables is extremely uneven**. For instance, out of all possible CV sequences (including tones), nearly 80% are attested, while only about *half* of all possible CVN sequences are. 
-- Only around **5%** of **attested** syllables have a Cw- onset, compared to **30%** of **possible** syllables (as calculated here). Thus, it may be more accurate to state that, generally speaking, Vietnamese makes use of almost the entirety of the space of possible CV syllables, but only about half the possible space of C(C)VC syllables.
+- Out of about 17,500 possible syllables, roughly half are attested, and of that half, about 25% are SV.
+- **The distribution of attested syllables relative to possible syllables is extremely uneven**. For instance, out of all possible CV sequences (including tones), nearly 80% are attested, while only about *half* of all possible CVN sequences are. However, syllables with a CVN shape account for 38% of all attested syllables.
+- Only around **10%** of **attested** syllables contain a medial glide. 
+
+<!--Thus, it may be more accurate to state that, generally speaking, Vietnamese makes use of almost the entirety of the space of possible CV syllables, but only about half the possible space of C(C)VC syllables.
+-->
 
 ```{r, echo=FALSE, eval=FALSE}
 
